@@ -155,8 +155,7 @@
               "RelativeToolTip": "CarRental\\Controllers\\Customer\\RentCarController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T16:54:54.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T16:54:54.419Z"
             },
             {
               "$type": "Document",
@@ -168,12 +167,7 @@
               "RelativeToolTip": "CarRental\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T16:52:56.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-03-15T16:52:56.613Z"
             },
             {
               "$type": "Document",
@@ -221,8 +215,7 @@
               "RelativeToolTip": "CarRental\\Controllers\\Customer\\ProfileController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T16:09:05.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T16:09:05.374Z"
             },
             {
               "$type": "Document",
@@ -487,6 +480,10 @@
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T18:15:22.757Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

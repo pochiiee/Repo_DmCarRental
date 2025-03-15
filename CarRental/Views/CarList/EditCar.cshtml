@@ -1,0 +1,40 @@
+﻿@model CarRental.Models.Entites.Car
+
+<h2>Edit Car</h2>
+
+<form method="post" asp-action="EditCar">
+    <input type="hidden" asp-for="CarId" />
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Brand</th>
+                <td><input type="text" asp-for="Brand" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Model</th>
+                <td><input type="text" asp-for="Model" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Seaters</th>
+                <td><input type="number" asp-for="Seaters" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Rental Price</th>
+                <td><input type="number" asp-for="RentalPrice" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>
+                    <select asp-for="Status" class="form-control">
+                        <option value="Available">Available</option>
+                        <option value="Rented">Rented</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a href="@Url.Action("CarList", "CarList")" class="btn btn-secondary">Cancel</a>
+</form>

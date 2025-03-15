@@ -1,0 +1,154 @@
+﻿        @{
+            Layout = "~/Views/Shared/GuestLayout.cshtml";
+            ViewData["Title"] = "Home Page";
+        }
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Car Rental</title>
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+            <link rel="stylesheet" href="~/css/style.css">
+        </head>
+        <body>        
+
+            <main>
+                <!--HERO SECTION-->
+                <section class="hero-section" id="home">
+                    <div class="section-content">
+                        <div class="hero-details">
+                            <h2 class="title">RENT & GO!</h2>
+                            <h3 class="subtitle">DM ONLINE CAR RENTAL</h3>
+                            <p class="description">
+                                Your Ride, Your Way – RENT Now!
+                                Your go-to car rental service for every journey!
+                                From daily drives to special trips, we offer a wide
+                                range of reliable and affordable vehicles. Book with ease today!
+                            </p>
+                            <div class="buttons">
+                        <a asp-controller="Account" asp-action="Login" class="button rent">RENT</a>
+
+                                <a href="#about" class="button see-more">SEE MORE</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <img src="~/images/car.png" alt="Car">
+                        </div>
+                    </div>
+                </section>
+
+                <!--ABOUT US-->
+                <section class="about-section" id="about">
+                    <div class="section-content">
+                        <div class="about-text">
+                            <div class="about-section-title">
+                                <h2>ABOUT US</h2>
+                            </div>
+                            <p>
+                                Welcome to <strong>DM Car Online Rental</strong>, your trusted partner for hassle-free and reliable car rentals. Whether you're traveling for business, leisure, or just need a ride for the day, we are committed to providing you with top-quality vehicles at affordable rates.
+                            </p>
+                            <p>
+                                <strong>Who We Are:</strong> DM Cars is dedicated to offering a seamless and enjoyable car rental experience. With a fleet of well-maintained vehicles ranging from compact cars to spacious SUVs, we ensure that you find the perfect ride for your needs. Our team is passionate about customer satisfaction and always ready to assist you.
+                            </p>
+                            <h3>Why Choose Us?</h3>
+                            <ul>
+                                <li><strong>Affordable Rates:</strong> Get competitive pricing without hidden fees.</li>
+                                <li><strong>Variety of Vehicles:</strong> Choose from a diverse selection of cars to suit your preference.</li>
+                                <li><strong>Easy Booking Process:</strong> Rent a car in just a few simple steps.</li>
+                                <li><strong>Reliable Service:</strong> Well-maintained vehicles to ensure your safety and comfort.</li>
+                            </ul>
+                        </div>
+                        <div class="about-image">
+                            <img src="~/images/car.png" alt="Red Sports Car">
+                        </div>
+                    </div>
+                </section>
+
+                <!--VIEW CARS-->
+                @model IEnumerable<CarRental.Models.Entites.Car>
+                <section class="view-cars-section" id="viewCars">
+                    <div class="section-content">
+                        <h2 class="section-title">VIEW CARS</h2>
+
+                        <div class="view-cars-section">
+                            <!-- Swiper container -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    @if (Model != null && Model.Any())
+                                    {
+                                        @foreach (var car in Model)
+                                        {
+                                            <div class="swiper-slide">
+                                                <div class="car">
+                                                    <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
+                                                    <h3>@car.Brand</h3>
+                                                    <p>Model: @car.Model</p>
+                                                    <p>Seater: @car.Seaters</p>
+                                                    <p class="price">&#8369;@car.RentalPrice Per Day</p>
+
+                                                    <button class="interested-btn" onclick="window.location='/Guest/Account/Login'">Interested</button>
+
+
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <p>No cars available.</p>
+                                    }
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--CONTACT US-->
+                <section class="contact-section" id="contact">
+                    <div class="section-content">
+                        <div class="contact-info">
+                            <h2 class="section-title">CONTACT US</h2>
+                            <p>Contact us for inquiries or assistance!<br></p>
+                            <p>📍 Biglang Awa, Caloocan City</p>
+                            <p>📞 Phone: 09061402847</p>
+                            <p>📧 Email: dmcars@gmail.com</p>
+                            <p>🌐 Website: dmcars.com</p>
+                            <p><br>We look forward to serving you!</p>
+                            <img src="~/images/car.png" alt="Car Image" class="car-image-contact">
+                        </div>
+
+                        <div class="contact-form">
+                            <form asp-controller="Home" asp-action="SendMessage" method="post">
+
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+                                <label for="message">Message</label>
+                                <textarea id="message" placeholder="Write your message" required></textarea>
+
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="~/js/script.js"></script>
+
+        </body>
+        </html>
+
+
+

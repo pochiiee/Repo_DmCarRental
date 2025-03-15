@@ -1,0 +1,42 @@
+﻿@model CarRental.Models.Entites.Car
+
+<h2>Add New Car</h2>
+
+<form method="post" asp-action="AddCar">
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Brand</th>
+                <td><input type="text" asp-for="Brand" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Model</th>
+                <td><input type="text" asp-for="Model" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Seaters</th>
+                <td><input type="number" asp-for="Seaters" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Rental Price</th>
+                <td><input type="number" asp-for="RentalPrice" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Image URL</th>
+                <td><input type="text" asp-for="ImageUrl" class="form-control" required /></td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>
+                    <select asp-for="Status" class="form-control">
+                        <option value="Available">Available</option>
+                        <option value="Not Available">Not Available</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-success">Add Car</button>
+    <a href="@Url.Action("CarList", "CarList", new { area = "Admin" })" class="btn btn-secondary">Cancel</a>
+</form>

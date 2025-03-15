@@ -1,0 +1,19 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CarRental.Controllers.Admin
+{
+    public class AdminDashboardController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        public IActionResult AdminDashboard()
+        {
+            return View();
+        }
+    }
+}

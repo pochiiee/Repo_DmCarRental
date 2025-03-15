@@ -1,5 +1,10 @@
 ﻿@model List<CarRental.Models.Entites.Car>
 
+@{
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    ViewData["Title"] = "Car List";
+}
+
 <h2>Car List</h2>
 
 <form method="get" action="@Url.Action("AddCar", "CarList", new {area = "Admin"})" style="display:inline;">

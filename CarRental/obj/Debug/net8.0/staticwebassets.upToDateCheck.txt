@@ -12,7 +12,6 @@ wwwroot\images\carlist\avanza.jpg
 wwwroot\images\carlist\city.jpg
 wwwroot\images\carlist\dzire.jpg
 wwwroot\images\carlist\ecosport.jpg
-wwwroot\images\carlist\ertiga.jpg
 wwwroot\images\carlist\hiace.jpg
 wwwroot\images\carlist\livina.jpg
 wwwroot\images\carlist\mirage.jpg
@@ -25,7 +24,6 @@ wwwroot\images\carlist\transit.jpg
 wwwroot\images\carlist\urvan.jpg
 wwwroot\images\carlist\vios.jpg
 wwwroot\images\carlist\xpander.jpg
-wwwroot\images\carlist\xv.jpg
 wwwroot\images\dmlogo.png
 wwwroot\images\line.png
 wwwroot\js\script.js

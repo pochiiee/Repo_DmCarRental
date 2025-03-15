@@ -1,4 +1,5 @@
 using System;
+using CarRental.Hubs;
 using CarRental.Services.Email;
 using CarRental.Views.CarList.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -15,17 +16,14 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddSingleton<EmailService>(); // Register EmailService
 
-
-//builder.Services.Configure<IdentityOptions>(options =>
-//{
-//    options.SignIn.RequireConfirmedEmail = true; 
-//});
+builder.Services.AddSignalR();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -43,6 +41,11 @@ app.UseRouting();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.MapHub<NotificationHub>("/notificationHub");
+app.MapControllers();
+
+
 
 app.MapControllerRoute(
     name: "default",

@@ -2,7 +2,10 @@
 using CarRental.Models.Entites;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
+using CarRental.Hubs;
 using CarRental.Views.CarList.Data;
+using Microsoft.AspNetCore.SignalR;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.Controllers.Customer
 {
@@ -10,14 +13,16 @@ namespace CarRental.Controllers.Customer
     public class RentCarController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IHubContext<NotificationHub> _hubContext;
 
-        public RentCarController(AppDbContext context)
+        public RentCarController(AppDbContext context, IHubContext<NotificationHub> hubContext)
         {
             _context = context;
+            _hubContext = hubContext;
         }
 
         [HttpPost("Request")]
-        public IActionResult RequestRental(int carId, DateTime rentalDate, DateTime returnDate)
+        public async Task<IActionResult> RequestRental(int carId, DateTime rentalDate, DateTime returnDate)
         {
             var userId = GetCurrentUserId();
             if (userId == null) return Unauthorized();
@@ -32,8 +37,8 @@ namespace CarRental.Controllers.Customer
             };
 
             _context.RentalRequests.Add(request);
-            _context.SaveChanges();
-            TempData["SuccessMessage"] = "Rental request sent!";
+            await _context.SaveChangesAsync();
+            await _hubContext.Clients.All.SendAsync("ReceiveNotification", "New rental request received!");
             return RedirectToAction("Index");
         }
 

@@ -1,2 +1,144 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #eaeaea;
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: #D2042D;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #D2042D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Logo */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+    .nav-logo img {
+        width: 150px;
+        height: auto;
+    }
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    color: white;
+    flex-direction: column; /* Vertical layout */
+    gap: 15px;
+    flex-grow: 1;
+}
+
+    .nav-menu .nav-link {
+        padding: 12px 15px;
+        font-size: 18px;
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #eaeaea;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #D2042D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Logo */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;    
+}
+
+    .nav-logo img {
+        width: 150px;
+        height: auto;
+    }
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    color: white;
+    flex-direction: column; /* Vertical layout */
+    gap: 15px;
+    flex-grow: 1;
+}
+
+    .nav-menu .nav-link {
+        padding: 12px 15px;
+        font-size: 18px;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+
+color: white;
+border-radius: 8px;
+text-decoration: none;
+transition: 0.3s ease;
+    }
+
+.nav-menu .nav-link:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.nav-menu .nav-link.active {
+background-color: #D2042D;
+color: #fff;
+}
+
+/* Hide Navbar Buttons */
+.navbar :where(#menu-close-button, #menu-open-button) {
+    display: none;
 }

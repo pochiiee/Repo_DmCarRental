@@ -1,4 +1,54 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@{
+    Layout = "~/Views/Shared/GuestLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="~/css/customer/rent.css">
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Rent a Car -->
+    <main class="main-content">
+        <header class="header">
+            <h1>Hello Name</h1>
+            <select class="filter-dropdown">
+                <option>Filter</option>
+            </select>
+            <i class="fas fa-search search-icon"></i>
+        </header>
+
+        <section class="car-list">
+            <div class="car-card">
+                <img src="~/images/innova.png" alt="Toyota Innova">
+                <div class="car-details">
+                    <h2>Toyota Innova</h2>
+                    <p>Short description of this vehicle...</p>
+                    <p><strong>Vehicle Type:</strong> SUV</p>
+                    <p><strong>Capacity:</strong> 6 Seater</p>
+                    <p><strong>Rental Rate:</strong> ₱9,999</p>
+                    <button class="rent-btn">Rent this car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="~/images/ford.png" alt="Ford Raptor">
+                <div class="car-details">
+                    <h2>Ford Raptor</h2>
+                    <p>Short description of this vehicle...</p>
+                    <p><strong>Vehicle Type:</strong> Pick-up</p>
+                    <p><strong>Capacity:</strong> 4 Seater</p>
+                    <p><strong>Rental Rate:</strong> ₱9,999</p>
+                    <button class="rent-btn">Rent this car</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\admin\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\customer\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\rent.css",
+      "PackagePath": "staticwebassets\\css\\customer\\rent.css"
+    },
+    {
       "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
       "PackagePath": "staticwebassets\\css\\forgotpass.css"
     },

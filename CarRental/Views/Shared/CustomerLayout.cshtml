@@ -1,14 +1,23 @@
-﻿@if (Context.User.Identity.IsAuthenticated)
-{
-    <form asp-controller="Account" asp-action="LogOut" method="post" id="logoutForm" class="navbar-right">
-        <ul class="nav navbar-nav navbar-right">
-            <li>
-                Hello @Context.User.Identity.Name!
-            </li>
-            <li>
-                <button type="submit" class="btn btn-link navbar-btn navbar-link">Log off</button>
-            </li>
-        </ul>
-    </form>
-}
+﻿<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="nav-logo">
+            <img src="~/images/dmlogo.png" alt="DM Car Rental Logo">
+        </div>
+        <nav class="nav-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#rent" class="nav-link">Rent a Car</a>
+            <a href="#rentHistory" class="nav-link">My Rental</a>
+            <a href="#profile" class="nav-link">Profile</a>
+            <a asp-controller="Account" asp-action="Logout" asp-route-area="Guest" class="nav-link">Log out</a>
 
+        </nav>        
+    </aside>
+
+   
+
+    <!-- Main Content -->
+    <main class="main-content">
+        @RenderBody()
+    </main>
+</body>

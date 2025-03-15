@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\prissea.msi\\onedrive\\documents\\github\\repo_dmcarrental\\carrental\\views\\customerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\customerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\prissea.msi\\onedrive\\documents\\github\\repo_dmcarrental\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\prissea.msi\\onedrive\\documents\\github\\repo_dmcarrental\\carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\prissea.msi\\onedrive\\documents\\github\\repo_dmcarrental\\carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\prissea.msi\\onedrive\\documents\\github\\repo_dmcarrental\\carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\prissea.msi\\onedrive\\documents\\github\\repo_dmcarrental\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\style.css",
@@ -44,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CarRental\\Views\\Home\\Index.cshtml",
@@ -52,31 +48,17 @@
               "RelativeToolTip": "CarRental\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAH8AAAAAAAAAAAAYwJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T18:06:27.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T18:06:27.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\Views\\CustomerDashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\CustomerDashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\Views\\CustomerDashboard\\Index.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\CustomerDashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T18:01:10.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\login.css",
               "ToolTip": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\login.css",
               "RelativeToolTip": "CarRental\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-03-15T17:59:04.752Z",
               "EditorCaption": ""

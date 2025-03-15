@@ -1,8 +1,2 @@
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\accent.jpg
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\dzire.jpg
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\ecosport.jpg
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\ertiga.jpg
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\hiace.jpg
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\soluto.jpg
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\vios.jpg
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\xv.jpg

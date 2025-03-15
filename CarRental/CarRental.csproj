@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\images\icons\**" />
+    <Content Remove="wwwroot\images\icons\**" />
+    <EmbeddedResource Remove="wwwroot\images\icons\**" />
+    <None Remove="wwwroot\images\icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="Models\Entites\Car.cs" />
   </ItemGroup>
 
@@ -21,7 +28,6 @@
 
   <ItemGroup>
     <Folder Include="Views\CustomerDashboard\" />
-    <Folder Include="wwwroot\images\icons\" />
   </ItemGroup>
 
 </Project>

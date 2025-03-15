@@ -28,8 +28,6 @@
 
   <ItemGroup>
     <Folder Include="Views\CustomerDashboard\" />
-    <Folder Include="wwwroot\css\customer\" />
-    <Folder Include="wwwroot\css\admin\" />
   </ItemGroup>
 
 </Project>

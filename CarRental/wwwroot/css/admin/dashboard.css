@@ -3,7 +3,7 @@
     left: 0;
     top: 0;
     height: 100vh;
-    width: 60px;
+    width: 80px;
     background: #D2042D;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,18 @@
     transition: width 0.3s ease-in-out;
     z-index: 1000; /* Ensures sidebar is above main content */
 }
+    .sidebar .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sidebar img {
+        width: 90px;
+        display: block;
+        margin: 0 auto; /* Centers horizontally */
+    }
 
     .sidebar:hover {
         width: 200px;
@@ -90,20 +102,29 @@
         opacity: 1;
     }
 
-    .sidebar ul li:last-child a span {
-        padding-top: 100px;
-        color: white;
+    .sidebar ul li:last-child {
+        margin-top: auto; /* Pushes logout to the bottom */
+        padding-bottom: 20px;
+    }
+
+    .sidebar ul li:last-child a span:hover {
+        color: black;   
     }
 
     .sidebar ul li:last-child a i {
-        padding-top: 100px;
         color: white;
     }
 
+        .sidebar ul li:last-child a:hover i{
+            background: white;
+            color: black;
+        }
 
     .sidebar ul li:last-child a .icon-wrapper {
         background: none;
     }
+
+
 
 .sidebar {
     filter: none !important;

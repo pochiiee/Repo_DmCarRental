@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\CarRental.csproj": {}
+    "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\CarRental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\CarRental.csproj": {
+    "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\CarRental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\CarRental.csproj",
+        "projectUniqueName": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\CarRental.csproj",
         "projectName": "CarRental",
-        "projectPath": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\CarRental.csproj",
-        "packagesPath": "C:\\Users\\Prissea.MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\obj\\",
+        "projectPath": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\CarRental.csproj",
+        "packagesPath": "C:\\Users\\Jayvie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Prissea.MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jayvie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\wwwroot\\css\\admin\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\admin\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\wwwroot\\css\\admin\\carlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\admin\\carlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\views\\carlist\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\carlist\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\repo_dmcarrental\\carrental\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,76 +43,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Program.cs",
-              "RelativeDocumentMoniker": "CarRental\\Program.cs",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Program.cs",
-              "RelativeToolTip": "CarRental\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T05:21:10.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarList.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\CarList\\CarList.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\CarList\\CarList.cshtml",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\CarList\\CarList.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\CarList\\CarList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T17:18:42.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\Shared\\AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\Shared\\AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\Shared\\AdminLayout.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\Shared\\AdminLayout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T17:18:31.711Z",
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\admin\\dashboard.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\admin\\dashboard.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T06:48:44.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\style.css",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "CarRental\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAADQDAAAAAAAAAADwv18DAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-15T17:11:23.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "login.css",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\login.css",
-              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\login.css",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\login.css",
-              "RelativeToolTip": "CarRental\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-14T16:08:40.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Title": "CarList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\CarList\\CarList.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\CarList\\CarList.cshtml",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\Views\\CarList\\CarList.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\CarList\\CarList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T18:15:22.757Z"
+              "WhenOpened": "2025-03-15T17:18:42.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarList.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\CarList.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\admin\\CarList.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\CarList.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\admin\\CarList.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T05:34:06.84Z",
+              "EditorCaption": ""
             }
           ]
         },

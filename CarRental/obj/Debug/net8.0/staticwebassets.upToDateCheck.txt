@@ -1,3 +1,4 @@
+wwwroot\css\admin\CarList.css
 wwwroot\css\admin\dashboard.css
 wwwroot\css\customer\dashboard.css
 wwwroot\css\forgotpass.css
@@ -8,23 +9,23 @@ wwwroot\css\style.css
 wwwroot\css\verifyCode.css
 wwwroot\favicon.ico
 wwwroot\images\car.png
+wwwroot\images\carlist\accent.jpg
 wwwroot\images\carlist\almera.jpg
 wwwroot\images\carlist\avanza.jpg
 wwwroot\images\carlist\city.jpg
-<<<<<<< HEAD
-=======
 wwwroot\images\carlist\dzire.jpg
 wwwroot\images\carlist\ecosport.jpg
 wwwroot\images\carlist\hiace.jpg
->>>>>>> sandbox
 wwwroot\images\carlist\livina.jpg
 wwwroot\images\carlist\mirage.jpg
 wwwroot\images\carlist\sedan.jpg
+wwwroot\images\carlist\soluto.jpg
 wwwroot\images\carlist\spark.jpg
 wwwroot\images\carlist\sprinter.jpg
 wwwroot\images\carlist\starex.jpg
 wwwroot\images\carlist\transit.jpg
 wwwroot\images\carlist\urvan.jpg
+wwwroot\images\carlist\vios.jpg
 wwwroot\images\carlist\xpander.jpg
 wwwroot\images\dmlogo.png
 wwwroot\images\line.png

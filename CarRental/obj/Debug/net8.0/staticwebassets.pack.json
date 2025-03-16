@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
-=======
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\CarList.css",
+      "PackagePath": "staticwebassets\\css\\admin\\CarList.css"
+    },
+    {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\admin\\dashboard.css"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\customer\\dashboard.css"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
->>>>>>> sandbox
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
       "PackagePath": "staticwebassets\\css\\forgotpass.css"
     },
     {
@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\car.png"
     },
     {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\accent.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\accent.jpg"
+    },
+    {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\almera.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\almera.jpg"
     },
@@ -57,23 +61,19 @@
       "PackagePath": "staticwebassets\\images\\carlist\\city.jpg"
     },
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
-=======
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\dzire.jpg",
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\dzire.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\dzire.jpg"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ecosport.jpg",
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ecosport.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\ecosport.jpg"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\hiace.jpg"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
->>>>>>> sandbox
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\livina.jpg"
     },
     {
@@ -83,6 +83,10 @@
     {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\sedan.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\sedan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\soluto.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\soluto.jpg"
     },
     {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\spark.jpg",
@@ -105,15 +109,15 @@
       "PackagePath": "staticwebassets\\images\\carlist\\urvan.jpg"
     },
     {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\vios.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\vios.jpg"
+    },
+    {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\xpander.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\xpander.jpg"
     },
     {
-<<<<<<< HEAD
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
-=======
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
->>>>>>> sandbox
       "PackagePath": "staticwebassets\\images\\dmlogo.png"
     },
     {
@@ -121,15 +125,11 @@
       "PackagePath": "staticwebassets\\images\\line.png"
     },
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
-=======
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
       "PackagePath": "staticwebassets\\js\\admin-dashboard.js"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
->>>>>>> sandbox
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {

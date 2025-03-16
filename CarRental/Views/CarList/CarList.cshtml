@@ -5,50 +5,57 @@
     ViewData["Title"] = "Car List";
 }
 
-<h2>Car List</h2>
+<link href="~/css/admin/CarList.css" rel="stylesheet" />
 
-<form method="get" action="@Url.Action("AddCar", "CarList", new {area = "Admin"})" style="display:inline;">
-    <button type="submit" class="btn btn-success">+ Add Car</button>
-</form>
+<div class="table-wrapper">
+    <div class="table-container">
 
+        <table class="styled-table">
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Image</th>
-            <th>Brand</th>
-            <th>Model</th>
-            <th>Seaters</th>
-            <th>Rental Price</th>
-            <th>Status</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var car in Model)
-        {
-            <tr>
-                <td> <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model"
-                         style="width: 80px; height: auto; border-radius: 5px;"/>
-                </td>
-                <td>@car.Brand</td>
-                <td>@car.Model</td>
-                <td>@car.Seaters</td>
-                <td>₱@car.RentalPrice</td>
-                <td>@car.Status</td>
-                <td>
-                    <form action="@Url.Action("EditCar", "CarList", new {area = "Admin"})" method="get" style="display:inline;">
-                        <input type="hidden" name="id" value="@car.CarId" />
-                        <button type="submit" class="btn btn-warning">✏️ Edit</button>
-                    </form>
+            <div class="table-header">
+                <h2>Car List</h2>
+                <a href="@Url.Action("AddCar", "CarList", new { area = "Admin" })" class="btn btn-primary">+ Add Car</a>
+            </div>
 
-                    <!-- Delete Car (Uses POST for safety) -->
-                    <form method="post" action="@Url.Action("DeleteCar","CarList", new {AreaAttribute= "Admin"})" style="display:inline;">
-                        <input type="hidden" name="id" value="@car.CarId" />
-                        <button type="submit" class="btn btn-danger">🗑 Delete</button>
-                    </form>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Brand</th>
+                    <th>Model</th>  
+                    <th>Seaters</th>
+                    <th>Rental Price</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var car in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model" class="car-image" />
+                        </td>
+                        <td>@car.Brand</td>
+                        <td>@car.Model</td>
+                        <td>@car.Seaters</td>
+                        <td>₱@car.RentalPrice</td>
+                        <td>
+                            <span class="badge @(car.Status == "Available" ? "badge-success" : "badge-danger")">
+                                @car.Status
+                            </span>
+                        </td>
+                        <td class="actions">
+                            <a href="@Url.Action("EditCar", "CarList", new { area = "Admin", id = car.CarId })" class="btn btn-edit">✏️ Edit</a>
+                            <form method="post" action="@Url.Action("DeleteCar", "CarList", new { area = "Admin" })" class="inline-form">
+                                <input type="hidden" name="id" value="@car.CarId" />
+                                <button type="submit" class="btn btn-delete">🗑 Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+

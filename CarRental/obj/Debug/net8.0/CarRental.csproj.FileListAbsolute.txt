@@ -2632,8 +2632,11 @@ C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Ex
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\Microsoft.Identity.Client.dll
@@ -2679,6 +2682,7 @@ C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.Forma
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll

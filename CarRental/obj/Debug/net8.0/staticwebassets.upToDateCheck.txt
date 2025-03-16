@@ -29,6 +29,12 @@ wwwroot\images\carlist\vios.jpg
 wwwroot\images\carlist\xpander.jpg
 wwwroot\images\dmlogo.png
 wwwroot\images\line.png
+wwwroot\images\UserIcons\dmWhiteLogo.png
+wwwroot\images\UserIcons\homeIcon.png
+wwwroot\images\UserIcons\logoutIcon.png
+wwwroot\images\UserIcons\profileIcon.png
+wwwroot\images\UserIcons\rentCarIcon.png
+wwwroot\images\UserIcons\rentHistoryIcon.png
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

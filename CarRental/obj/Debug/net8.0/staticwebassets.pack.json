@@ -41,6 +41,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\dmWhiteLogo.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\dmWhiteLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\homeIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\homeIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\logoutIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\logoutIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\profileIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\profileIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentCarIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\rentCarIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentHistoryIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\rentHistoryIcon.png"
+    },
+    {
       "Id": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\car.png",
       "PackagePath": "staticwebassets\\images\\car.png"
     },

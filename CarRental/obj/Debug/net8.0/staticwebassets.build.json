@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dKn7kOZjiEpU09gjvwaHznZ0Vz/rgug9Nw4ZGwelCP0=",
+  "Hash": "BlZmlomdIT3f5PkS/w2hDMmscS+A+ZprSpwCrO6zs40=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7hjsp5va66",
-      "Integrity": "ZVF2k8J4j0CvjC10WnBXzfWb73BRKZgZdWFA5crZxC0=",
+      "Fingerprint": "e4mk2kqg84",
+      "Integrity": "/l7aQVFFfAsrOtkEt4IFzpz7j66PK1WAunTpW6dD0yU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\customer\\dashboard.css"
@@ -666,6 +666,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\line.png"
+    },
+    {
+      "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\dmWhiteLogo.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/UserIcons/dmWhiteLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9kr3qe5k28",
+      "Integrity": "SVCMFjQHbtZVlAKtHMTbvw/ldEQE25UXkFN0Dat0DNk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\UserIcons\\dmWhiteLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\homeIcon.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/UserIcons/homeIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ae17bo6e2y",
+      "Integrity": "0i3KX3ZEIu08cJ6kyIwAmou3EtbOSe363p6Gv5SdtZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\UserIcons\\homeIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\logoutIcon.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/UserIcons/logoutIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8bsp80pai6",
+      "Integrity": "bIxv/Uo+hlSPI3a6Ndpln6r0SkIBhN3nZJLpdpeQ190=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\UserIcons\\logoutIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\profileIcon.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/UserIcons/profileIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4o5xv2vtan",
+      "Integrity": "DG7SPQ6Jb8nLloBi3PGMrB6RRI16K4jaB9jg8Y7TEn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\UserIcons\\profileIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentCarIcon.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/UserIcons/rentCarIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0kjvqx49qv",
+      "Integrity": "QI2tBz4etOeO1IJ9qGYADIabLIqzAbfuH7WFFCaTRdM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\UserIcons\\rentCarIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentHistoryIcon.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/UserIcons/rentHistoryIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "71dx8d4joq",
+      "Integrity": "Oxza7AL+DrZeh3LkjuyOYxL1Us3Af3YJRw7YRcseXv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\UserIcons\\rentHistoryIcon.png"
     },
     {
       "Identity": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
@@ -1910,7 +2036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 18:25:20 GMT"
+          "Value": "Sat, 15 Mar 2025 21:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1947,7 +2073,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 18:25:20 GMT"
+          "Value": "Sat, 15 Mar 2025 21:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1970,51 +2096,6 @@
       ]
     },
     {
-      "Route": "css/customer/dashboard.7hjsp5va66.css",
-      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2729"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZVF2k8J4j0CvjC10WnBXzfWb73BRKZgZdWFA5crZxC0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 21:01:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7hjsp5va66"
-        },
-        {
-          "Name": "label",
-          "Value": "css/customer/dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVF2k8J4j0CvjC10WnBXzfWb73BRKZgZdWFA5crZxC0="
-        }
-      ]
-    },
-    {
       "Route": "css/customer/dashboard.css",
       "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
       "Selectors": [],
@@ -2025,7 +2106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2729"
+          "Value": "2096"
         },
         {
           "Name": "Content-Type",
@@ -2033,11 +2114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZVF2k8J4j0CvjC10WnBXzfWb73BRKZgZdWFA5crZxC0=\""
+          "Value": "\"/l7aQVFFfAsrOtkEt4IFzpz7j66PK1WAunTpW6dD0yU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 21:01:49 GMT"
+          "Value": "Sun, 16 Mar 2025 06:15:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2047,7 +2128,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZVF2k8J4j0CvjC10WnBXzfWb73BRKZgZdWFA5crZxC0="
+          "Value": "sha256-/l7aQVFFfAsrOtkEt4IFzpz7j66PK1WAunTpW6dD0yU="
+        }
+      ]
+    },
+    {
+      "Route": "css/customer/dashboard.e4mk2kqg84.css",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/l7aQVFFfAsrOtkEt4IFzpz7j66PK1WAunTpW6dD0yU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:15:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e4mk2kqg84"
+        },
+        {
+          "Name": "label",
+          "Value": "css/customer/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/l7aQVFFfAsrOtkEt4IFzpz7j66PK1WAunTpW6dD0yU="
         }
       ]
     },
@@ -2074,7 +2200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 20:09:06 GMT"
+          "Value": "Sat, 15 Mar 2025 21:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2119,7 +2245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 20:09:06 GMT"
+          "Value": "Sat, 15 Mar 2025 21:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4426,6 +4552,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FTn8Z9IabYqsZrL5EDqiRfnAP19IuG7Tpbf0XdmF78="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/dmWhiteLogo.9kr3qe5k28.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\dmWhiteLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SVCMFjQHbtZVlAKtHMTbvw/ldEQE25UXkFN0Dat0DNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:07:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9kr3qe5k28"
+        },
+        {
+          "Name": "label",
+          "Value": "images/UserIcons/dmWhiteLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SVCMFjQHbtZVlAKtHMTbvw/ldEQE25UXkFN0Dat0DNk="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/dmWhiteLogo.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\dmWhiteLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SVCMFjQHbtZVlAKtHMTbvw/ldEQE25UXkFN0Dat0DNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:07:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SVCMFjQHbtZVlAKtHMTbvw/ldEQE25UXkFN0Dat0DNk="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/homeIcon.ae17bo6e2y.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\homeIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0i3KX3ZEIu08cJ6kyIwAmou3EtbOSe363p6Gv5SdtZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ae17bo6e2y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/UserIcons/homeIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0i3KX3ZEIu08cJ6kyIwAmou3EtbOSe363p6Gv5SdtZM="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/homeIcon.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\homeIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0i3KX3ZEIu08cJ6kyIwAmou3EtbOSe363p6Gv5SdtZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0i3KX3ZEIu08cJ6kyIwAmou3EtbOSe363p6Gv5SdtZM="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/logoutIcon.8bsp80pai6.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\logoutIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIxv/Uo+hlSPI3a6Ndpln6r0SkIBhN3nZJLpdpeQ190=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8bsp80pai6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/UserIcons/logoutIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIxv/Uo+hlSPI3a6Ndpln6r0SkIBhN3nZJLpdpeQ190="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/logoutIcon.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\logoutIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIxv/Uo+hlSPI3a6Ndpln6r0SkIBhN3nZJLpdpeQ190=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:06:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIxv/Uo+hlSPI3a6Ndpln6r0SkIBhN3nZJLpdpeQ190="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/profileIcon.4o5xv2vtan.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\profileIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DG7SPQ6Jb8nLloBi3PGMrB6RRI16K4jaB9jg8Y7TEn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4o5xv2vtan"
+        },
+        {
+          "Name": "label",
+          "Value": "images/UserIcons/profileIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DG7SPQ6Jb8nLloBi3PGMrB6RRI16K4jaB9jg8Y7TEn4="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/profileIcon.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\profileIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DG7SPQ6Jb8nLloBi3PGMrB6RRI16K4jaB9jg8Y7TEn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:10:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DG7SPQ6Jb8nLloBi3PGMrB6RRI16K4jaB9jg8Y7TEn4="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/rentCarIcon.0kjvqx49qv.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentCarIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QI2tBz4etOeO1IJ9qGYADIabLIqzAbfuH7WFFCaTRdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:04:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0kjvqx49qv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/UserIcons/rentCarIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QI2tBz4etOeO1IJ9qGYADIabLIqzAbfuH7WFFCaTRdM="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/rentCarIcon.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentCarIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QI2tBz4etOeO1IJ9qGYADIabLIqzAbfuH7WFFCaTRdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:04:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QI2tBz4etOeO1IJ9qGYADIabLIqzAbfuH7WFFCaTRdM="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/rentHistoryIcon.71dx8d4joq.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentHistoryIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oxza7AL+DrZeh3LkjuyOYxL1Us3Af3YJRw7YRcseXv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:05:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "71dx8d4joq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/UserIcons/rentHistoryIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oxza7AL+DrZeh3LkjuyOYxL1Us3Af3YJRw7YRcseXv8="
+        }
+      ]
+    },
+    {
+      "Route": "images/UserIcons/rentHistoryIcon.png",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentHistoryIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oxza7AL+DrZeh3LkjuyOYxL1Us3Af3YJRw7YRcseXv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 06:05:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oxza7AL+DrZeh3LkjuyOYxL1Us3Af3YJRw7YRcseXv8="
         }
       ]
     },

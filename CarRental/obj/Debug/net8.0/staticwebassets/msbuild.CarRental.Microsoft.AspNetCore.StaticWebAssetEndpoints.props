@@ -1,28 +1,28 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/CarRental/css/admin/CarList.4in2i8moa6.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\CarList.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4in2i8moa6"},{"Name":"integrity","Value":"sha256-fLV3AY5NrbJ9YIVP7v5K6j54XKAJuK85mMf6M96BwTE="},{"Name":"label","Value":"_content/CarRental/css/admin/CarList.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2620"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fLV3AY5NrbJ9YIVP7v5K6j54XKAJuK85mMf6M96BwTE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 06:49:41 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRental/css/admin/CarList.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\CarList.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fLV3AY5NrbJ9YIVP7v5K6j54XKAJuK85mMf6M96BwTE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2620"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fLV3AY5NrbJ9YIVP7v5K6j54XKAJuK85mMf6M96BwTE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 06:49:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HS2b/9g3Rgbn7ccJdA2mLtwO9utPmn6oum1O0n0RjlU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2797"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HS2b/9g3Rgbn7ccJdA2mLtwO9utPmn6oum1O0n0RjlU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 07:55:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRental/css/admin/CarList.jsqdiif123.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\CarList.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jsqdiif123"},{"Name":"integrity","Value":"sha256-HS2b/9g3Rgbn7ccJdA2mLtwO9utPmn6oum1O0n0RjlU="},{"Name":"label","Value":"_content/CarRental/css/admin/CarList.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2797"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HS2b/9g3Rgbn7ccJdA2mLtwO9utPmn6oum1O0n0RjlU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 07:55:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarRental/css/admin/dashboard.8ksgqmco5d.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8ksgqmco5d"},{"Name":"integrity","Value":"sha256-mCZEKWNm3C1WFDE6pTqTZsKeW\u002BikGEnfTs8Sy5tIXog="},{"Name":"label","Value":"_content/CarRental/css/admin/dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2971"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mCZEKWNm3C1WFDE6pTqTZsKeW\u002BikGEnfTs8Sy5tIXog=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 07:58:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRental/css/admin/dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fhMX439ZraLKUtT/JyrCjtzPcGEUIiSht2\u002Bw0UCMesQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2503"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fhMX439ZraLKUtT/JyrCjtzPcGEUIiSht2\u002Bw0UCMesQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 07:04:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CarRental/css/admin/dashboard.ehd947whtw.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\dashboard.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ehd947whtw"},{"Name":"integrity","Value":"sha256-fhMX439ZraLKUtT/JyrCjtzPcGEUIiSht2\u002Bw0UCMesQ="},{"Name":"label","Value":"_content/CarRental/css/admin/dashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2503"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fhMX439ZraLKUtT/JyrCjtzPcGEUIiSht2\u002Bw0UCMesQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 07:04:52 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mCZEKWNm3C1WFDE6pTqTZsKeW\u002BikGEnfTs8Sy5tIXog="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2971"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mCZEKWNm3C1WFDE6pTqTZsKeW\u002BikGEnfTs8Sy5tIXog=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 07:58:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRental/css/customer/dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\customer\dashboard.css'))</AssetFile>

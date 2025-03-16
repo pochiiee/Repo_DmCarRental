@@ -12,10 +12,11 @@
     padding-top: 20px;
     overflow: hidden;
     transition: width 0.3s ease-in-out;
+    z-index: 1000; /* Ensures sidebar is above main content */
 }
 
     .sidebar:hover {
-        width: 250px; /* Expand width on hover */
+        width: 200px;
         align-items: flex-start;
         padding-left: 30px;
     }
@@ -40,9 +41,23 @@
                 display: flex;
                 align-items: center;
                 text-decoration: none;
-                transition: background 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
                 padding: 10px;
+                border-radius: 20px;
             }
+
+             .sidebar ul li a:hover {
+                 background: white; 
+                 color: black; 
+             }
+
+              .sidebar ul li a:hover .icon-wrapper {
+                  background: black; /* Makes icon background black */
+              }
+
+              .sidebar ul li a:hover i {
+                  color: white; /* Changes icon color to white */
+              }
 
                 /* White circular background for icons */
                 .sidebar ul li a .icon-wrapper {

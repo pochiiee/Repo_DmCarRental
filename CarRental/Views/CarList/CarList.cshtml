@@ -10,13 +10,15 @@
 <div class="table-wrapper">
     <div class="table-container">
 
+        <div class="table-header">
+            <h2>Car List</h2>
+            <a href="@Url.Action("AddCar", "CarList", new { area = "Admin" })" class="btn btn-primary">+ Add Car</a>
+        </div>
+
         <table class="styled-table">
 
-            <div class="table-header">
-                <h2>Car List</h2>
-                <a href="@Url.Action("AddCar", "CarList", new { area = "Admin" })" class="btn btn-primary">+ Add Car</a>
-            </div>
 
+        <table class="styled-table">
             <thead>
                 <tr>
                     <th>Image</th>

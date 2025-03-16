@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yHA1aU1TTMTjk+pPEs3xzh5RM6t9fl4uOfsN4g1/cjQ=",
+  "Hash": "UPJQ5pPzKTegqdaJ7pOzWxCIdtVesqlkMF90mXuqI9c=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -374,6 +374,27 @@
       "OriginalItemSpec": "wwwroot\\images\\carlist\\ecosport.jpg"
     },
     {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ertiga.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/ertiga#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zpkribpgso",
+      "Integrity": "p49uz5a0YF97tC8HGq+8xSvCA38Jb3E8GU0jeIrOvR4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\ertiga.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -626,6 +647,27 @@
       "OriginalItemSpec": "wwwroot\\images\\carlist\\xpander.jpg"
     },
     {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\xv.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/xv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hz3masv4bj",
+      "Integrity": "UxjjxoSWn5rAOaSFhH48WKej9by5hSqyDTNdMgKWeW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\xv.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -666,27 +708,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\line.png"
-    },
-    {
-      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "js/admin-dashboard#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9pphsurdta",
-      "Integrity": "o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\admin-dashboard.js"
     },
     {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
@@ -1931,7 +1952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:21 GMT"
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1968,7 +1989,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:21 GMT"
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2013,7 +2034,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:21 GMT"
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2058,7 +2079,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:21 GMT"
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2505,7 +2526,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:21 GMT"
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2550,7 +2571,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:21 GMT"
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3299,6 +3320,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-outqs5gZfbyKY7B/EeWanOHfHkQFLgqkJBAwzqWMWGA="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/ertiga.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ertiga.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p49uz5a0YF97tC8HGq+8xSvCA38Jb3E8GU0jeIrOvR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p49uz5a0YF97tC8HGq+8xSvCA38Jb3E8GU0jeIrOvR4="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/ertiga.zpkribpgso.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ertiga.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p49uz5a0YF97tC8HGq+8xSvCA38Jb3E8GU0jeIrOvR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpkribpgso"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/ertiga.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p49uz5a0YF97tC8HGq+8xSvCA38Jb3E8GU0jeIrOvR4="
         }
       ]
     },
@@ -4287,6 +4390,88 @@
       ]
     },
     {
+      "Route": "images/carlist/xv.hz3masv4bj.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\xv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UxjjxoSWn5rAOaSFhH48WKej9by5hSqyDTNdMgKWeW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hz3masv4bj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/xv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UxjjxoSWn5rAOaSFhH48WKej9by5hSqyDTNdMgKWeW4="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/xv.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\xv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UxjjxoSWn5rAOaSFhH48WKej9by5hSqyDTNdMgKWeW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:29:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UxjjxoSWn5rAOaSFhH48WKej9by5hSqyDTNdMgKWeW4="
+        }
+      ]
+    },
+    {
       "Route": "images/dmlogo.dik40994v7.png",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
       "Selectors": [],
@@ -4447,88 +4632,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FTn8Z9IabYqsZrL5EDqiRfnAP19IuG7Tpbf0XdmF78="
-        }
-      ]
-    },
-    {
-      "Route": "js/admin-dashboard.9pphsurdta.js",
-      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "345"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9pphsurdta"
-        },
-        {
-          "Name": "label",
-          "Value": "js/admin-dashboard.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14="
-        }
-      ]
-    },
-    {
-      "Route": "js/admin-dashboard.js",
-      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "345"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 08:14:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14="
         }
       ]
     },

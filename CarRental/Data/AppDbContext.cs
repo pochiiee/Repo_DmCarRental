@@ -16,7 +16,13 @@ namespace CarRental.Views.CarList.Data
         public DbSet<RentalRequest> RentalRequests { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Rentals> Rentals { get; set; }
-        public DbSet<ContactMessage> ContactMessages { get; set; }
+
+        public DbSet<CustomerInquiry> CustomerInquiries { get; set; }
+
+ 
+
+        public DbSet<Notification> Notifications { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

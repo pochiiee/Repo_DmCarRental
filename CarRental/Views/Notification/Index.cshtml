@@ -1,23 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Notification";
-}
+﻿@model List<CarRental.Models.Entites.Notification>
 
-<h2>Real-Time Notifications</h2>
-<ul id="notificationList"></ul>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
-<script>
-    const connection = new signalR.HubConnectionBuilder()
-        .withUrl("/notificationHub")
-        .build();
-
-    connection.start().then(() => {
-        console.log("Connected to SignalR hub");
-    }).catch(err => console.error("SignalR Connection Error:", err));
-
-    connection.on("ReceiveNotification", function (message) {
-        const li = document.createElement("li");
-        li.textContent = message;
-        document.getElementById("notificationList").appendChild(li);
-    });
-</script>
+<h2>NOTIFICATIONS</h2>
+<div class="notification-container">
+    @foreach (var notification in Model)
+    {
+        <div class="notification-card">
+            <div class="notification-header">
+                <span class="badge @notification.Type">@notification.Type</span>
+                <span class="notification-time">@notification.CreatedAt.ToString("MMM dd, yyyy hh:mm tt")</span>
+            </div>
+            <div class="notification-body">
+                <h4>@notification.Title</h4>
+                <p>@notification.Message</p>
+            </div>
+        </div>
+    }
+</div>

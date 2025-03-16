@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\images\\carlist\\ecosport.jpg"
     },
     {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ertiga.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\ertiga.jpg"
+    },
+    {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
       "PackagePath": "staticwebassets\\images\\carlist\\hiace.jpg"
     },
@@ -117,16 +121,16 @@
       "PackagePath": "staticwebassets\\images\\carlist\\xpander.jpg"
     },
     {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\xv.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\xv.jpg"
+    },
+    {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
       "PackagePath": "staticwebassets\\images\\dmlogo.png"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\line.png",
       "PackagePath": "staticwebassets\\images\\line.png"
-    },
-    {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
-      "PackagePath": "staticwebassets\\js\\admin-dashboard.js"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\accent.jpg
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\dzire.jpg
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\ecosport.jpg
@@ -6,3 +7,5 @@ C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\hiace.
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\soluto.jpg
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\vios.jpg
 C:\Users\Jayvie\Desktop\Repo_DmCarRental\CarRental\wwwroot\images\carlist\xv.jpg
+=======
+>>>>>>> sandbox

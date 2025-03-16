@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "n3GC6E2ICSG+u41lsVCQ1hXgqvBTNVMG5eBuVLrd5E0=",
+=======
+  "Hash": "m9n2HYWEAri23Tddk0/0sW4fTizWbuuQJAId80sOaiU=",
+>>>>>>> sandbox
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -17,7 +21,53 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
+=======
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "css/admin/dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "emz47b54ws",
+      "Integrity": "VlDAioWClaU8hVIEJbUKNuQN1+lEQcQGnhWFy67HBJY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin\\dashboard.css"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "css/customer/dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\customer\\dashboard.css"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
+>>>>>>> sandbox
       "SourceId": "CarRental",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
@@ -251,7 +301,74 @@
       "Identity": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/dzire#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4414bkerlr",
+      "Integrity": "pDkWhcWyA/pTyFIenL3PVdYMSCzhnQPNqu2bD4vx3K8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\dzire.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ecosport.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/ecosport#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eseeywr165",
+      "Integrity": "outqs5gZfbyKY7B/EeWanOHfHkQFLgqkJBAwzqWMWGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\ecosport.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/hiace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yseykrwkb1",
+      "Integrity": "cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\hiace.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+>>>>>>> sandbox
       "BasePath": "_content/CarRental",
       "RelativePath": "images/carlist/livina#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +554,17 @@
       "OriginalItemSpec": "wwwroot\\images\\carlist\\xpander.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\dmlogo.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+>>>>>>> sandbox
       "BasePath": "_content/CarRental",
       "RelativePath": "images/dmlogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -479,7 +603,32 @@
       "OriginalItemSpec": "wwwroot\\images\\line.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
+=======
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "js/admin-dashboard#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9pphsurdta",
+      "Integrity": "o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin-dashboard.js"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
+>>>>>>> sandbox
       "SourceId": "CarRental",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
@@ -1699,6 +1848,170 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/admin/dashboard.css",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VlDAioWClaU8hVIEJbUKNuQN1+lEQcQGnhWFy67HBJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:34:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VlDAioWClaU8hVIEJbUKNuQN1+lEQcQGnhWFy67HBJY="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin/dashboard.emz47b54ws.css",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VlDAioWClaU8hVIEJbUKNuQN1+lEQcQGnhWFy67HBJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:34:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emz47b54ws"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VlDAioWClaU8hVIEJbUKNuQN1+lEQcQGnhWFy67HBJY="
+        }
+      ]
+    },
+    {
+      "Route": "css/customer/dashboard.css",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:34:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/customer/dashboard.dyjx89twm7.css",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:34:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/customer/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
       "Route": "css/forgotpass.css",
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
       "Selectors": [],
@@ -1721,7 +2034,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -1758,7 +2075,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -1803,7 +2124,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -1840,7 +2165,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -1885,7 +2214,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -1922,7 +2255,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -1967,7 +2304,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2004,7 +2345,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2049,7 +2394,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 16 Mar 2025 05:10:30 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2094,7 +2443,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 16 Mar 2025 05:10:30 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2131,7 +2484,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2176,7 +2533,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2213,7 +2574,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2258,7 +2623,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2295,7 +2664,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2340,7 +2713,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2355,6 +2732,91 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "Route": "images/carlist/accent.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\accent.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGRSJ+vpsxHr4WRZU5jHp5H8bR8oCT0O5aT2RALccmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGRSJ+vpsxHr4WRZU5jHp5H8bR8oCT0O5aT2RALccmI="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/accent.k1mtrjeyba.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\accent.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGRSJ+vpsxHr4WRZU5jHp5H8bR8oCT0O5aT2RALccmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k1mtrjeyba"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/accent.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGRSJ+vpsxHr4WRZU5jHp5H8bR8oCT0O5aT2RALccmI="
+        }
+      ]
+    },
+    {
+>>>>>>> sandbox
       "Route": "images/carlist/almera.5bfrntm7vo.jpg",
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\almera.jpg",
       "Selectors": [],
@@ -2377,7 +2839,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2422,7 +2888,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2459,7 +2929,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2496,7 +2970,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2541,7 +3019,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2586,7 +3068,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2601,6 +3087,255 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "Route": "images/carlist/dzire.4414bkerlr.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\dzire.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pDkWhcWyA/pTyFIenL3PVdYMSCzhnQPNqu2bD4vx3K8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4414bkerlr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/dzire.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pDkWhcWyA/pTyFIenL3PVdYMSCzhnQPNqu2bD4vx3K8="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/dzire.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\dzire.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pDkWhcWyA/pTyFIenL3PVdYMSCzhnQPNqu2bD4vx3K8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pDkWhcWyA/pTyFIenL3PVdYMSCzhnQPNqu2bD4vx3K8="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/ecosport.eseeywr165.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ecosport.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"outqs5gZfbyKY7B/EeWanOHfHkQFLgqkJBAwzqWMWGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eseeywr165"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/ecosport.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-outqs5gZfbyKY7B/EeWanOHfHkQFLgqkJBAwzqWMWGA="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/ecosport.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\ecosport.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"outqs5gZfbyKY7B/EeWanOHfHkQFLgqkJBAwzqWMWGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-outqs5gZfbyKY7B/EeWanOHfHkQFLgqkJBAwzqWMWGA="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/hiace.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/hiace.yseykrwkb1.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yseykrwkb1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/hiace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8="
+        }
+      ]
+    },
+    {
+>>>>>>> sandbox
       "Route": "images/carlist/livina.276kghuf2t.jpg",
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
       "Selectors": [],
@@ -2623,7 +3358,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2668,7 +3407,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2705,7 +3448,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2750,7 +3497,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2787,7 +3538,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2824,7 +3579,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2847,6 +3606,91 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "Route": "images/carlist/soluto.ixla8kv0uc.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\soluto.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqp1Ue0w9zjzOb67ABvMujMuIDzMdBXyiUalsa36cPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ixla8kv0uc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/soluto.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eqp1Ue0w9zjzOb67ABvMujMuIDzMdBXyiUalsa36cPw="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/soluto.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\soluto.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqp1Ue0w9zjzOb67ABvMujMuIDzMdBXyiUalsa36cPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eqp1Ue0w9zjzOb67ABvMujMuIDzMdBXyiUalsa36cPw="
+        }
+      ]
+    },
+    {
+>>>>>>> sandbox
       "Route": "images/carlist/spark.jpg",
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\spark.jpg",
       "Selectors": [],
@@ -2869,7 +3713,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2906,7 +3754,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2951,7 +3803,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -2996,7 +3852,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3033,7 +3893,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3078,7 +3942,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3115,7 +3983,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3160,7 +4032,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3197,7 +4073,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3234,7 +4114,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3257,6 +4141,91 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "Route": "images/carlist/vios.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\vios.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jMVrc+8IvZze7vqPIp4euL3HI1JdOaYZ5KjdzZPGrzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMVrc+8IvZze7vqPIp4euL3HI1JdOaYZ5KjdzZPGrzo="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/vios.wphnpmjmt5.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\vios.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jMVrc+8IvZze7vqPIp4euL3HI1JdOaYZ5KjdzZPGrzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wphnpmjmt5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/vios.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMVrc+8IvZze7vqPIp4euL3HI1JdOaYZ5KjdzZPGrzo="
+        }
+      ]
+    },
+    {
+>>>>>>> sandbox
       "Route": "images/carlist/xpander.il8ffkfkso.jpg",
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\carlist\\xpander.jpg",
       "Selectors": [],
@@ -3279,7 +4248,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3324,7 +4297,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3361,7 +4338,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3406,7 +4387,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3443,7 +4428,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3488,7 +4477,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3499,6 +4492,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FTn8Z9IabYqsZrL5EDqiRfnAP19IuG7Tpbf0XdmF78="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.9pphsurdta.js",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:25:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pphsurdta"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.js",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:25:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o5/BVBXcf8fUjeFTkWrgFWFW9WWSjlcC5iGA7QybN14="
         }
       ]
     },
@@ -3525,7 +4600,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3570,7 +4649,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3607,7 +4690,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3644,7 +4731,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3689,7 +4780,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3726,7 +4821,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3771,7 +4870,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3808,7 +4911,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3853,7 +4960,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3890,7 +5001,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3935,7 +5050,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -3972,7 +5091,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4017,7 +5140,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4054,7 +5181,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4099,7 +5230,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4144,7 +5279,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4181,7 +5320,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4226,7 +5369,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4263,7 +5410,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4300,7 +5451,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4337,7 +5492,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4382,7 +5541,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4427,7 +5590,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4464,7 +5631,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4509,7 +5680,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4546,7 +5721,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4591,7 +5770,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4628,7 +5811,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4673,7 +5860,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4710,7 +5901,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4755,7 +5950,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4792,7 +5991,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4829,7 +6032,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4874,7 +6081,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4919,7 +6130,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -4956,7 +6171,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5001,7 +6220,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5038,7 +6261,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5075,7 +6302,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5112,7 +6343,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5157,7 +6392,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5202,7 +6441,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5247,7 +6490,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5292,7 +6539,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5329,7 +6580,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5374,7 +6629,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5411,7 +6670,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5448,7 +6711,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5485,7 +6752,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5530,7 +6801,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5575,7 +6850,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5612,7 +6891,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5657,7 +6940,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5694,7 +6981,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5739,7 +7030,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5776,7 +7071,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5813,7 +7112,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5858,7 +7161,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5895,7 +7202,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5940,7 +7251,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -5977,7 +7292,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6014,7 +7333,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6059,7 +7382,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6096,7 +7423,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6141,7 +7472,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6186,7 +7521,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6231,7 +7570,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6276,7 +7619,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6321,7 +7668,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6358,7 +7709,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6403,7 +7758,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6440,7 +7799,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6485,7 +7848,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6522,7 +7889,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6567,7 +7938,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6604,7 +7979,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6641,7 +8020,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6686,7 +8069,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6723,7 +8110,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6768,7 +8159,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6805,7 +8200,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6842,7 +8241,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6887,7 +8290,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6932,7 +8339,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -6969,7 +8380,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7014,7 +8429,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7051,7 +8470,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7096,7 +8519,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7133,7 +8560,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7170,7 +8601,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7215,7 +8650,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7252,7 +8691,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7297,7 +8740,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7342,7 +8789,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7379,7 +8830,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7424,7 +8879,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7469,7 +8928,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7506,7 +8969,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7543,7 +9010,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7588,7 +9059,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7625,7 +9100,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7670,7 +9149,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7707,7 +9190,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7752,7 +9239,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7789,7 +9280,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7834,7 +9329,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7871,7 +9370,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7908,7 +9411,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7953,7 +9460,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -7990,7 +9501,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -8035,7 +9550,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -8080,7 +9599,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -8117,7 +9640,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -8162,7 +9689,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -8199,7 +9730,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",
@@ -8244,7 +9779,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 15 Mar 2025 19:00:52 GMT"
+=======
+          "Value": "Sat, 15 Mar 2025 18:30:49 GMT"
+>>>>>>> sandbox
         },
         {
           "Name": "Cache-Control",

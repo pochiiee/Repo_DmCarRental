@@ -7,10 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\images\icons\**" />
+    <Content Remove="wwwroot\images\icons\**" />
+    <EmbeddedResource Remove="wwwroot\images\icons\**" />
+    <None Remove="wwwroot\images\icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="Models\Entites\Car.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
       <PrivateAssets>all</PrivateAssets>
@@ -21,7 +29,6 @@
 
   <ItemGroup>
     <Folder Include="Views\CustomerDashboard\" />
-    <Folder Include="wwwroot\images\icons\" />
   </ItemGroup>
 
 </Project>

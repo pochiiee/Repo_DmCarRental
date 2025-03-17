@@ -1,39 +1,59 @@
-﻿<body>
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <div class="nav-logo">
-            <img src="~/images/UserIcons/dmWhiteLogo.png" alt="DM Car Rental Logo">
-        </div>
-        <nav class="nav-menu">
-            <a href="#home" class="nav-link active">
-                <img src="~/images/UserIcons/homeIcon.png" alt="Home Icon" class="nav-icon"> Home
-            </a>
-            <a href="#rent" class="nav-link">
-                <img src="~/images/UserIcons/rentCarIcon.png" alt="Car Icon" class="nav-icon"> Rent a Car
-            </a>
-            <a href="#rentHistory" class="nav-link">
-                <img src="~/images/UserIcons/rentHistoryIcon.png" alt="History Icon" class="nav-icon"> My Rental
-            </a>
-            <a href="#profile" class="nav-link">
-                <img src="~/images/UserIcons/profileIcon.png" alt="Profile Icon" class="nav-icon"> Profile
-            </a>
-        </nav>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/customer/dashboard.css">
+    <title>Document</title>
+</head>
+<body>
 
+    <div class="sidebar">
+        <ul>
 
-            <a asp-controller="Account" asp-action="Logout" asp-route-area="Guest" class="nav-link">
-                <img src="~/images/UserIcons/logoutIcon.png" alt="Logout Icon" class="nav-icon">Log out
-            </a>
+            <li class="logo-container">
+                <img src="~/images/UserIcons/dmWhiteLogo.png" alt="DM Car Rental Logo" />
+            </li>
 
+            <li>
+                <a asp-controller ="CustomerDashboard" asp-action="Index" class="nav-link">
+                    <div class="icon-wrapper"><i class="fas fa-home"></i></div>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="RentCar" asp-action="Index" class="nav-link">
+                    <div class="icon-wrapper"><i class="fas fa-car"></i></div>
+                    <span>Rent A Car</span>
+                </a>
+            </li>
 
-    </aside>
+            <li>
+                <a asp-controller="MyRental" asp-action="Index" class="nav-link">
+                    <div class="icon-wrapper"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <span>My Rental</span>
+                </a>
+            </li>
 
-   
+            <li>
+                <a asp-controller="Profile" asp-action="Index" class="nav-link">
+                    <div class="icon-wrapper"><i class="fas fa-user"></i></div>
+                    <span>Profile</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#">
+                    <div class="icon-wrapper"><i class="fas fa-sign-out-alt"></i></div>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
 
-    <!-- Main Content -->
     <main class="main-content">
         @RenderBody()
     </main>
-
-    @RenderSection("Scripts", required: false)
-
 </body>
+</html>

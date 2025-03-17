@@ -44,16 +44,22 @@ namespace CarRental.Controllers.Customer
 
    
         [HttpGet]
-        public IActionResult Index()
+        /*public IActionResult Index()
         {
             var userId = GetCurrentUserId();
             if (userId == null) return Unauthorized();
 
             var rentals = _context.Rentals.Where(r => r.RenterId == userId.Value).ToList();
             return View(rentals);
+        }*/
+
+        public IActionResult Index()
+        {
+
+            return View();
         }
 
-     
+
         [HttpPost("Cancel/{id}")]
         public IActionResult CancelRequest(int id)
         {

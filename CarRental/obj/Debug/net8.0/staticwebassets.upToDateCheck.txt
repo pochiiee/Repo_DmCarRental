@@ -1,6 +1,8 @@
 wwwroot\css\admin\CarList.css
 wwwroot\css\admin\dashboard.css
+wwwroot\css\admin\Notification.css
 wwwroot\css\customer\dashboard.css
+wwwroot\css\customer\rent.css
 wwwroot\css\forgotpass.css
 wwwroot\css\login.css
 wwwroot\css\resetPassword.css
@@ -31,6 +33,12 @@ wwwroot\images\carlist\xpander.jpg
 wwwroot\images\carlist\xv.jpg
 wwwroot\images\dmlogo.png
 wwwroot\images\line.png
+wwwroot\images\UserIcons\dmWhiteLogo.png
+wwwroot\images\UserIcons\homeIcon.png
+wwwroot\images\UserIcons\logoutIcon.png
+wwwroot\images\UserIcons\profileIcon.png
+wwwroot\images\UserIcons\rentCarIcon.png
+wwwroot\images\UserIcons\rentHistoryIcon.png
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

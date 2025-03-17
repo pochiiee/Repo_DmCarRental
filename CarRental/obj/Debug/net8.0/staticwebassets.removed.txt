@@ -1,2 +1,0 @@
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\js\admin-dashboard.js
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\Repo_DmCarRental\CarRental\wwwroot\js\notifications.js

@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\css\\admin\\CarList.css"
     },
     {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\Notification.css",
+      "PackagePath": "staticwebassets\\css\\admin\\Notification.css"
+    },
+    {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\admin\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\admin\\dashboard.css"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\customer\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\rent.css",
+      "PackagePath": "staticwebassets\\css\\customer\\rent.css"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
@@ -39,6 +47,30 @@
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\dmWhiteLogo.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\dmWhiteLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\homeIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\homeIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\logoutIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\logoutIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\profileIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\profileIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentCarIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\rentCarIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\rentHistoryIcon.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\rentHistoryIcon.png"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\car.png",

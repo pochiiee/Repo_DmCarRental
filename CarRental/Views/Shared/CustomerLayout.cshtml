@@ -17,7 +17,7 @@
             </li>
 
             <li>
-                <a asp-controller ="CustomerDashboard" asp-action="Index" class="nav-link">
+                <a asp-controller="CustomerDashboard" asp-action="Index" class="nav-link">
                     <div class="icon-wrapper"><i class="fas fa-home"></i></div>
                     <span>Home</span>
                 </a>
@@ -37,19 +37,24 @@
             </li>
 
             <li>
+                <a asp-controller="Message" asp-action="Index" class="nav-link">
+                    <div class="icon-wrapper"><i class="fa-solid fa-message"></i></div>
+                    <span>Message</span>
+                </a>
+            </li>
+
+            <li>
                 <a asp-controller="Profile" asp-action="Index" class="nav-link">
                     <div class="icon-wrapper"><i class="fas fa-user"></i></div>
                     <span>Profile</span>
                 </a>
             </li>
-            
+
             <li>
-                <form asp-controller="Account" asp-action="Logout" method="post" style="display: inline;">
-                    <button type="submit" class="logout-button">
-                        <div class="icon-wrapper"><i class="fas fa-sign-out-alt"></i></div>
-                        <span>Logout</span>
-                    </button>
-                </form>
+                <a href="#">
+                    <div class="icon-wrapper"><i class="fas fa-sign-out-alt"></i></div>
+                    <span>Logout</span>
+                </a>
             </li>
         </ul>
     </div>

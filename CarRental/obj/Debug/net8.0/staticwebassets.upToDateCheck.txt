@@ -1,7 +1,10 @@
 wwwroot\css\admin\CarList.css
 wwwroot\css\admin\dashboard.css
+wwwroot\css\admin\EditCars.css
+wwwroot\css\admin\Inquiries.css
 wwwroot\css\admin\Notification.css
 wwwroot\css\customer\dashboard.css
+wwwroot\css\customer\Message.css
 wwwroot\css\customer\rent.css
 wwwroot\css\forgotpass.css
 wwwroot\css\login.css
@@ -39,6 +42,7 @@ wwwroot\images\UserIcons\logoutIcon.png
 wwwroot\images\UserIcons\profileIcon.png
 wwwroot\images\UserIcons\rentCarIcon.png
 wwwroot\images\UserIcons\rentHistoryIcon.png
+wwwroot\js\inquiries.js
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

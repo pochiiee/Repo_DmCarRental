@@ -39,6 +39,7 @@ wwwroot\images\UserIcons\logoutIcon.png
 wwwroot\images\UserIcons\profileIcon.png
 wwwroot\images\UserIcons\rentCarIcon.png
 wwwroot\images\UserIcons\rentHistoryIcon.png
+wwwroot\js\rent.js
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

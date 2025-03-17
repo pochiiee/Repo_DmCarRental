@@ -1,9 +1,218 @@
-﻿@{
+﻿
+@{
     Layout = "~/Views/Shared/CustomerLayout.cshtml";
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="~/css/customer/rent.css" />
 
 <main class="main-content">
     <header class="header">
         <h1>Rent A Car</h1>
     </header>
+
+    <!-- Filter Section -->
+    <div class="filter-container">
+        <select id="seatFilter" class="custom-dropdown">
+            <option value="all">Filter by Seaters ⮟</option>
+            <option value="5">2 - 5 Seater</option>
+            <option value="7">4 - 7 Seater</option>
+            <option value="10">8 - 10 Seater</option>
+            <option value="12">11 - 12 Seater</option>
+            <option value="14">13 - 14 Seater</option>
+            <option value="15">15 Seater</option>
+
+        </select>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search Cars">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+    </div>
+
+
+    <!-- Car Listing -->
+    @model IEnumerable<CarRental.Models.Entites.Car>
+
+    @{
+        // Array of car descriptions (matching index with the list order)
+        var carDescriptions = new string[]
+        {
+            "A top choice for city driving, the Toyota Vios offers great fuel efficiency, smooth handling, and a spacious interior. Perfect for solo travelers, couples, or small families looking for a budget-friendly yet comfortable ride.",
+            "With its stylish design and premium interior, the Honda City is perfect for business trips or a classy weekend getaway. Its fuel efficiency and smooth performance make it a great all-around rental choice.",
+            "Looking for a hassle-free drive? The Mirage G4 is compact yet spacious, ideal for daily commutes and errands. Its fuel efficiency saves you money while keeping you comfortable.",
+            "The Nissan Almera offers a roomy cabin and excellent fuel economy, making it a fantastic choice for long drives. If you need a comfortable and practical sedan, this one’s for you! ",
+            "A small SUV with big capabilities! The Ford EcoSport is great for city and out-of-town adventures, with high ground clearance and a fun driving experience.",
+            "The Suzuki Dzire is a perfect choice for those looking for an affordable rental without sacrificing comfort. Its compact design makes city driving effortless.",
+            "A well-loved sedan known for its smooth ride, stylish looks, and fuel efficiency. Great for business and leisure trips! ",
+            "The Kia Soluto offers a quiet cabin, modern features, and excellent driving comfort, making it a great choice for road trips or daily use. ",
+            "Ideal for solo travelers or couples, the Chevrolet Spark is compact, fuel-efficient, and perfect for navigating city streets with ease. ",
+            "The Mazda 2 Sedan delivers a smooth and sporty driving experience with a premium interior. Great for those who want both style and performance. ",
+            "With its all-wheel drive and stylish looks, the Subaru XV is great for adventure seekers who want a reliable and powerful ride for out-of-town trips.",
+            "A top choice for families and small groups, the Toyota Avanza offers a spacious interior, comfortable seating, and excellent fuel efficiency. ",
+            "With its sleek design and flexible seating, the Xpander is great for family road trips or business use. Drive in style and comfort! ",
+            "A budget-friendly 7-seater that provides a smooth and relaxing ride for group travels. The Ertiga is great for city and long drives alike! ",
+            "Designed for comfort and efficiency, the Nissan Livina is a great pick for families who want a premium yet practical ride. ",
+            "A trusted name in passenger vans, the Toyota Hiace offers reliability, space, and comfort, making it the perfect rental for business trips and family outings. ",
+            "With ample legroom and air-conditioning, the Nissan Urvan is a fantastic choice for large groups looking for a comfortable long-distance ride.",
+            "The Hyundai Starex offers premium comfort, plush seating, and a smooth drive—perfect for executive trips and VIP transport.",
+            "Designed for large groups, the Ford Transit provides a spacious, secure, and reliable way to travel for tours and business trips.",
+            "The perfect choice for large groups, offering top-tier comfort, premium interiors, and a smooth ride. Whether for business trips, VIP transport, or long-distance travel, this 14-seater van ensures a luxurious and stress-free journey. Perfect for executives, travel groups, and special events."
+        };
+
+        int index = 0;
+    }
+
+    <div class="car-list">
+        @foreach (var car in Model)
+        {
+            <div class="car-card">
+                <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model" class="car-image">
+                <div class="car-info">
+                    <h2>@car.Brand @car.Model</h2>
+                    <p><strong>Vehicle Type:</strong> @car.Brand</p> <br />
+
+                    <!-- Fetch the description dynamically using index -->
+                    <p><strong>Description:</strong> @(index < carDescriptions.Length ? carDescriptions[index] : "A great choice for your trip!")</p> <br />
+
+                    <p><strong>Capacity:</strong> @car.Seaters Seater</p> <br />
+                    <p><strong>Rental Rate:</strong> ₱@car.RentalPrice</p> <br />
+                    <button class="rent-btn" onclick="openModal()">Rent this car</button>
+                </div>
+            </div>
+            index++;
+        }
+    </div>
+
+    <!-- Terms & Conditions Modal -->
+    <div id="rentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Terms and Conditions</h2>
+
+            <!-- Scrollable Content Box -->
+            <div class="terms-box">
+                <p>
+                    <strong>1. General Terms</strong><br>
+                    &nbsp;1.1. By renting a car from DM Cars, the renter agrees to comply with these terms and conditions.<br>
+                    &nbsp;1.2. The renter must be at least 25 years old and possess a valid driver’s license.<br>
+                    &nbsp;1.3. The rental vehicle must only be used for legal purposes and cannot be used for racing, off-road driving, or any illegal activities.<br>
+                </p>
+
+                <p>
+                    <br /> <strong>2. Rental Duration and Return</strong><br>
+                    &nbsp;2.1. The rental period starts from the time and date specified in the rental agreement.<br>
+                    &nbsp;2.2. Late returns may be subject to additional charges.<br>
+                    &nbsp;2.3. The vehicle must be returned in the same condition as when rented, except for normal wear andtear.<br>
+                </p>
+
+                <p>
+                    <br /><strong>3. Payment and Deposits</strong><br>
+                    &nbsp;3.1. The renter must pay the agreed rental fee before using the vehicle. <br>
+                    &nbsp;3.2. Additional charges may apply for exceeding the mileage limit, fuel shortages, or late returns.<br>
+                </p>
+
+                <p>
+                    <br /><strong>4. Insurance and Liability</strong><br>
+                    &nbsp;4.1. The renter is responsible for any damages or loss of the vehicle unless covered by insurance.<br>
+                    &nbsp;4.2. In case of an accident, the renter must immediately notify DM Cars and provide all necessary reports. <br>
+                    &nbsp;4.3. Insurance does not cover damages due to negligence, driving under the influence, or unauthorized drivers.<br>
+                </p>
+
+                <p>
+                    <br /><strong>5. Prohibited Uses</strong><br>
+                    5.1. The renter is not allowed to: <br>
+                    &nbsp;&nbsp;&bull; Allow an unauthorized driver to use the vehicle.<br>
+                    &nbsp;&nbsp;&bull; Use the vehicle for commercial transport without permission. <br>
+                    &nbsp;&nbsp;&bull; Modify or alter any part of the vehicle<br>
+                </p>
+
+                <p>
+                    <br /><strong>6. Maintenance and Fuel</strong><br>
+                    &nbsp;6.1. The vehicle must be refueled to the same level as when rented.<br>
+                    &nbsp;6.2. The renter must immediately report any mechanical issues to DM Cars.<br>
+                </p>
+
+                <p>
+                    <br /><strong>7. Termination of Agreement</strong><br>
+                    &nbsp;7.1. DM Cars reserves the right to terminate the rental agreement if the renter violates any of these terms.<br>
+                </p>
+            </div>
+
+            <!-- Circular Checkbox with Acknowledgment Text -->
+            <div class="checkbox-container">
+                <input type="checkbox" id="termsCheckbox" onclick="toggleAcceptButton()">
+                <label for="termsCheckbox">
+                    By using this system, you acknowledge and accept these terms and conditions.
+                    For any inquiries or clarifications, please contact the system administrator.
+                </label>
+            </div>
+
+            <!-- Accept Button (Initially Disabled) -->
+            <button class="button" id="acceptButton" class="accept" disabled>Accept</button>
+        </div>
+    </div>
+
+
+    <!-- Rental Details Modal -->
+    <div id="rentalDetailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRentalModal()">&times;</span>
+            <h2>Rental Details</h2>
+
+            <label for="pickupDateTime"><strong>Pick-up Date & Time:</strong></label>
+            <input type="datetime-local" id="pickupDateTime" required>
+
+            <label for="returnDateTime"><strong>Return Date & Time:</strong></label>
+            <input type="datetime-local" id="returnDateTime" required>
+
+            <label for="bookinglicenseNumber"><strong>Driver's License Number:</strong></label>
+            <input type="text" id="bookinglicenseNumber" placeholder="A12-34-567890" pattern="[A-Z]{1}[0-9]{2}-[0-9]{2}-[0-9]{6}" required>
+
+            <button class="button" id="confirmRentalBtn" onclick="openRenterModal()">Confirm Rental</button>
+        </div>
+    </div>
+
+    <!-- Renter Details Modal -->
+    <div id="renterDetailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRenterModal()">&times;</span>
+            <h2>Enter Your Details</h2>
+
+            <form id="renterForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" id="mobile" name="mobile" required>
+
+                <label for="licenseNumber">License Number:</label>
+                <input type="text" id="licenseNumber" name="licenseNumber" required>
+
+                <button class = "button" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <!-- Confirmation Modal -->
+<div id="confirmationModal" class="modal">
+    <div class="modal-content">
+
+        <i class="fa-solid fa-circle-check" style="font-size: 100px; color: #d32f2f;"></i>
+        <h2 style="font-size: 40px;">Request has been sent</h2>
+        <p style="font-size: 18px; text-align: center;">
+            Your request has been sent. You will receive an email about the status of your booking within 24 hours.
+        </p>
+            <button class="button" onclick="closeConfirmationModal()">OK</button>
+    </div>
+</div>
+
 </main>
+<script src="~/js/rent.js"></script>

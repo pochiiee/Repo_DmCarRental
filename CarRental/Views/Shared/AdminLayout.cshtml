@@ -49,13 +49,15 @@
                     <div class="icon-wrapper"><i class="fa-solid fa-exclamation"></i></div>
                     <span>Report</span>
                 </a>
-            </li>
             <li>
-                <a href="#">
-                    <div class="icon-wrapper"><i class="fas fa-sign-out-alt"></i></div>
-                    <span>Logout</span>
-                </a>
+                <form asp-controller="Account" asp-action="Logout" method="post" style="display: inline;">
+                    <button type="submit" class="logout-button">
+                        <div class="icon-wrapper"><i class="fas fa-sign-out-alt"></i></div>
+                        <span>Logout</span>
+                    </button>
+                </form>
             </li>
+
         </ul>
     </div>
 

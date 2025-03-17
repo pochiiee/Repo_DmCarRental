@@ -54,7 +54,7 @@
                     Please enter the verification code sent to your email.
                 </p>
                 <form asp-action="VerifyCode" method="post">
-                    <input type="hidden" name="email" value="@TempData["Email"]" />
+                    <input type="hidden" name="email" value="@ViewBag.Email" />
                     <div class="form-group">
                         <label for="code">VERIFICATION CODE</label>
                         <input type="text" name="code" placeholder="Enter verification code" required>

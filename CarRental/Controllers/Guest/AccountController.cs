@@ -137,7 +137,7 @@ namespace CarRental.Controllers.Guest
         public ActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index");
+            return RedirectToAction("Login", "Account");
         }
 
         [Route("ForgotPassword")]
@@ -162,30 +162,28 @@ namespace CarRental.Controllers.Guest
                 return View();
             }
 
-            // Check if a code was already sent recently (within 60s)
-            if (TempData["VerificationCode"] != null && TempData["CodeExpiry"] != null)
+            // Check if a code was already sent and still valid
+            if (user.CodeExpiry.HasValue && user.CodeExpiry > DateTime.Now)
             {
-                DateTime expiry = (DateTime)TempData["CodeExpiry"];
-                if (DateTime.Now < expiry)
-                {
-                    ViewBag.ErrorMessage = "A verification code has already been sent. Please wait before requesting again.";
-                    return View();
-                }
+                ViewBag.ErrorMessage = "A verification code has already been sent. Please wait before requesting again.";
+                return View();
             }
 
-            // Generate and store verification code
+            // Generate new verification code
             Random random = new Random();
             string verificationCode = random.Next(100000, 999999).ToString();
 
-            TempData["VerificationCode"] = verificationCode;
-            TempData["CodeExpiry"] = DateTime.Now.AddSeconds(60); // Set expiration time
-            TempData["Email"] = model.Email;
+            // Store in database with expiry time
+            user.VerificationCode = verificationCode;
+            user.CodeExpiry = DateTime.Now.AddMinutes(1); // Code expires in 5 mins
+            _context.SaveChanges(); // Save changes
 
-            // Send email with verification code
-            _emailService.SendVerificationEmail(model.Email, verificationCode);
+            // Send email
+            _emailService.SendVerificationEmail(user.Email, verificationCode);
 
             return RedirectToAction("VerifyCode", "Account");
         }
+
 
 
         [Route("VerifyCode")]
@@ -205,18 +203,33 @@ namespace CarRental.Controllers.Guest
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         [Route("VerifyCode")]
         public IActionResult VerifyCode(string email, string code)
         {
-            if (TempData["VerificationCode"] != null && TempData["VerificationCode"].ToString() == code)
+            var user = _context.UserAccounts.FirstOrDefault(u => u.Email == email);
+
+            if (user == null)
             {
-                TempData["Email"] = email;
-                return RedirectToAction("ResetPassword");
+                ViewBag.ErrorMessage = "User not found.";
+                return View();
             }
 
-            ViewBag.ErrorMessage = "Invalid code.";
-            return View();
+            // Check if code matches and is not expired
+            if (user.VerificationCode != code || user.CodeExpiry < DateTime.Now)
+            {
+                ViewBag.ErrorMessage = "Invalid or expired verification code.";
+                return View();
+            }
+
+            // Reset verification fields after successful verification
+            user.VerificationCode = null;
+            user.CodeExpiry = null;
+            _context.SaveChanges();
+
+            return RedirectToAction("ResetPassword", new { email = email });
         }
+
 
         [HttpPost]
         [Route("ResendCode")]

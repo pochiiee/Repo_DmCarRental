@@ -39,5 +39,8 @@ namespace CarRental.Models.Entites
         [Required]
         public string Role { get; set; } // "Admin" or "User"
 
+        public string? VerificationCode { get; set; }
+        public DateTime? CodeExpiry { get; set; }
+
     }
 }

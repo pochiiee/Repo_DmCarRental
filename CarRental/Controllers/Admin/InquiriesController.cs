@@ -26,11 +26,11 @@ namespace CarRental.Controllers.Admin
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            // Save inquiry to database
+     
             _context.CustomerInquiries.Add(model);
             await _context.SaveChangesAsync();
 
-            // Save notification to database
+     
             var notification = new Notification
             {
                 Title = "📩 New Customer Inquiry",

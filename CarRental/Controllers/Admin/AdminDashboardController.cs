@@ -3,14 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CarRental.Controllers.Admin
 {
+
+    [Authorize(Roles = "Admin")]
     public class AdminDashboardController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        [Authorize(Roles = "Admin")]
         public IActionResult AdminDashboard()
         {
             return View();

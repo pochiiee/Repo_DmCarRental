@@ -1,24 +1,20 @@
-﻿function openModal() {
+﻿//T AND C MODAL
+
+//open T&C
+function openModal() {
     let modal = document.getElementById("rentModal");
     if (modal) {
         modal.style.display = "flex";
     }
 }
 
+//close T&C
 function closeModal() {
     let modal = document.getElementById("rentModal");
     if (modal) {
         modal.style.display = "none";
     }
 }
-
-// Close modal when clicking outside
-window.onclick = function (event) {
-    let modal = document.getElementById("rentModal");
-    if (event.target === modal) {
-        modal.style.display = "none";
-    }
-};
 
 // Close button functionality
 document.addEventListener("DOMContentLoaded", function () {
@@ -29,12 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+//checkbox for accept
 document.addEventListener("DOMContentLoaded", function () {
     var termsCheckbox = document.getElementById("termsCheckbox");
     var acceptButton = document.getElementById("acceptButton");
-    var rentModal = document.getElementById("rentModal");
     var rentalDetailsModal = document.getElementById("rentalDetailsModal");
     var closeButtons = document.querySelectorAll(".close");
+
 
     // Toggle Accept Button based on checkbox state
     termsCheckbox.addEventListener("change", function () {
@@ -43,11 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-
-    // Open Rennt Modal it has the booking
-    function openModal() {
-        rentModal.style.display = "flex";
-    }
+//RENTAL DETAILS MODAL
 
     // Open Rental Details Modal after Accept button is clicked
     acceptButton.addEventListener("click", function () {
@@ -62,38 +55,75 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Close Modal when clicking outside
-    window.addEventListener("click", function (event) {
-        if (event.target === rentModal) {
-            rentModal.style.display = "none";
-        }
-        if (event.target === rentalDetailsModal) {
-            rentalDetailsModal.style.display = "none";
-        }
-    });
+
 
     // Enable confirm button only when fields are valid
-    document.querySelectorAll("#pickupDateTime, #returnDateTime, #bookinglicenseNumber").forEach(input => {
-        input.addEventListener("input", function () {
-            let pickup = document.getElementById("pickupDateTime").value;
-            let returnDate = document.getElementById("returnDateTime").value;
-            let license = document.getElementById("bookinglicenseNumber").value;
-            let pattern = /^[A-Z]{1}[0-9]{2}-[0-9]{2}-[0-9]{6}$/;
+    function validateForm() {
+        let pickup = document.getElementById("pickupDateTime").value;
+        let returnDate = document.getElementById("returnDateTime").value;
+        let license = document.getElementById("bookinglicenseNumber").value;
+        let confirmRentalBtn = document.getElementById("confirmRentalBtn");
 
-            document.getElementById("confirmRentalBtn") = !(pickup && returnDate && pattern.test(license));
+        let pickupError = document.getElementById("pickupError");
+        let returnError = document.getElementById("returnError");
+        let licenseError = document.getElementById("licenseError");
 
+        let pattern = /^[A-Z]{1}[0-9]{2}-[0-9]{2}-[0-9]{6}$/;
+        let isValid = true;
 
-        });
+        // Validate Pick-up Date (Must not be empty)
+        if (!pickup) {
+            pickupError.style.display = "block";
+            isValid = false;
+        } else {
+            pickupError.style.display = "none";
+        }
+
+        // Validate Return Date (Must be later than Pick-up Date)
+        if (!returnDate || returnDate <= pickup) {
+            returnError.style.display = "block";
+            isValid = false;
+        } else {
+            returnError.style.display = "none";
+        }
+
+        // Validate License Number (Format: A12-34-567890)
+        if (license.length !== 13 || !pattern.test(license)) {
+            licenseError.style.display = "block";
+            isValid = false;
+        } else {
+            licenseError.style.display = "none";
+        }
+
+        // Enable or disable the confirm button
+        confirmRentalBtn.disabled = !isValid;
+        confirmRentalBtn.classList.toggle("enabled", isValid);
+    }
+
+    // Validate License Input (Prevents Invalid Characters & Limits Input)
+    document.getElementById("bookinglicenseNumber").addEventListener("input", function (event) {
+        let input = event.target;
+        let value = input.value.toUpperCase().replace(/[^A-Z0-9-]/g, ""); // Remove invalid chars
+        if (value.length > 13) value = value.slice(0, 13); // Restrict max 13 chars
+        input.value = value;
+        validateForm();
     });
+
+    // Validate Date Inputs in Real-Time
+    document.getElementById("pickupDateTime").addEventListener("input", validateForm);
+    document.getElementById("returnDateTime").addEventListener("input", validateForm);
+
 });
 
-// Function to open the Renter Details modal
-function openRenterModal() {
-    let modal = document.getElementById("renterDetailsModal");
-    if (modal) {
-        modal.style.display = "flex";
-    }
-}
+
+//RENTER DETAILS MODAL
+
+// Open Rental Details Modal after confirm button is clicked
+confirmRentalBtn.addEventListener("click", function () {
+    rentalDetailsModal.style.display = "none"; // Close rantal details modal
+    renterDetailsModal.style.display = "flex"; // Open renter details modal
+});
+
 
 // Function to close the Renter Details modal
 function closeRenterModal() {
@@ -102,15 +132,6 @@ function closeRenterModal() {
         modal.style.display = "none";
     }
 }
-
-// Close modal when clicking outside
-window.onclick = function (event) {
-    let modal = document.getElementById("renterDetailsModal");
-    if (event.target === modal) {
-        modal.style.display = "none";
-    }
-};
-
 
 
 // Function to open the Confirmation modal
@@ -143,3 +164,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+
+

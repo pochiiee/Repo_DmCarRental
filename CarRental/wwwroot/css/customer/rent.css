@@ -247,10 +247,23 @@ h2 {
     background: #fff;
     padding: 20px;
     width: 60%;
-    max-width: 600px;
+    max-width: 600px; /* Increased width for two columns */
     border-radius: 8px;
     text-align: center;
     position: relative;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px; /* Adjust the spacing above each label */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .close {
@@ -259,6 +272,34 @@ h2 {
     right: 15px;
     font-size: 24px;
     cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 47%; /* Two columns */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .terms-box {
@@ -319,7 +360,7 @@ h2 {
 /* Disabled Accept Button */
 .accept {
     background-color:lightgray;
-    margin-top: 10px;
+    margin-top: 20px;
     color: black;
     border: none;
     padding: 10px 20px;
@@ -337,21 +378,30 @@ h2 {
         background: #b71c1c;
     }
 
-
-    input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+.button {
+    background-color: lightgray;
+    margin-top: 20px;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: not-allowed;
     border-radius: 5px;
+}
+
+    .button.enabled {
+        background-color: #d32f2f;
+        color: white;
+        cursor: pointer;
     }
 
+        .button.enabled:hover {
+            background: #b71c1c;
+        }
 
-.button {
-    background-color: #d32f2f;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+
+@media (max-width: 600px) {
+    .form-group {
+        width: 100%; /* Full width on small screens */
+    }
 }

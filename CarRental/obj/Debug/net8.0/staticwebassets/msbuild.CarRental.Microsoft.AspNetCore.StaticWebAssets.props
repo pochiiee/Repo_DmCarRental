@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tbhs3ppbwb</Fingerprint>
-      <Integrity>R4Ljp2NqpsLGqWs4UrbBkdLpWh6TF8pO8B0idWkTbes=</Integrity>
+      <Fingerprint>7u3tgr7bhp</Fingerprint>
+      <Integrity>r0QZw8qE7H9W2Cp23fRwZ7wTeOopq16opICHoHlnQiA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\customer\rent.css'))</OriginalItemSpec>
@@ -750,8 +750,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rk5b19t3c7</Fingerprint>
-      <Integrity>BRqnO82l1qe4p+oJzPRP7xZOjqBTEL+QbH/w2OY4bns=</Integrity>
+      <Fingerprint>xnq2jw2jfe</Fingerprint>
+      <Integrity>g7mOenevqe6CX2vQ3tltsJWq+rn7Zf44Xa0hUQWQB/Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\rent.js'))</OriginalItemSpec>

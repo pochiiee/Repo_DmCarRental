@@ -3,6 +3,8 @@
     Layout = "~/Views/Shared/CustomerLayout.cshtml";
 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 <link rel="stylesheet" href="~/css/customer/rent.css" />
 
 <main class="main-content">
@@ -10,7 +12,7 @@
         <h1>Rent A Car</h1>
     </header>
 
-    <!-- Filter Section -->
+    <!-- FILTER SECTION -->
     <div class="filter-container">
         <select id="seatFilter" class="custom-dropdown">
             <option value="all">Filter by Seaters ⮟</option>
@@ -31,11 +33,11 @@
     </div>
 
 
-    <!-- Car Listing -->
+    <!-- CAR LISTING SECTION -->
     @model IEnumerable<CarRental.Models.Entites.Car>
 
     @{
-        // Array of car descriptions (matching index with the list order)
+        // description
         var carDescriptions = new string[]
         {
             "A top choice for city driving, the Toyota Vios offers great fuel efficiency, smooth handling, and a spacious interior. Perfect for solo travelers, couples, or small families looking for a budget-friendly yet comfortable ride.",
@@ -72,11 +74,11 @@
                     <h2>@car.Brand @car.Model</h2>
                     <p><strong>Vehicle Type:</strong> @car.Brand</p> <br />
 
-                    <!-- Fetch the description dynamically using index -->
-                    <p><strong>Description:</strong> @(index < carDescriptions.Length ? carDescriptions[index] : "A great choice for your trip!")</p> <br />
+                    <p> @(index < carDescriptions.Length ? carDescriptions[index] : "A great choice for your trip!")</p> <br />
 
                     <p><strong>Capacity:</strong> @car.Seaters Seater</p> <br />
                     <p><strong>Rental Rate:</strong> ₱@car.RentalPrice</p> <br />
+
                     <button class="rent-btn" onclick="openModal()">Rent this car</button>
                 </div>
             </div>
@@ -84,13 +86,17 @@
         }
     </div>
 
+
+    <!-- MODAL SECTIONS -->
+
     <!-- Terms & Conditions Modal -->
+
     <div id="rentModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Terms and Conditions</h2>
 
-            <!-- Scrollable Content Box -->
+            <!-- Scrollable -->
             <div class="terms-box">
                 <p>
                     <strong>1. General Terms</strong><br>
@@ -139,7 +145,7 @@
                 </p>
             </div>
 
-            <!-- Circular Checkbox with Acknowledgment Text -->
+            <!-- Circular Checkbox -->
             <div class="checkbox-container">
                 <input type="checkbox" id="termsCheckbox" onclick="toggleAcceptButton()">
                 <label for="termsCheckbox">
@@ -149,7 +155,7 @@
             </div>
 
             <!-- Accept Button (Initially Disabled) -->
-            <button class="button" id="acceptButton" class="accept" disabled>Accept</button>
+            <button class="accept" id="acceptButton" disabled>Accept</button>
         </div>
     </div>
 
@@ -162,14 +168,19 @@
 
             <label for="pickupDateTime"><strong>Pick-up Date & Time:</strong></label>
             <input type="datetime-local" id="pickupDateTime" required>
+            <small id="pickupError" style="color: red; display: none;">Please select a valid pick-up date & time.</small>
+
 
             <label for="returnDateTime"><strong>Return Date & Time:</strong></label>
             <input type="datetime-local" id="returnDateTime" required>
+            <small id="returnError" style="color: red; display: none;">Return date must be later than pick-up date.</small>
+
 
             <label for="bookinglicenseNumber"><strong>Driver's License Number:</strong></label>
-            <input type="text" id="bookinglicenseNumber" placeholder="A12-34-567890" pattern="[A-Z]{1}[0-9]{2}-[0-9]{2}-[0-9]{6}" required>
+            <input type="text" id="bookinglicenseNumber" placeholder="A12-34-567890" maxlength="13" pattern="[A-Z]{1}[0-9]{2}-[0-9]{2}-[0-9]{6}" required>
+            <small id="licenseError" style="color: red; display: none;">Invalid License Number</small>
 
-            <button class="button" id="confirmRentalBtn" onclick="openRenterModal()">Confirm Rental</button>
+            <button class="button" id="confirmRentalBtn" disabled>Confirm Rental</button>
         </div>
     </div>
 
@@ -180,23 +191,36 @@
             <h2>Enter Your Details</h2>
 
             <form id="renterForm">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Juan" maxlength="50" required>
+                </div>
 
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Dela Cruz" maxlength="50" required>
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="juandelacruz@email.com" maxlength="50" required>
+                </div>
 
-                <label for="mobile">Mobile Number:</label>
-                <input type="text" id="mobile" name="mobile" required>
+                <div class="form-group">
+                        <label for="phone">Mobile Number:</label>
+                    <input type="tel" id="phone" name="phone" maxlength="10" required>
+                </div>
 
-                <label for="licenseNumber">License Number:</label>
-                <input type="text" id="licenseNumber" name="licenseNumber" required>
+                <div class="form-group">
+                    <label for="licenseNumber">License Number:</label>
+                    <input type="text" id="licenseNumber" name="licenseNumber" placeholder="A12-34-567890" maxlength="13" required>
+                </div>
 
-                <button class = "button" type="submit">Submit</button>
+                <div class="form-group" style="width: 100%;">
+                    <button class="button" type="submit">Submit</button>
+                </div>
             </form>
+
         </div>
     </div>
 
@@ -214,5 +238,20 @@
     </div>
 </div>
 
-</main>
+</main> 
 <script src="~/js/rent.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var input = document.querySelector("#phone");
+        if (input) {
+            window.intlTelInput(input, {
+                initialCountry: "ph",
+                separateDialCode: true,
+                autoPlaceholder: "polite", // Shows country-specific number format
+                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+            });
+        }
+    });
+</script>
+

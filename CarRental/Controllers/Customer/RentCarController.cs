@@ -56,7 +56,8 @@ namespace CarRental.Controllers.Customer
         public IActionResult Index()
         {
 
-            return View();
+            var cars = _context.Cars.ToList();
+            return View(cars);
         }
 
 

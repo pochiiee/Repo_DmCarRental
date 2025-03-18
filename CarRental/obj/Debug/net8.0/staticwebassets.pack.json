@@ -177,6 +177,10 @@
       "PackagePath": "staticwebassets\\images\\line.png"
     },
     {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\carlist.js",
+      "PackagePath": "staticwebassets\\js\\carlist.js"
+    },
+    {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\inquiries.js",
       "PackagePath": "staticwebassets\\js\\inquiries.js"
     },

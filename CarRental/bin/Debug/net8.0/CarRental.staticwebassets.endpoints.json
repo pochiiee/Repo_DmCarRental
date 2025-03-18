@@ -3,7 +3,7 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "css/admin/CarList.44pexrv169.css",
+      "Route": "css/admin/CarList.501topleq8.css",
       "AssetFile": "css/admin/CarList.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2803"
+          "Value": "6097"
         },
         {
           "Name": "Content-Type",
@@ -25,21 +25,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XEzdvANixwevzDi+WkwowMYW+0szuQ5rrzTrbDQfKug=\""
+          "Value": "\"q2nsLJ8d0ziwJgYRfzth3ItItAHxk3HeN/ruTt6blKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:12:48 GMT"
+          "Value": "Tue, 18 Mar 2025 05:34:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "44pexrv169"
+          "Value": "501topleq8"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XEzdvANixwevzDi+WkwowMYW+0szuQ5rrzTrbDQfKug="
+          "Value": "sha256-q2nsLJ8d0ziwJgYRfzth3ItItAHxk3HeN/ruTt6blKE="
         },
         {
           "Name": "label",
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2803"
+          "Value": "6097"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XEzdvANixwevzDi+WkwowMYW+0szuQ5rrzTrbDQfKug=\""
+          "Value": "\"q2nsLJ8d0ziwJgYRfzth3ItItAHxk3HeN/ruTt6blKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:12:48 GMT"
+          "Value": "Tue, 18 Mar 2025 05:34:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XEzdvANixwevzDi+WkwowMYW+0szuQ5rrzTrbDQfKug="
+          "Value": "sha256-q2nsLJ8d0ziwJgYRfzth3ItItAHxk3HeN/ruTt6blKE="
         }
       ]
     },
@@ -111,7 +111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:37:59 GMT"
+          "Value": "Mon, 17 Mar 2025 21:39:23 GMT"
         }
       ],
       "EndpointProperties": [
@@ -148,7 +148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:37:59 GMT"
+          "Value": "Mon, 17 Mar 2025 21:39:23 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3607,6 +3607,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FTn8Z9IabYqsZrL5EDqiRfnAP19IuG7Tpbf0XdmF78="
+        }
+      ]
+    },
+    {
+      "Route": "js/carlist.ak4wkb66wi.js",
+      "AssetFile": "js/carlist.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gl+ER6i+TH9emhXFX96m2rnfzYqnFYQD686aGWsOCjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 06:38:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ak4wkb66wi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gl+ER6i+TH9emhXFX96m2rnfzYqnFYQD686aGWsOCjs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/carlist.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/carlist.js",
+      "AssetFile": "js/carlist.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gl+ER6i+TH9emhXFX96m2rnfzYqnFYQD686aGWsOCjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 06:38:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gl+ER6i+TH9emhXFX96m2rnfzYqnFYQD686aGWsOCjs="
         }
       ]
     },

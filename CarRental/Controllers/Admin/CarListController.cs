@@ -33,6 +33,27 @@ namespace CarRental.Controllers.Admin
             return View();
         }
 
+        [HttpGet]
+        public JsonResult GetCar(int id)
+        {
+            var car = _context.Cars.FirstOrDefault(c => c.CarId == id);
+            if (car == null)
+            {
+                return Json(new { success = false, message = "Car not found." });
+            }
+
+            return Json(new
+            {
+                success = true,
+                carId = car.CarId,
+                brand = car.Brand,
+                model = car.Model,
+                seaters = car.Seaters,
+                rentalPrice = car.RentalPrice,
+                status = car.Status
+            });
+        }
+
         [HttpPost]
         public IActionResult AddCar(Car car)
         {

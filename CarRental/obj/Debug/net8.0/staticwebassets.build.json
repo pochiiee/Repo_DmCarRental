@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GqfkGD+3PY7wBY47uFE+GLekPc+Mdn2caXah67xtYrg=",
+  "Hash": "zF5hkCrozX1RlKGltXyZrS64U2BudeQEtIJYu15MRj0=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tbhs3ppbwb",
-      "Integrity": "R4Ljp2NqpsLGqWs4UrbBkdLpWh6TF8pO8B0idWkTbes=",
+      "Fingerprint": "7u3tgr7bhp",
+      "Integrity": "r0QZw8qE7H9W2Cp23fRwZ7wTeOopq16opICHoHlnQiA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\customer\\rent.css"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rk5b19t3c7",
-      "Integrity": "BRqnO82l1qe4p+oJzPRP7xZOjqBTEL+QbH/w2OY4bns=",
+      "Fingerprint": "xnq2jw2jfe",
+      "Integrity": "g7mOenevqe6CX2vQ3tltsJWq+rn7Zf44Xa0hUQWQB/Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\rent.js"
@@ -2447,6 +2447,51 @@
       ]
     },
     {
+      "Route": "css/customer/rent.7u3tgr7bhp.css",
+      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Desktop\\case study\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\rent.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0QZw8qE7H9W2Cp23fRwZ7wTeOopq16opICHoHlnQiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:05:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7u3tgr7bhp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/customer/rent.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r0QZw8qE7H9W2Cp23fRwZ7wTeOopq16opICHoHlnQiA="
+        }
+      ]
+    },
+    {
       "Route": "css/customer/rent.css",
       "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Desktop\\case study\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\rent.css",
       "Selectors": [],
@@ -2457,7 +2502,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7167"
+          "Value": "8084"
         },
         {
           "Name": "Content-Type",
@@ -2465,11 +2510,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R4Ljp2NqpsLGqWs4UrbBkdLpWh6TF8pO8B0idWkTbes=\""
+          "Value": "\"r0QZw8qE7H9W2Cp23fRwZ7wTeOopq16opICHoHlnQiA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:58:50 GMT"
+          "Value": "Tue, 18 Mar 2025 14:05:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2479,52 +2524,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R4Ljp2NqpsLGqWs4UrbBkdLpWh6TF8pO8B0idWkTbes="
-        }
-      ]
-    },
-    {
-      "Route": "css/customer/rent.tbhs3ppbwb.css",
-      "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Desktop\\case study\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\customer\\rent.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R4Ljp2NqpsLGqWs4UrbBkdLpWh6TF8pO8B0idWkTbes=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:58:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tbhs3ppbwb"
-        },
-        {
-          "Name": "label",
-          "Value": "css/customer/rent.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-R4Ljp2NqpsLGqWs4UrbBkdLpWh6TF8pO8B0idWkTbes="
+          "Value": "sha256-r0QZw8qE7H9W2Cp23fRwZ7wTeOopq16opICHoHlnQiA="
         }
       ]
     },
@@ -5491,7 +5491,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4627"
+          "Value": "6748"
         },
         {
           "Name": "Content-Type",
@@ -5499,11 +5499,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BRqnO82l1qe4p+oJzPRP7xZOjqBTEL+QbH/w2OY4bns=\""
+          "Value": "\"g7mOenevqe6CX2vQ3tltsJWq+rn7Zf44Xa0hUQWQB/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:57:32 GMT"
+          "Value": "Tue, 18 Mar 2025 14:07:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5513,12 +5513,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BRqnO82l1qe4p+oJzPRP7xZOjqBTEL+QbH/w2OY4bns="
+          "Value": "sha256-g7mOenevqe6CX2vQ3tltsJWq+rn7Zf44Xa0hUQWQB/Y="
         }
       ]
     },
     {
-      "Route": "js/rent.rk5b19t3c7.js",
+      "Route": "js/rent.xnq2jw2jfe.js",
       "AssetFile": "C:\\Users\\Prissea.MSI\\OneDrive\\Desktop\\case study\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5528,7 +5528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4627"
+          "Value": "6748"
         },
         {
           "Name": "Content-Type",
@@ -5536,11 +5536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BRqnO82l1qe4p+oJzPRP7xZOjqBTEL+QbH/w2OY4bns=\""
+          "Value": "\"g7mOenevqe6CX2vQ3tltsJWq+rn7Zf44Xa0hUQWQB/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 21:57:32 GMT"
+          "Value": "Tue, 18 Mar 2025 14:07:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5550,7 +5550,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rk5b19t3c7"
+          "Value": "xnq2jw2jfe"
         },
         {
           "Name": "label",
@@ -5558,7 +5558,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BRqnO82l1qe4p+oJzPRP7xZOjqBTEL+QbH/w2OY4bns="
+          "Value": "sha256-g7mOenevqe6CX2vQ3tltsJWq+rn7Zf44Xa0hUQWQB/Y="
         }
       ]
     },

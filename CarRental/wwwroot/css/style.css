@@ -861,3 +861,66 @@ header .navbar {
         left: 0;
     }
 }
+
+
+footer {
+    background-color: #242a2b !important;
+    color: #ffffff !important;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+    .footer-menu a {
+        color: #1e4db7 !important;
+        text-decoration: none !important;
+        font-size: 16px;
+    }
+
+        .footer-menu a:hover {
+            color: #1da1f2 !important;
+            text-decoration: underline;
+        }
+
+.footer-bottom-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.social-icon {
+    font-size: 20px !important;
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+    .social-icon:hover {
+        color: #1da1f2 !important;
+    }
+

@@ -8,5 +8,10 @@ namespace CarRental.Controllers.Customer
         {
             return View();
         }
+
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
     }
 }

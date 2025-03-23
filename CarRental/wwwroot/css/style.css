@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    padding-top: 1px; /* Ensure content doesn't overlap navbar */
+    padding-top: 1px; 
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -24,7 +24,6 @@ header {
     left: 0;
     height: 80px; /* Define navbar height */
 }
-
 
 ul {
     list-style: none;
@@ -57,7 +56,7 @@ img {
     font-size: 40px;
 }
 
-    .section-title::after {
+.section-title::after {
         content: "";
         width: 80px;
         height: 5px;
@@ -77,7 +76,7 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ensures proper spacing */
+    justify-content: space-between;
     padding: 15px 50px;
 }
 
@@ -99,7 +98,7 @@ header .navbar {
     justify-content: space-between; /* Space between logo and menu */
     padding: 10px 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    background: #fff;
+    background: #242a2b;
 }
 
 .navbar .nav-logo {
@@ -107,15 +106,13 @@ header .navbar {
     margin-left: 30px;
 }
 
-
-    .navbar .nav-logo img {
+.navbar .nav-logo img {
         width: 150px; /* Adjust this value as needed */
         height: auto; /* Maintain aspect ratio */
         margin-left: 10px; /* Adjust spacing */
         margin-top: 15px;
         margin-bottom: -5px;
     }
-
 
 .navbar .nav-menu {
     display: flex;
@@ -124,424 +121,391 @@ header .navbar {
     gap: 20px;
 }
 
-    .navbar .nav-menu .nav-link {
+.navbar .nav-menu .nav-link {
         padding: 10px 20px;
         font-size: 19px;
-        color: #000;
+        color: #fff;
         border-radius: 20px;
         transition: 0.3s ease;
         text-decoration: none;
-        color: #000;
     }
-
-        .navbar .nav-menu .nav-link.active {
-            color: #fff;
-        }
-
-        .navbar .nav-menu .nav-link:hover {
+.navbar .nav-menu .nav-link.active {
             color: #000;
         }
-
-
+.navbar .nav-menu .nav-link:hover {
+            color: #000;
+        }
 .nav-link {
     border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-    .nav-link.active {
-        background-color: #D2042D;
-        color: #fff;
+.nav-link.active {
+        background-color: #d3d3d3;
+        color: #000;
     }
-
 .nav-menu .line img {
     width: 90px;
 }
-
-
 .navbar :where(#menu-close-button, #menu-open-button) {
     display: none;
 }
+
 
 /* Hero Section */
 .hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     padding-top: 50px;
+    background-image: url('/images/landpage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-
-    .hero-section .section-content {
+.hero-section .section-content {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         min-height: 100vh;
-        justify-content: space-between;
+        padding: 50px; 
     }
 
-    .hero-section .hero-details .title {
-        font-size: 40px;
-        color: #D2042D;
-        font-family: "Poppins", sans-serif;
+.hero-section .hero-details {
+        max-width: 50%; 
+        text-align: left; 
+        margin-left: 50px;
     }
 
-    .hero-section .hero-details .subtitle {
-        font-size: 50px;
-        font-family: "Poppins", sans-serif;
-        max-width: 60%;
+.hero-section .title {
+        font-size: 45px;
         font-weight: bold;
-    }
-
-    .hero-section .hero-details .description {
-        max-width: 80%;
-        margin: 10px 0 40px;
-        font-size: 20px;
-        white-space: pre-line; /* Preserve line breaks */
-    }
-
-    .hero-section .hero-details .buttons {
-        display: flex;
-        gap: 23px;
-    }
-
-    .hero-section .hero-details .button {
-        padding: 10px 26px;
-        border: 2px solid transparent;
-        background: #D2042D;
         color: #fff;
-        border-radius: 50px;
-        font-weight: 50;
+        text-transform: uppercase;
     }
 
-        .hero-section .hero-details .button:hover {
-            color: #fff;
-            background: #D2042D;
+.hero-section .subtitle {
+        font-size: 60px;
+        font-weight: bold;
+        color: #85874c;
+    }
+
+.hero-section .description {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #E0E0E0;
+        max-width: 90%;
+    }
+
+.hero-section .buttons {
+        display: flex;
+        gap: 15px;
+    }
+
+.button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+.button.rent {
+        background-color: #85874c;
+        color: black;
+        border: 2px solid transparent;
+    }
+
+.button.rent:hover {
+            background-color: #8C8C5A;
         }
 
-    .hero-section .hero-image {
-        max-width: 800px; /* Make the image bigger */
-        transform: scaleX(-1); /* Flip the image to face left */
-        margin-left: 0; /* Pushes the image to the right */
-        margin-right: 20px;
-        display: block;
+.button.see-more {
+        background: transparent;
+        border: 2px solid #fff;
+        color: white;
     }
+
+.button.see-more:hover {
+            background: #fff;
+            color: black;
+        }
 
 /* ABOUT US SECTION */
-
 .about-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 50px;
+    position: relative;
+    background-image: url(../images/aboutus.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 150px;
 }
 
-    .about-section .section-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 90%;
-        gap: 70px;
-        width: 100%;
+.about-section .section-content {
+        background-color: #242a2b;
     }
 
+/* About Text */
 .about-text {
-    max-width: 50%;
+    max-width: 100%;
+    margin: 0 auto 40px;
+    text-align: center;
 }
 
-    .about-text h2 {
-        color: #000;
-        font-size: 2rem;
-        font-weight: 700;
+.about-text h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #85874c;
         text-transform: uppercase;
-        text-align: center;
         margin-bottom: 10px;
     }
 
-        .about-text h2::after {
-            content: "";
-            width: 80px;
-            height: 5px;
-            display: block;
-            margin: 5px auto 15px;
-            border-radius: 20px;
-            background: #D2042D;
-        }
-
-    .about-text p {
-        margin: 20px 0;
-        line-height: 1.1;
-        font-size: 18px;
-        color: #333;
+.about-text p {
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-top: 15px;
+        padding: 0 10%;
+        color: #ccc;
     }
 
-    .about-text h3 {
-        margin-top: 30px;
-        font-size: 24px;
-        color: #333;
-    }
-
-    .about-text ul {
-        list-style: none;
-        margin-top: 20px;
-        padding: 0;
-    }
-
-    .about-text li {
-        margin-bottom: 8px;
-        font-size: 16px;
-    }
-
-    .about-text strong {
-        color: #D2042D;
-    }
-
-.about-image img {
-    width: 800px; /* Increased size to match design */
-    height: auto;
-    transform: scaleX(-1);
-    max-width: 100%;
-    display: block;
-    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.2)); /* Soft shadow effect */
-}
-
-/* CONTACT US SECTION */
-.contact-section {
+.about-features {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 250px;
+    text-align: center;
+}
+
+.feature i {
+        font-size: 2.5rem;
+        color: #85874c;
+    }
+
+.feature h3 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+.feature p {
+        font-size: 1rem;
+        color: #ccc;
+        margin-top: 5px;
+    }
+
+/* SUPPORT SECTION */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.support-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    /* Heading */
+.support-container h2 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+        color: #333;
+    }   
+
+/* FAQ Styles */
+.faq-section {
+    text-align: left;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.faq-question {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 60px 30px; /* Reduced padding */
-    background: #fff;
 }
 
-    .contact-section .section-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 70%; /* Reduced width */
-        gap: 30px; /* Reduced gap */
-        width: 100%;
+.faq-question span {
+        font-size: 1rem;
+        transition: transform 0.3s ease;
     }
 
-/* Contact Info */
-.contact-info {
-    width: 45%;
-    padding: 10px;
-    margin-top: -65px
+/* FAQ Icon Styles */
+.faq-icon {
+    font-size: 1rem;
+    margin-left: 8px;
+    color: #85874c;
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth rotation and color transition */
 }
 
-    .contact-info h2 {
-        margin-bottom: 5px;
-    }
+/* Rotate the icon when FAQ is open */
+.faq-item.open .faq-icon {
+    transform: rotate(180deg); /* Rotates the icon correctly */
+    color: #ccc; /* Change icon color when opened */
+}
 
-    .contact-info p {
-        margin-top: 3px; /* Reduce space between paragraphs */
-        margin-bottom: 4px;
-        font-size: 20px;
-    }
+.faq-question {
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #666;
+    display: none;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
 
 .contact-section .section-content {
-    gap: 5px; /* Reduce the space between contact info and form */
-    max-width: 65%; /* Adjust width to bring elements closer */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
 }
 
-/* Contact Form */
-.contact-form {
-    width: 40%; /* Reduced width */
-    background: #ececec;
-    padding: 45px; /* Reduced padding */
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* Contact Info Section */
+.contact-info {
+    width: 45%;
+    text-align: left;
+    padding-right: 40px; /* Space between info and form */
 }
 
-    .contact-form form {
-        display: flex;
-        flex-direction: column;
+.contact-info h2 {
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+        color: #85874c;
     }
 
-    .contact-form label {
-        font-size: 14px;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-        width: 100%;
-        padding: 10px;
+.contact-info p {
+        font-size: 1.2rem;
+        color: #333;
         margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 15px;
+        display: flex;
+        align-items: center;
     }
 
-    .contact-form textarea {
-        height: 100px; /* Reduced height */
-    }
-
-    .contact-form button {
-        background: #D2042D;
-        color: white;
-        padding: 10px 26px;
-        margin-top: 10px;
-        align-content: center;
-        border: none;
-        border-radius: 50px;
-        font-size: 16px;
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-
-        .contact-form button:hover {
-            background: darkred;
-        }
-
-.car-image-contact {
-    width: 900px; /* Increased size to match design */
-    height: auto;
-    transform: scaleX(-1);
-    max-width: 100%;
-    display: block;
-    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.2)); /* Adjust margin to move it closer to the text */
+.contact-icon {
+    font-size: 1.2rem;
+    color: #85874c;
+    margin-right: 10px;
 }
 
-/* LOGIN SECTION */
-
-.login-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #fff;
-    gap: 0; /* Ensure no gap between the sections */
+.contact-form {
+    width: 55%;
+    background-color: #f0f0f0;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: left;
 }
 
-.left-section {
-    background-color: #D2042D;
-    color: white;
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 90%;
-    text-align: center;
+.form-group {
+    margin-bottom: 15px;
 }
 
-    .left-section button {
-        background: white;
-        color: #D2042D;
-        border: none;
-        padding: 12px 24px;
-        border-radius: 30px;
-        cursor: pointer;
-        font-size: 1rem;
-        font-weight: 600;
-        margin-top: 20px;
-    }
-
-.car-image-login {
-    width: 500px; /* Adjust the size if needed */
-    height: auto;
-    max-width: 100%;
-    display: block;
-    margin: 0; /* Remove any margins */
-    transform: scaleX(-1);
-}
-
-
-/* LOGIN BOX */
-.login-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #fff;
-}
-
-.left-section {
-    background-color: #c62828;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 50px;
-    text-align: center;
-}
-
-.car-image-login {
-    width: 900px;
-    height: auto;
-    margin-top: 20px;
-    transform: scaleX(1);
-}
-
-
-/* LOGIN BOX */
-.login-container {
-    background: #e5e7e9;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    max-height: 500px;
-    width: 100%;
-    max-width: 400px;
-}
-
-.login-title {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
+.contact-form label {
     font-weight: bold;
-    color: #D2042D;
+    font-size: 1rem;
+    color: #333;
 }
 
-.input-group {
-    margin-bottom: 20px;
-}
-
-    .input-group label {
-        display: block;
-        margin-bottom: 8px;
-        font-size: 14px;
-    }
-
-    .input-group input {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        font-size: 14px;
-    }
-
-.login-button {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 12px;
-    background-color: #D2042D;
-    color: #ffffff;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #85874c;
+    color: #fff;
+    font-size: 1rem;
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 20px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
-    .login-button:hover {
-        background-color: #000;
+.submit-btn:hover {
+        background-color: #6b6d3e;
     }
 
-.signup-link {
-    text-align: center;
-    margin-top: 20px;
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .support-container {
+        padding: 20px;
+    }
+
+    .faq-question {
+        font-size: 1.1rem;
+    }
+
+    .faq-answer {
+        font-size: 0.95rem;
+    }
 }
 
-    .signup-link a {
-        color: #D2042D;
-        text-decoration: none;
-    }
 
-        .signup-link a:hover {
-            text-decoration: underline;
-        }
+
+
 
 @media (min-width: 768px) {
     .left-section {
@@ -552,7 +516,7 @@ header .navbar {
 
 @media screen and (max-width: 900px) {
 
-    body.show-mobile-menu header::before {
+body.show-mobile-menu header::before {
         content: "";
         position: fixed;
         left: 0;
@@ -563,12 +527,12 @@ header .navbar {
         background: rgba(0,0,0, 0.2);
     }
 
-    .navbar :where(#menu-close-button, #menu-open-button) {
+.navbar :where(#menu-close-button, #menu-open-button) {
         font-size: 20px;
         display: block;
     }
 
-    .navbar .nav-menu {
+.navbar .nav-menu {
         display: block;
         position: fixed;
         left: -300px;
@@ -580,43 +544,43 @@ header .navbar {
         align-items: center;
         padding-top: 100px;
         background: #D2042D;
-        transition: left 0.2 ease;
+        transition: left 0.2s ease;
     }
 
-    body.show-mobile-menu .navbar .nav-menu {
+body.show-mobile-menu .navbar .nav-menu {
         left: 0;
     }
 
-    .navbar #menu-close-button {
+.navbar #menu-close-button {
         position: absolute;
         right: 30px;
         top: 30px;
         color: #fff;
     }
 
-    .navbar #menu-open-button {
+ .navbar #menu-open-button {
         color: #D2042D;
     }
 
-    .navbar .nav-menu .nav-link {
+.navbar .nav-menu .nav-link {
         color: #fff;
         font-size: 20px;
         display: block;
         margin-top: 10px;
     }
 
-        .navbar .nav-menu .nav-link:hover {
+.navbar .nav-menu .nav-link:hover {
             color: #fff;
             background: #000;
             border-radius: 50px;
         }
 
-    .navbar .line img {
+ .navbar .line img {
         display: none;
     }
 
 
-    .hero-section .section-content {
+ .hero-section .section-content {
         gap: 50px;
         text-align: center;
         padding: 30px 20px 20px;
@@ -624,190 +588,231 @@ header .navbar {
         justify-content: center;
     }
 
-    .hero-section .hero-details :is(.subtitle, .description) {
+ .hero-section .hero-details :is(.subtitle, .description) {
         max-width: 100%;
     }
 
-    .hero-section .hero-details .buttons {
+ .hero-section .hero-details .buttons {
         justify-content: center;
     }
-
-    .hero-section .hero-image {
+.hero-section .hero-image {
         max-width: 270px;
         margin-right: 0;
     }
 
-    .about-section .section-content {
+.about-section .section-content {
         flex-direction: column;
         text-align: center;
     }
 
-    .about-text {
+.about-text {
         max-width: 80%;
     }
 
-    .about-image img {
-        width: 90%;
-    }
 
-    .contact-section .section-content {
+.contact-section .section-content {
         flex-direction: column;
         align-items: center;
         max-width: 90%;
         text-align: center;
     }
 
-    .contact-info, .contact-form {
+.contact-info, .contact-form {
         width: 100%;
         text-align: center;
     }
 
-        .contact-form form {
+.contact-form form {
             align-items: center;
         }
 }
 
-
-
-/* View Cars Section */
-.view-cars-section {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* VIEW CARS */
+.view-cars-wrapper {
     position: relative;
     width: 100%;
-    max-width: 100vw; /* Prevent overflow */
-    overflow-x: hidden; /* Stop horizontal scroll */
-    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url('/images/viewcars.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    margin-top: 50px;
 }
 
-/* Section Title */
+/* View Cars Section Title */
 .section-title {
-    margin-top: 55px;
-    margin-bottom: -25px;
-    font-size: 2rem;
-    font-weight: bold;
-    z-index: 100; /* Ensure it's on top */
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #85874c; /* Updated to match the image */
+    text-transform: uppercase;
+    margin-bottom: 40px;
     position: relative;
 }
-/* Swiper */
-.swiper {
-    width: 100%;
-    max-width: 1200px;
-    overflow: hidden; /* No horizontal scroll */
-    padding: 20px 0;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    justify-content: center; /* Center the cards */
-}
 
-/* Swiper Slide */
-.swiper-slide {
-    flex: 0 0 auto;
-    width: 260px; /* Adjust width to avoid overlap */
-    margin-right: 5px; /* Narrow space between cards */
-}
-
-.car-card {
-    flex: 0 0 calc(22% - 10px); /* Equal width */
-    margin: 0;
-    border-radius: 15px;
-    background: #fff; /* Ensure background so shadow is visible */
-    box-shadow: 5px 5px 15px rgba(4, 59, 92, 0.5); /* Softer, more visible shadow */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Push button to bottom */
-    height: 350px; /* Set a fixed height for all cards */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-}
-
-    .car-card:hover {
-        transform: scale(1.05); /* Slight pop effect */
-        box-shadow: 8px 8px 20px rgba(4, 59, 92, 0.8); /* Stronger shadow on hover */
+    /* Underline under VIEW CARS */
+    .section-title::after {
+        content: "";
+        width: 80px;
+        height: 3px;
+        background-color: #85874c;
+        display: block;
+        margin: 8px auto 0;
     }
 
-
-/* Car Image */
-.car img {
-    height: 150px; /* Consistent image height */
-    width: 100%; /* Stretch to container width */
-    object-fit: contain; /* Keep image aspect ratio */
+/* Car Info Box - Positioned at Upper Left */
+.car-info-box {
+    position: absolute;
+    top: 22%; /* Distance from the top */
+    left: 10%; /* Distance from the left */
+    background: white;
+    padding: 20px 25px;
+    width: 320px;
+    min-height: 120px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 10;
+    display: block; /* Always visible */
 }
 
-/* Car Content */
-.car-content {
-    flex-grow: 1; /* Take up remaining space evenly */
+
+/* Car Title */
+.car-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Car Details */
+.car-details,
+.car-rate {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #666;
+}
+
+    .car-rate strong {
+        font-weight: 700;
+        color: #000;
+    }
+
+/* Car Container */
+.car-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
 }
 
-.car h3, .car p {
-    margin: 5px 0;
+/* Styling for the cars inside the slider */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* Side preview cars should be slightly faded and smaller */
+.swiper-slide-prev,
+.swiper-slide-next {
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+/* Active car is larger and fully visible */
+.swiper-slide-active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Ensure car images are consistent in size */
+.swiper-slide img {
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
 }
 
 /* Interested Button */
 .interested-btn {
-    background: #D2042D;
+    padding: 12px 28px;
+    background-color: #85874c;
     color: white;
-    padding: 10px;
+    font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
-    font-weight: bold;
     transition: background 0.3s ease;
-    width: 100%;
-    margin-top: auto; /* Push button to bottom */
 }
 
+    /* Button Hover Effect */
     .interested-btn:hover {
-        background: #b81616;
+        background-color: #6c7050;
     }
 
+/* Interested Button Container */
+.interested-btn-container {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
 
-/ /* Swiper Navigation Buttons */
+/* Show button only for the active slide */
+.swiper-slide-active .interested-btn-container {
+    visibility: visible;
+}
+
+/* Swiper Navigation Buttons */
 .swiper-button-next,
 .swiper-button-prev {
-    background: none; /* Remove the circle background */
-    color: #D2042D; /* Red arrow */
-    border: none;
-    box-shadow: none; /* Remove shadow */
-    width: auto;
-    height: auto;
-    font-size: 20px; /* Make the arrow a bit bigger */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1000;
+    font-size: 30px;
     cursor: pointer;
-    transition: color 0.3s ease;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    border-radius: 50%;
 }
 
+/* Move arrows closer to the cars */
 .swiper-button-prev {
-    left: 1px; /* Adjust position closer */
+    left: 10%;
 }
 
 .swiper-button-next {
-    right: 1px; /* Adjust position closer */
+    right: 10%;
 }
 
-    /* Optional: Arrow hover effect */
-    .swiper-button-next:hover,
-    .swiper-button-prev:hover {
-        color: #b30326; /* Darker red on hover */
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .car-info-box {
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 20px;
     }
 
-    /* Swiper Navigation Buttons */
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-        color: #D2042D !important; /* Force red color */
-        font-size: 24px; /* Optional: Adjust arrow size */
-        font-weight: bold; /* Optional: Make arrow bolder */
+    .swiper-slide img {
+        max-width: 300px;
     }
+
+    .interested-btn {
+        padding: 10px 24px;
+    }
+}
+
+
+
+
+
 
 
 /* Responsive Fix */
@@ -854,7 +859,7 @@ header .navbar {
         align-items: center;
         padding-top: 100px;
         background: #D2042D;
-        transition: left 0.2 ease;
+        transition: left 0.2s ease;
     }
 
     body.show-mobile-menu .navbar .nav-menu {

@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\images\\UserIcons\\rentHistoryIcon.png"
     },
     {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\aboutus.png",
+      "PackagePath": "staticwebassets\\images\\aboutus.png"
+    },
+    {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\car.png",
       "PackagePath": "staticwebassets\\images\\car.png"
     },
@@ -177,8 +181,16 @@
       "PackagePath": "staticwebassets\\images\\dmlogo.png"
     },
     {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\landpage.png",
+      "PackagePath": "staticwebassets\\images\\landpage.png"
+    },
+    {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\line.png",
       "PackagePath": "staticwebassets\\images\\line.png"
+    },
+    {
+      "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\viewcars.png",
+      "PackagePath": "staticwebassets\\images\\viewcars.png"
     },
     {
       "Id": "C:\\Users\\Jayvie\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\carlist.js",

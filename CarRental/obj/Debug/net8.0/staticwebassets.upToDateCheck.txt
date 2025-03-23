@@ -14,6 +14,7 @@ wwwroot\css\signup.css
 wwwroot\css\style.css
 wwwroot\css\verifyCode.css
 wwwroot\favicon.ico
+wwwroot\images\aboutus.png
 wwwroot\images\car.png
 wwwroot\images\carlist\accent.jpg
 wwwroot\images\carlist\almera.jpg
@@ -36,6 +37,7 @@ wwwroot\images\carlist\vios.jpg
 wwwroot\images\carlist\xpander.jpg
 wwwroot\images\carlist\xv.jpg
 wwwroot\images\dmlogo.png
+wwwroot\images\landpage.png
 wwwroot\images\line.png
 wwwroot\images\UserIcons\dmWhiteLogo.png
 wwwroot\images\UserIcons\homeIcon.png
@@ -43,6 +45,7 @@ wwwroot\images\UserIcons\logoutIcon.png
 wwwroot\images\UserIcons\profileIcon.png
 wwwroot\images\UserIcons\rentCarIcon.png
 wwwroot\images\UserIcons\rentHistoryIcon.png
+wwwroot\images\viewcars.png
 wwwroot\js\carlist.js
 wwwroot\js\inquiries.js
 wwwroot\js\rent.js

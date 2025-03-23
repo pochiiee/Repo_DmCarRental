@@ -8,7 +8,7 @@ namespace CarRental.Models.Entites
     public class UserAccount
     {
         [Key]
-        public int Id { get; set; }
+        public int UserId { get; set; }
 
 
         [Required(ErrorMessage = "First name is required.")]

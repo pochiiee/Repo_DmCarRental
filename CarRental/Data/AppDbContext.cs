@@ -32,7 +32,7 @@ namespace CarRental.Views.CarList.Data
             modelBuilder.Entity<UserAccount>().HasData(
               new UserAccount
               {
-                  Id = 1,
+                  UserId = 1,
                   FirstName = "Dm",
                   LastName = "Cars",
                   Username = "dmcars",

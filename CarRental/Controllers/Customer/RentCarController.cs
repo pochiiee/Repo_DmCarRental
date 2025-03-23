@@ -3,13 +3,15 @@ using CarRental.Models.Entites;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
 using CarRental.Hubs;
+using CarRental.Models.ViewModels;
 using CarRental.Views.CarList.Data;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace CarRental.Controllers.Customer
 {
-    
+    [Route("api/customer/rentcar")]
     public class RentCarController : Controller
     {
         private readonly AppDbContext _context;
@@ -21,40 +23,132 @@ namespace CarRental.Controllers.Customer
             _hubContext = hubContext;
         }
 
-        [HttpPost("Request")]
-        public async Task<IActionResult> RequestRental(int carId, DateTime rentalDate, DateTime returnDate)
+        [HttpPost]
+        [Route("RequestRental")]
+        public async Task<IActionResult> RequestRental([FromBody] RentalRequestViewModel model)
         {
-            var userId = GetCurrentUserId();
-            if (userId == null) return Unauthorized();
 
+
+            Console.WriteLine("📥 Rental Request Received!");
+            Console.WriteLine($"User ID: {model.UserId}");
+            Console.WriteLine($"Car ID: {model.CarId}");
+            Console.WriteLine($"Rental Date: {model.RentalDate}");
+            Console.WriteLine($"Return Date: {model.ReturnDate}");
+
+            if (model.UserId <= 0)
+            {
+                return BadRequest(new { success = false, message = "UserId is required." });
+            }
+            //Console.WriteLine("✅ RequestRental API Hit!");
+            //if (model == null)
+            //{
+            //    return BadRequest(new { success = false, message = "Invalid request data." });
+            //}
+
+            //// Validate required fields
+            //var validationErrors = ValidateRentalRequest(model);
+            //if (validationErrors.Any())
+            //{
+            //    return BadRequest(new { success = false, message = string.Join(" ", validationErrors) });
+            //}
+
+            //var userId = GetCurrentUserId();
+            //if (userId == null)
+            //{
+            //    return Unauthorized(new { success = false, message = "User not authenticated." });
+            //}
+
+
+
+            // Create Rental Request object
             var request = new RentalRequest
             {
-                CarId = carId,
-                RenterId = userId.Value,
-                RentalDate = rentalDate,
-                ReturnDate = returnDate,
-                Status = "Pending"
+                CarId = model.CarId,
+                RentalDate = model.RentalDate,
+                ReturnDate = model.ReturnDate,
+                EstimatedPrice = model.EstimatedPrice,
+                Status = "Pending", // Default status
+                UserId = model.UserId,
+                ContactNo = model.ContactNo,
+                LicenseNo = model.LicenseNo,
+                Address = model.Address
             };
 
-            _context.RentalRequests.Add(request);
-            await _context.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceiveNotification", "New rental request received!");
-            return RedirectToAction("Index");
+            // Save request to the database
+            try
+            {
+                _context.RentalRequests.Add(request);
+                await _context.SaveChangesAsync();
+
+                // Send real-time notification via SignalR
+                await _hubContext.Clients.All.SendAsync("ReceiveNotification", "New rental request received!");
+
+                return Ok(new { success = true, message = "Rental request sent successfully!" });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("❌ Database Error: " + ex.Message);
+                return StatusCode(500, new { success = false, message = "Internal server error. Please try again later." });
+            }
         }
 
-   
-        [HttpGet]
-        /*public IActionResult Index()
+        private List<string> ValidateRentalRequest(RentalRequestViewModel model)
         {
-            var userId = GetCurrentUserId();
-            if (userId == null) return Unauthorized();
+            var errors = new List<string>();
 
-            var rentals = _context.Rentals.Where(r => r.RenterId == userId.Value).ToList();
-            return View(rentals);
-        }*/
+            if (model.CarId <= 0)
+                errors.Add("Invalid car ID.");
 
+            if (model.RentalDate == DateTime.MinValue || model.ReturnDate == DateTime.MinValue)
+                errors.Add("Invalid rental or return date.");
+
+            if (model.ReturnDate <= model.RentalDate)
+                errors.Add("Return date must be later than rental date.");
+
+            if (model.EstimatedPrice <= 0)
+                errors.Add("Estimated price must be a positive value.");
+
+            if (string.IsNullOrWhiteSpace(model.ContactNo))
+                errors.Add("Contact number is required.");
+
+            if (string.IsNullOrWhiteSpace(model.LicenseNo))
+                errors.Add("License number is required.");
+
+            if (string.IsNullOrWhiteSpace(model.Address))
+                errors.Add("Address is required.");
+
+            return errors;
+        }
+
+
+
+
+        [HttpGet]
         public IActionResult Index()
         {
+
+            var userId = GetCurrentUserId();
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account"); 
+            }
+
+ 
+            var user = _context.UserAccounts.FirstOrDefault(u => u.UserId == userId);
+
+            if (user != null)
+            {
+                ViewBag.FirstName = user.FirstName;
+                ViewBag.LastName = user.LastName;
+                ViewBag.Email = user.Email;
+
+            }
+            else
+            {
+                ViewBag.FirstName = "";
+                ViewBag.LastName = "";
+                ViewBag.Email = "";
+            }
 
             var cars = _context.Cars.ToList();
             return View(cars);
@@ -68,7 +162,7 @@ namespace CarRental.Controllers.Customer
             if (userId == null) return Unauthorized();
 
             var request = _context.RentalRequests.Find(id);
-            if (request == null || request.RenterId != userId.Value) return NotFound();
+            if (request == null || request.UserId != userId.Value) return NotFound();
 
             if (request.Status == "Pending")
             {
@@ -86,7 +180,21 @@ namespace CarRental.Controllers.Customer
 
         private int? GetCurrentUserId()
         {
-            return int.TryParse(User.Identity.Name, out var userId) ? userId : null;
+
+    
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+           
+            
+            int? userId = userIdClaim != null ? int.Parse(userIdClaim.Value) : (int?)null;
+
+            Console.WriteLine("User Claims: " + string.Join(", ", User.Claims.Select(c => c.Type + "=" + c.Value)));
+
+            Console.WriteLine($"🔍 Extracted User ID: {userId}");
+            return userId;
+
+        
         }
+
     }
+
 }

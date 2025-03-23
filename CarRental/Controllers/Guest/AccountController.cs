@@ -110,11 +110,12 @@ namespace CarRental.Controllers.Guest
                 if (user != null)
                 {
                     var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.Email),
-                        new Claim("Name", user.FirstName),
-                        new Claim(ClaimTypes.Role, user.Role),
-                    };
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()), // ✅ Store User ID here!
+                new Claim(ClaimTypes.Name, user.Email),
+                new Claim("Name", user.FirstName),
+                new Claim(ClaimTypes.Role, user.Role),
+            };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
@@ -122,8 +123,6 @@ namespace CarRental.Controllers.Guest
                     return user.Role == "Admin"
                         ? RedirectToAction("CarList", "CarList")
                         : RedirectToAction("Index", "CustomerDashboard");
-
-
                 }
                 else
                 {
@@ -132,6 +131,7 @@ namespace CarRental.Controllers.Guest
             }
             return View(model);
         }
+
 
         [Route("Logout")]
         public ActionResult Logout()

@@ -5,6 +5,7 @@ wwwroot\css\admin\Inquiries.css
 wwwroot\css\admin\Notification.css
 wwwroot\css\customer\dashboard.css
 wwwroot\css\customer\Message.css
+wwwroot\css\customer\my_rental_history.css
 wwwroot\css\customer\profile.css
 wwwroot\css\customer\rent.css
 wwwroot\css\forgotpass.css

@@ -20,7 +20,15 @@ builder.Services.AddSignalR();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Guest/Account/Login";
+        options.AccessDeniedPath = "/Guest/Account/AccessDenied";
+        options.ExpireTimeSpan = TimeSpan.FromDays(7); // Extend session
+        options.SlidingExpiration = true; // Extend session on activity
+    });
 
 var app = builder.Build();
 

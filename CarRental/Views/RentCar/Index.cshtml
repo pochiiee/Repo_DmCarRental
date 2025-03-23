@@ -167,18 +167,13 @@
             <h2>Rental Details</h2>
 
             <label for="pickupDateTime"><strong>Pick-up Date & Time:</strong></label>
-            <input type="datetime-local" id="pickupDateTime" required>
+            <input type="datetime-local" id="rentalDate" required>
             <small id="pickupError" style="color: red; display: none;">Please select a valid pick-up date & time.</small>
 
 
             <label for="returnDateTime"><strong>Return Date & Time:</strong></label>
-            <input type="datetime-local" id="returnDateTime" required>
+            <input type="datetime-local" id="returnDate" required>
             <small id="returnError" style="color: red; display: none;">Return date must be later than pick-up date.</small>
-
-
-            <label for="bookinglicenseNumber"><strong>Driver's License Number:</strong></label>
-            <input type="text" id="bookinglicenseNumber" placeholder="A12-34-567890" maxlength="13" pattern="[A-Z]{1}[0-9]{2}-[0-9]{2}-[0-9]{6}" required>
-            <small id="licenseError" style="color: red; display: none;">Invalid License Number</small>
 
             <button class="button" id="confirmRentalBtn" disabled>Confirm Rental</button>
         </div>
@@ -193,27 +188,32 @@
             <form id="renterForm">
                 <div class="form-group">
                     <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName" placeholder="Juan" maxlength="50" required>
+                    <input type="text" id="firstName" name="firstName" value="@ViewBag.FirstName" maxlength="50" required>
                 </div>
 
                 <div class="form-group">
                     <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Dela Cruz" maxlength="50" required>
+                    <input type="text" id="lastName" name="lastName" value="@ViewBag.LastName" maxlength="50" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="juandelacruz@email.com" maxlength="50" required>
+                    <input type="email" id="email" name="email" value="@ViewBag.Email" maxlength="50" required>
                 </div>
 
                 <div class="form-group">
-                        <label for="phone">Mobile Number:</label>
-                    <input type="tel" id="phone" name="phone" maxlength="10" required>
+                    <label for="contactNo">Mobile Number:</label>
+                    <input type="tel" id="contactNo" name="contactNo" maxlength="10" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="licenseNumber">License Number:</label>
-                    <input type="text" id="licenseNumber" name="licenseNumber" placeholder="A12-34-567890" maxlength="13" required>
+                    <label for="licenseNo">License Number:</label>
+                    <input type="text" id="licenseNo" name="licenseNo" placeholder="A12-34-567890" maxlength="13" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" placeholder="" maxlength="50" required>
                 </div>
 
                 <div class="form-group" style="width: 100%;">
@@ -223,7 +223,6 @@
 
         </div>
     </div>
-
     
     <!-- Confirmation Modal -->
 <div id="confirmationModal" class="modal">
@@ -234,16 +233,18 @@
         <p style="font-size: 18px; text-align: center;">
             Your request has been sent. You will receive an email about the status of your booking within 24 hours.
         </p>
-            <button class="button" onclick="closeConfirmationModal()">OK</button>
+            <button id="okButton" class="button">OK</button>
     </div>
 </div>
 
 </main> 
+
+
 <script src="~/js/rent.js"></script>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        var input = document.querySelector("#phone");
+        var input = document.querySelector("#contactNo");
         if (input) {
             window.intlTelInput(input, {
                 initialCountry: "ph",
@@ -253,5 +254,6 @@
             });
         }
     });
+
 </script>
 

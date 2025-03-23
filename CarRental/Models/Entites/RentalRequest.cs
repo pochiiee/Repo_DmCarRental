@@ -10,8 +10,8 @@ namespace CarRental.Models.Entites
         [Key]
         public int RequestId { get; set; }
 
-        [ForeignKey("Renters")]
-        public int RenterId { get; set; }
+        [ForeignKey("UserAccount")]
+        public int UserId { get; set; }
 
         [ForeignKey("Car")]
         public int CarId { get; set; }
@@ -22,9 +22,13 @@ namespace CarRental.Models.Entites
         [Column(TypeName = "decimal(18,2)")]
         public decimal EstimatedPrice { get; set; }
 
-        public string Status { get; set; } // "Pending", "Approved", "Rejected"
+        public string ContactNo { get; set; }
+        public string LicenseNo { get; set; }
+        public string Address { get; set; }
 
-        public Renters Renters { get; set; }
+        public string Status { get; set; } = "Pending";
+
+        public UserAccount UserAccount { get; set; }
         public Car Car { get; set; }
     }
 }

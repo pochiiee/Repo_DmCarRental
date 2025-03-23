@@ -2,6 +2,7 @@
 using System.Linq;
 using CarRental.Models.Entites;
 using CarRental.Views.CarList.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.Controllers.Admin
 {
@@ -23,6 +24,52 @@ namespace CarRental.Controllers.Admin
             return View(requests);
         }
 
+
+        /*[HttpPost]
+        [Route("ApproveRentalRequest")]
+        public async Task<IActionResult> ApproveRentalRequest(int requestId)
+        {
+            var rentalRequest = await _context.RentalRequests
+                .Include(r => r.Renters)
+                .FirstOrDefaultAsync(r => r.RequestId == requestId);
+
+            if (rentalRequest == null)
+            {
+                return NotFound(new { success = false, message = "Rental request not found." });
+            }
+
+            // Check if it's already approved
+            if (rentalRequest.Status == "Approved")
+            {
+                return BadRequest(new { success = false, message = "This rental request has already been approved." });
+            }
+
+            // Add user details to Renters table
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == rentalRequest.Id);
+
+            if (user == null)
+            {
+                return NotFound(new { success = false, message = "User not found." });
+            }
+
+            var newRenter = new Renters
+            {
+                UserAccountId = user.Id,
+                ContactNo = rentalRequest.ContactNo,
+                LicenseNo = rentalRequest.LicenseNo,
+                Address = rentalRequest.Address
+            };
+
+            _context.Renters.Add(newRenter);
+
+            // Update rental request status
+            rentalRequest.Status = "Approved";
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { success = true, message = "Rental request approved and user added to Renters." });
+        }*/
+
         [HttpPost("Approve/{id}")]
         public IActionResult ApproveRental(int id)
         {
@@ -30,16 +77,16 @@ namespace CarRental.Controllers.Admin
             if (request == null) return NotFound();
 
 
-            var rental = new Rentals
-            {
-                CarId = request.CarId,
-                RenterId = request.RenterId,
-                RentalDate = request.RentalDate,
-                ReturnDate = request.ReturnDate,
-                Status = "Ongoing"
-            };
+            //var rental = new Rentals
+            //{
+            //    CarId = request.CarId,
+            //    RenterId = request.RenterId,
+            //    RentalDate = request.RentalDate,
+            //    ReturnDate = request.ReturnDate,
+            //    Status = "Ongoing"
+            //};
 
-            _context.Rentals.Add(rental);
+            //_context.Rentals.Add(rental);
             _context.RentalRequests.Remove(request);
             _context.SaveChanges();
 

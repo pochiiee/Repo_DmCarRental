@@ -304,5 +304,21 @@ namespace CarRental.Controllers.Guest
             ViewBag.ErrorMessage = "Error resetting password.";
             return View();
         }
+
+        [HttpGet]
+        [Route("Userinfo")]
+        public IActionResult GetUserInfo()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                var name = User.FindFirst(ClaimTypes.Name)?.Value;
+                var role = User.FindFirst(ClaimTypes.Role)?.Value;
+
+                return Ok(new { userId, name, role });
+            }
+            return Unauthorized();
+        }
+
     }
 }

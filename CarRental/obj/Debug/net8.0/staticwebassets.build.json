@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QRfvfXLt8zPbr2EU/IEFOOttzUOaiDwEsevepizhGeo=",
+  "Hash": "GeR7NeR+nG8w7yvRgwYTVV2MLBkx08pN0qf3LnONiCQ=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8oxvs8hwq9",
-      "Integrity": "OIhPaaKe0Ppa2epyc9SroAOslCc72p6ggg07NEc+2Bs=",
+      "Fingerprint": "nres2evss9",
+      "Integrity": "PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\rent.js"
@@ -3436,7 +3436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Mar 2025 16:22:40 GMT"
+          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3473,7 +3473,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Mar 2025 16:22:40 GMT"
+          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6202,51 +6202,6 @@
       ]
     },
     {
-      "Route": "js/rent.8oxvs8hwq9.js",
-      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8725"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OIhPaaKe0Ppa2epyc9SroAOslCc72p6ggg07NEc+2Bs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 16:59:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8oxvs8hwq9"
-        },
-        {
-          "Name": "label",
-          "Value": "js/rent.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OIhPaaKe0Ppa2epyc9SroAOslCc72p6ggg07NEc+2Bs="
-        }
-      ]
-    },
-    {
       "Route": "js/rent.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
       "Selectors": [],
@@ -6257,7 +6212,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8725"
+          "Value": "11515"
         },
         {
           "Name": "Content-Type",
@@ -6265,11 +6220,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OIhPaaKe0Ppa2epyc9SroAOslCc72p6ggg07NEc+2Bs=\""
+          "Value": "\"PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 16:59:44 GMT"
+          "Value": "Tue, 25 Mar 2025 13:45:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6279,7 +6234,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OIhPaaKe0Ppa2epyc9SroAOslCc72p6ggg07NEc+2Bs="
+          "Value": "sha256-PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8="
+        }
+      ]
+    },
+    {
+      "Route": "js/rent.nres2evss9.js",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 13:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nres2evss9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/rent.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8="
         }
       ]
     },
@@ -6306,7 +6306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Mar 2025 15:57:24 GMT"
+          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6351,7 +6351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Mar 2025 15:57:24 GMT"
+          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
         },
         {
           "Name": "Cache-Control",

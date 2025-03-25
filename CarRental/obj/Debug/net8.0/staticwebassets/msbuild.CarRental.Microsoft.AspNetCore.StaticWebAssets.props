@@ -876,8 +876,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8oxvs8hwq9</Fingerprint>
-      <Integrity>OIhPaaKe0Ppa2epyc9SroAOslCc72p6ggg07NEc+2Bs=</Integrity>
+      <Fingerprint>nres2evss9</Fingerprint>
+      <Integrity>PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\rent.js'))</OriginalItemSpec>

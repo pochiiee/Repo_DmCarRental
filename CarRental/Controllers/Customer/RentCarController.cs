@@ -28,17 +28,13 @@ namespace CarRental.Controllers.Customer
         public async Task<IActionResult> RequestRental([FromBody] RentalRequestViewModel model)
         {
 
+            //Console.WriteLine("📥 Rental Request Received!");
+            ////Console.WriteLine($"User ID: {userId}");
+            //Console.WriteLine($"Car ID: {model.CarId}");
+            //Console.WriteLine($"Rental Date: {model.RentalDate}");
+            //Console.WriteLine($"Return Date: {model.ReturnDate}");
 
-            Console.WriteLine("📥 Rental Request Received!");
-            Console.WriteLine($"User ID: {model.UserId}");
-            Console.WriteLine($"Car ID: {model.CarId}");
-            Console.WriteLine($"Rental Date: {model.RentalDate}");
-            Console.WriteLine($"Return Date: {model.ReturnDate}");
-
-            if (model.UserId <= 0)
-            {
-                return BadRequest(new { success = false, message = "UserId is required." });
-            }
+           
             //Console.WriteLine("✅ RequestRental API Hit!");
             //if (model == null)
             //{
@@ -52,11 +48,11 @@ namespace CarRental.Controllers.Customer
             //    return BadRequest(new { success = false, message = string.Join(" ", validationErrors) });
             //}
 
-            //var userId = GetCurrentUserId();
-            //if (userId == null)
-            //{
-            //    return Unauthorized(new { success = false, message = "User not authenticated." });
-            //}
+            var userId = GetCurrentUserId();
+            if (userId == null)
+            {
+               return Unauthorized(new { success = false, message = "User not authenticated." });
+            }
 
 
 
@@ -68,7 +64,7 @@ namespace CarRental.Controllers.Customer
                 ReturnDate = model.ReturnDate,
                 EstimatedPrice = model.EstimatedPrice,
                 Status = "Pending", // Default status
-                UserId = model.UserId,
+                UserId = userId.Value,
                 ContactNo = model.ContactNo,
                 LicenseNo = model.LicenseNo,
                 Address = model.Address
@@ -130,10 +126,11 @@ namespace CarRental.Controllers.Customer
             var userId = GetCurrentUserId();
             if (userId == null)
             {
-                return RedirectToAction("Login", "Account"); 
+                return RedirectToAction("Login", "Account");
             }
 
- 
+            ViewBag.UserId = userId; 
+
             var user = _context.UserAccounts.FirstOrDefault(u => u.UserId == userId);
 
             if (user != null)
@@ -141,7 +138,6 @@ namespace CarRental.Controllers.Customer
                 ViewBag.FirstName = user.FirstName;
                 ViewBag.LastName = user.LastName;
                 ViewBag.Email = user.Email;
-
             }
             else
             {
@@ -152,6 +148,7 @@ namespace CarRental.Controllers.Customer
 
             var cars = _context.Cars.ToList();
             return View(cars);
+
         }
 
 

@@ -4,10 +4,18 @@
 
 console.log("rent.js is loaded and running!");
 
-function openModal() {
+function openModal(CarId, price) {
     let modal = document.getElementById("rentModal");
+
     if (modal) {
         modal.style.display = "flex";
+
+        let hiddenCarId = document.getElementById("CarId");
+        if (hiddenCarId) {
+            hiddenCarId.value = CarId;
+        }
+        localStorage.setItem("selectedCarId", CarId);
+        localStorage.setItem(`carPrice_${CarId}`, price);
     }
 }
 
@@ -19,24 +27,52 @@ function closeModal() {
     }
 }
 
+function toggleAcceptButton() {
+    let termsCheckbox = document.getElementById("termsCheckbox");
+    let acceptButton = document.getElementById("acceptButton");
+
+    if (termsCheckbox && acceptButton) {
+        acceptButton.disabled = !termsCheckbox.checked;
+        acceptButton.classList.toggle("enabled", termsCheckbox.checked);
+    }
+}
+
+function calculateEstimatedPrice() {
+    let rentalDate = new Date(document.getElementById("rentalDate").value);
+    let returnDate = new Date(document.getElementById("returnDate").value);
+    let estimatedPriceInput = document.getElementById("estimatedPrice");
+
+    let carId = localStorage.getItem("selectedCarId") || document.getElementById("CarId")?.value || null;
+
+
+    if (!carId) {
+        console.error("No Car ID Found!");
+        estimatedPriceInput.value = "Error: No car selected!";
+        return;
+    }
+
+    let carRentalPrice = localStorage.getItem(`carPrice_${carId}`);
+
+    if (!carRentalPrice) {
+        estimatedPriceInput.value = "Error: Car price not found!";
+        return;
+    }
+
+    let timeDiff = returnDate - rentalDate;
+    let days = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+    let totalPrice = days * parseFloat(carRentalPrice);
+    estimatedPriceInput.value = `₱${totalPrice.toLocaleString()}`;
+    console.log("✅ Estimated Price Set:", estimatedPriceInput.value);
+}
+
 // Close button functionality
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("✅ DOM is fully loaded - Initializing modals...");
+ 
     let closeBtn = document.querySelector(".modal .close");
     if (closeBtn) {
         closeBtn.addEventListener("click", closeModal);
     }
-
-    // Checkbox for accepting T&C
-    let termsCheckbox = document.getElementById("termsCheckbox");
-    let acceptButton = document.getElementById("acceptButton");
-    let rentalDetailsModal = document.getElementById("rentalDetailsModal");
-
-    // Toggle Accept Button based on checkbox state
-    termsCheckbox.addEventListener("change", function () {
-        acceptButton.disabled = !this.checked;
-        acceptButton.classList.toggle("enabled", this.checked);
-    });
 
     // Open Rental Details Modal after Accept button is clicked
     acceptButton.addEventListener("click", function () {
@@ -52,6 +88,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let pickupError = document.getElementById("pickupError");
         let returnError = document.getElementById("returnError");
+
+        document.getElementById("rentalDate").addEventListener("input", calculateEstimatedPrice);
+        document.getElementById("returnDate").addEventListener("input", calculateEstimatedPrice);
+
 
         let isValid = true;
 
@@ -110,9 +150,9 @@ function openConfirmationModal() {
     }
 
     if (okButton) {
-        okButton.disabled = false; // Enable button
-        okButton.classList.add("enabled"); // Apply correct styles
-        okButton.style.pointerEvents = "auto"; // Make sure it's clickable
+        okButton.disabled = false; 
+        okButton.classList.add("enabled"); 
+        okButton.style.pointerEvents = "auto"; 
     }
 }
 
@@ -134,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Renter Form Validation
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("✅ DOM is fully loaded - Initializing modals...");
+
     let renterForm = document.getElementById("renterForm");
     let submitButton = renterForm.querySelector("button[type='submit']");
     let licenseInput = document.getElementById("licenseNo");
@@ -151,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
             licenseInput.value.trim() !== "" &&
             addressInput.value.trim() !== "" &&
             phoneInput.value.trim() !== "" &&
-            validateLicense(); // Check if license number is valid
+            validateLicense(); 
 
         submitButton.disabled = !allFieldsFilled;
         submitButton.classList.toggle("enabled", allFieldsFilled);
@@ -169,29 +209,69 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault(); // Prevent actual form submission
 
         if (!submitButton.disabled) {
-            closeRenterModal(); // Close renter details modal
-            openConfirmationModal(); // Open confirmation modal
+            closeRenterModal(); 
+            openConfirmationModal(); 
         } else {
             alert("Please fill out all fields correctly.");
         }
     });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("✅ DOM is fully loaded - Initializing modals...");
+document.addEventListener("DOMContentLoaded", async function () {
+    try {
+        // Fetch user info and wait for response
+        const response = await fetch("https://localhost:7181/guest/account/userinfo", {
+            method: "GET",
+            credentials: "include"
+        });
+
+        const data = await response.json();
+        console.log("API Response:", data);
+
+        if (data.userId) {
+            localStorage.setItem("userId", data.userId); 
+        } else {
+            console.error(" No userId found in response");
+        }
+    } catch (error) {
+        console.error(" Error fetching user info:", error);
+    }
+
+
+    let userId = localStorage.getItem("userId");
+
+    if (!userId) {
+        alert("Error: User ID is missing. Please log in.");
+        return;
+    } else {
+        console.log(" User ID detected:", userId);
+    }
+
     let form = document.getElementById("renterForm");
     if (form) {
         form.addEventListener("submit", async function (event) {
             event.preventDefault();
 
-            let userId = localStorage.getItem("userId");
-            let carId = document.getElementById("carId").value;
+            let carId = localStorage.getItem("selectedCarId");
             let rentalDate = document.getElementById("rentalDate").value;
             let returnDate = document.getElementById("returnDate").value;
-            let estimatedPrice = document.getElementById("estimatedPrice").value;
             let contactNo = document.getElementById("contactNo").value;
             let licenseNo = document.getElementById("licenseNo").value;
             let address = document.getElementById("address").value;
+
+            if (!carId) {
+                alert("Error: No car selected!");
+                return;
+            }
+
+            let estimatedPriceInput = document.getElementById("estimatedPrice");
+            let estimatedPrice = estimatedPriceInput.value.trim().replace(/[₱,]/g, "");
+
+            if (!estimatedPrice || isNaN(estimatedPrice)) {
+                alert("Error: Estimated price is invalid!");
+                return;
+            }
+
 
             let requestData = {
                 userId: parseInt(userId),
@@ -204,14 +284,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 address: address
             };
 
-            console.log("📨 Sending rental request:", JSON.stringify(requestData, null, 2));
+            console.log("Sending rental request:", JSON.stringify(requestData, null, 2));
 
             try {
                 let response = await fetch("https://localhost:7181/api/customer/rentcar/requestrental", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "Accept": "application/json" 
+                        "Accept": "application/json"
                     },
                     body: JSON.stringify(requestData)
                 });
@@ -222,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log("Response from server:", result);
 
                 if (result.success) {
-                    alert(" Rental request successfully sent!");
+                    alert("Rental request successfully sent!");
                     closeRenterModal();
                     openConfirmationModal();
                 } else {

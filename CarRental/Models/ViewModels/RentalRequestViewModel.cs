@@ -4,7 +4,7 @@
     {
         public int CarId { get; set; }
 
-        public int UserId { get; set; }
+        //public int UserId { get; set; }
         public DateTime RentalDate { get; set; }
         public DateTime ReturnDate { get; set; }
         public decimal EstimatedPrice { get; set; }

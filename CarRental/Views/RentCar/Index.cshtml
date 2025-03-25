@@ -78,8 +78,8 @@
 
                     <p><strong>Capacity:</strong> @car.Seaters Seater</p> <br />
                     <p><strong>Rental Rate:</strong> ₱@car.RentalPrice</p> <br />
+                    <button class="rent-btn" onclick="openModal(@car.CarId, @car.RentalPrice)">Rent this car</button>
 
-                    <button class="rent-btn" onclick="openModal()">Rent this car</button>
                 </div>
             </div>
             index++;
@@ -174,6 +174,10 @@
             <label for="returnDateTime"><strong>Return Date & Time:</strong></label>
             <input type="datetime-local" id="returnDate" required>
             <small id="returnError" style="color: red; display: none;">Return date must be later than pick-up date.</small>
+
+            <label for="estimatedPrice"><strong>Estimated Price:</strong></label>
+            <input type="text" id="estimatedPrice" readonly>
+
 
             <button class="button" id="confirmRentalBtn" disabled>Confirm Rental</button>
         </div>

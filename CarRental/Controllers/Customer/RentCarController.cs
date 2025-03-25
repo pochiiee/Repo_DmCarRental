@@ -28,33 +28,11 @@ namespace CarRental.Controllers.Customer
         public async Task<IActionResult> RequestRental([FromBody] RentalRequestViewModel model)
         {
 
-            //Console.WriteLine("📥 Rental Request Received!");
-            ////Console.WriteLine($"User ID: {userId}");
-            //Console.WriteLine($"Car ID: {model.CarId}");
-            //Console.WriteLine($"Rental Date: {model.RentalDate}");
-            //Console.WriteLine($"Return Date: {model.ReturnDate}");
-
-           
-            //Console.WriteLine("✅ RequestRental API Hit!");
-            //if (model == null)
-            //{
-            //    return BadRequest(new { success = false, message = "Invalid request data." });
-            //}
-
-            //// Validate required fields
-            //var validationErrors = ValidateRentalRequest(model);
-            //if (validationErrors.Any())
-            //{
-            //    return BadRequest(new { success = false, message = string.Join(" ", validationErrors) });
-            //}
-
             var userId = GetCurrentUserId();
             if (userId == null)
             {
                return Unauthorized(new { success = false, message = "User not authenticated." });
             }
-
-
 
             // Create Rental Request object
             var request = new RentalRequest

@@ -132,8 +132,9 @@ namespace CarRental.Controllers.Guest
             return View(model);
         }
 
-
+        [HttpPost] 
         [Route("Logout")]
+        [IgnoreAntiforgeryToken]
         public ActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);

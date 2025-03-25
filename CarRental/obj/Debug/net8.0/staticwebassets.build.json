@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GeR7NeR+nG8w7yvRgwYTVV2MLBkx08pN0qf3LnONiCQ=",
+  "Hash": "+HvOYoYgZXQga5KQEqpUvfwsb1EkM6OrVDywBaT8Hvo=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h36s4sgls5",
-      "Integrity": "Iz4/jVjyFmqPl2EHdocNmDIMmjPxPGUwaMUGt1+vhXI=",
+      "Fingerprint": "qrr2037nvl",
+      "Integrity": "6uoJZ7Bbbe2u9W9Gl9ip979LTJH2mYzt1Qg7/riyCsg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -372,6 +372,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\aboutus.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/aboutus#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fof8d7q1ld",
+      "Integrity": "oXVTVllQtAL0F/hXOz7u1gchG/2m3OHmcuZw5CdkqAw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aboutus.png"
     },
     {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\car.png",
@@ -836,6 +857,27 @@
       "OriginalItemSpec": "wwwroot\\images\\dmlogo.png"
     },
     {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\landpage.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/landpage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "59b8byaopg",
+      "Integrity": "B8KQxACjxHbHt3WQ/j2BptqsYnIYAcCMQjpmS6iZHGg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\landpage.png"
+    },
+    {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\line.png",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -983,6 +1025,27 @@
       "OriginalItemSpec": "wwwroot\\images\\UserIcons\\rentHistoryIcon.png"
     },
     {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\viewcars.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/viewcars#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vs8eze5onj",
+      "Integrity": "8ZBL/NPxw/joBfutBh4TFY8GqZwpJWN0Vmnt5WeSDGk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\viewcars.png"
+    },
+    {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\carlist.js",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -1025,6 +1088,27 @@
       "OriginalItemSpec": "wwwroot\\js\\inquiries.js"
     },
     {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\logout.js",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "js/logout#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wpw4pd4x0d",
+      "Integrity": "pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\logout.js"
+    },
+    {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -1039,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nres2evss9",
-      "Integrity": "PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=",
+      "Fingerprint": "5srlxj96qm",
+      "Integrity": "5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\rent.js"
@@ -1060,8 +1144,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9ce8844iby",
-      "Integrity": "mVKtAmDv4lI8lK/w3oeA8NxaKeLGhLU5r3g7Ep1hI5E=",
+      "Fingerprint": "6mx1ezq5jg",
+      "Integrity": "koVBIbHbPp2GZbNX/KXyu3NCVSL8A+z4H8RtSxUG8vI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -3424,7 +3508,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19723"
+          "Value": "17975"
         },
         {
           "Name": "Content-Type",
@@ -3432,11 +3516,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Iz4/jVjyFmqPl2EHdocNmDIMmjPxPGUwaMUGt1+vhXI=\""
+          "Value": "\"6uoJZ7Bbbe2u9W9Gl9ip979LTJH2mYzt1Qg7/riyCsg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3446,12 +3530,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Iz4/jVjyFmqPl2EHdocNmDIMmjPxPGUwaMUGt1+vhXI="
+          "Value": "sha256-6uoJZ7Bbbe2u9W9Gl9ip979LTJH2mYzt1Qg7/riyCsg="
         }
       ]
     },
     {
-      "Route": "css/style.h36s4sgls5.css",
+      "Route": "css/style.qrr2037nvl.css",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3461,7 +3545,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19723"
+          "Value": "17975"
         },
         {
           "Name": "Content-Type",
@@ -3469,11 +3553,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Iz4/jVjyFmqPl2EHdocNmDIMmjPxPGUwaMUGt1+vhXI=\""
+          "Value": "\"6uoJZ7Bbbe2u9W9Gl9ip979LTJH2mYzt1Qg7/riyCsg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3483,7 +3567,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h36s4sgls5"
+          "Value": "qrr2037nvl"
         },
         {
           "Name": "label",
@@ -3491,7 +3575,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Iz4/jVjyFmqPl2EHdocNmDIMmjPxPGUwaMUGt1+vhXI="
+          "Value": "sha256-6uoJZ7Bbbe2u9W9Gl9ip979LTJH2mYzt1Qg7/riyCsg="
         }
       ]
     },
@@ -3656,6 +3740,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/aboutus.fof8d7q1ld.png",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\aboutus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4879895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oXVTVllQtAL0F/hXOz7u1gchG/2m3OHmcuZw5CdkqAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fof8d7q1ld"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aboutus.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oXVTVllQtAL0F/hXOz7u1gchG/2m3OHmcuZw5CdkqAw="
+        }
+      ]
+    },
+    {
+      "Route": "images/aboutus.png",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\aboutus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4879895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oXVTVllQtAL0F/hXOz7u1gchG/2m3OHmcuZw5CdkqAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oXVTVllQtAL0F/hXOz7u1gchG/2m3OHmcuZw5CdkqAw="
         }
       ]
     },
@@ -5464,6 +5630,88 @@
       ]
     },
     {
+      "Route": "images/landpage.59b8byaopg.png",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\landpage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4949235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B8KQxACjxHbHt3WQ/j2BptqsYnIYAcCMQjpmS6iZHGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "59b8byaopg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/landpage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B8KQxACjxHbHt3WQ/j2BptqsYnIYAcCMQjpmS6iZHGg="
+        }
+      ]
+    },
+    {
+      "Route": "images/landpage.png",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\landpage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4949235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B8KQxACjxHbHt3WQ/j2BptqsYnIYAcCMQjpmS6iZHGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B8KQxACjxHbHt3WQ/j2BptqsYnIYAcCMQjpmS6iZHGg="
+        }
+      ]
+    },
+    {
       "Route": "images/line.g8ak83fsff.png",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\line.png",
       "Selectors": [],
@@ -6038,6 +6286,88 @@
       ]
     },
     {
+      "Route": "images/viewcars.png",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\viewcars.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1982368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZBL/NPxw/joBfutBh4TFY8GqZwpJWN0Vmnt5WeSDGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZBL/NPxw/joBfutBh4TFY8GqZwpJWN0Vmnt5WeSDGk="
+        }
+      ]
+    },
+    {
+      "Route": "images/viewcars.vs8eze5onj.png",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\viewcars.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1982368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZBL/NPxw/joBfutBh4TFY8GqZwpJWN0Vmnt5WeSDGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vs8eze5onj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/viewcars.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZBL/NPxw/joBfutBh4TFY8GqZwpJWN0Vmnt5WeSDGk="
+        }
+      ]
+    },
+    {
       "Route": "js/carlist.cfo26m1mm0.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\carlist.js",
       "Selectors": [],
@@ -6202,6 +6532,133 @@
       ]
     },
     {
+      "Route": "js/logout.js",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\logout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:28:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/logout.wpw4pd4x0d.js",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\logout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:28:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wpw4pd4x0d"
+        },
+        {
+          "Name": "label",
+          "Value": "js/logout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/rent.5srlxj96qm.js",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5srlxj96qm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/rent.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4="
+        }
+      ]
+    },
+    {
       "Route": "js/rent.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
       "Selectors": [],
@@ -6212,7 +6669,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11515"
+          "Value": "10881"
         },
         {
           "Name": "Content-Type",
@@ -6220,11 +6677,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=\""
+          "Value": "\"5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:45:08 GMT"
+          "Value": "Tue, 25 Mar 2025 14:32:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6234,57 +6691,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8="
+          "Value": "sha256-5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4="
         }
       ]
     },
     {
-      "Route": "js/rent.nres2evss9.js",
-      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11515"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:45:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nres2evss9"
-        },
-        {
-          "Name": "label",
-          "Value": "js/rent.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PZwx/86oU7Dbc0tlAKKGkDLmFsDMxkG3PRVNU271nO8="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.9ce8844iby.js",
+      "Route": "js/script.6mx1ezq5jg.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6294,7 +6706,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3777"
+          "Value": "5750"
         },
         {
           "Name": "Content-Type",
@@ -6302,11 +6714,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mVKtAmDv4lI8lK/w3oeA8NxaKeLGhLU5r3g7Ep1hI5E=\""
+          "Value": "\"koVBIbHbPp2GZbNX/KXyu3NCVSL8A+z4H8RtSxUG8vI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6316,7 +6728,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9ce8844iby"
+          "Value": "6mx1ezq5jg"
         },
         {
           "Name": "label",
@@ -6324,7 +6736,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mVKtAmDv4lI8lK/w3oeA8NxaKeLGhLU5r3g7Ep1hI5E="
+          "Value": "sha256-koVBIbHbPp2GZbNX/KXyu3NCVSL8A+z4H8RtSxUG8vI="
         }
       ]
     },
@@ -6339,7 +6751,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3777"
+          "Value": "5750"
         },
         {
           "Name": "Content-Type",
@@ -6347,11 +6759,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mVKtAmDv4lI8lK/w3oeA8NxaKeLGhLU5r3g7Ep1hI5E=\""
+          "Value": "\"koVBIbHbPp2GZbNX/KXyu3NCVSL8A+z4H8RtSxUG8vI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:51:19 GMT"
+          "Value": "Tue, 25 Mar 2025 14:11:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6361,7 +6773,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mVKtAmDv4lI8lK/w3oeA8NxaKeLGhLU5r3g7Ep1hI5E="
+          "Value": "sha256-koVBIbHbPp2GZbNX/KXyu3NCVSL8A+z4H8RtSxUG8vI="
         }
       ]
     },

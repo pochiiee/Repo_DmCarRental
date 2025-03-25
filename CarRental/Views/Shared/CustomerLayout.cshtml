@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/CSS/customer/dashboard.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="sidebar">
@@ -51,16 +52,19 @@
             </li>
 
             <li>
-                <a href="#">
+                <a href="javascript:void(0);" onclick="logoutUser()">
                     <div class="icon-wrapper"><i class="fas fa-sign-out-alt"></i></div>
                     <span>Logout</span>
                 </a>
             </li>
+
+
         </ul>
     </div>
 
     <main class="main-content">
         @RenderBody()
     </main>
+    <script src="/js/logout.js"></script>
 </body>
 </html>

@@ -49,6 +49,7 @@ wwwroot\images\UserIcons\rentHistoryIcon.png
 wwwroot\images\viewcars.png
 wwwroot\js\carlist.js
 wwwroot\js\inquiries.js
+wwwroot\js\logout.js
 wwwroot\js\rent.js
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

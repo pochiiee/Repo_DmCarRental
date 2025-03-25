@@ -63,7 +63,7 @@ function calculateEstimatedPrice() {
 
     let totalPrice = days * parseFloat(carRentalPrice);
     estimatedPriceInput.value = `₱${totalPrice.toLocaleString()}`;
-    console.log("✅ Estimated Price Set:", estimatedPriceInput.value);
+    console.log("Estimated Price Set:", estimatedPriceInput.value);
 }
 
 // Close button functionality
@@ -101,9 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
             isValid = false;
         } else {
             pickupError.style.display = "none";
-        }
 
-        // Validate Return Date (Must be later than Pick-up Date)
         if (!returnDate || returnDate <= pickup) {
             returnError.style.display = "block";
             isValid = false;
@@ -132,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // RENTER DETAILS MODAL
 
-// Function to close the Renter Details modal
+
 function closeRenterModal() {
     let modal = document.getElementById("renterDetailsModal");
     if (modal) {
@@ -146,7 +144,7 @@ function openConfirmationModal() {
     let okButton = document.getElementById("okButton");
 
     if (modal) {
-        modal.style.display = "flex"; // Show modal properly
+        modal.style.display = "flex"; 
     }
 
     if (okButton) {
@@ -202,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
     addressInput.addEventListener("input", validateForm);
     phoneInput.addEventListener("input", validateForm);
 
-    // Initial check
+
     validateForm();
 
     renterForm.addEventListener("submit", function (event) {
@@ -302,7 +300,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 console.log("Response from server:", result);
 
                 if (result.success) {
-                    alert("Rental request successfully sent!");
+                    //alert("Rental request successfully sent!");
                     closeRenterModal();
                     openConfirmationModal();
                 } else {

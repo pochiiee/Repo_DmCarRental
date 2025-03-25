@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// RENTER DETAILS MODAL
 
 
 function closeRenterModal() {

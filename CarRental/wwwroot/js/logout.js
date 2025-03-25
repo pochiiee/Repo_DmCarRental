@@ -1,18 +1,18 @@
 ﻿function logoutUser() {
     fetch('/Guest/Account/Logout', {
-        method: 'POST', // Use POST para mas secure
-        credentials: 'include' // Para maisama ang session cookies
+        method: 'POST', 
+        credentials: 'include'
     })
         .then(response => {
             if (response.redirected) {
-                window.location.href = response.url; // Redirect sa login page
+                window.location.href = response.url; 
             } else {
                 return response.text();
             }
         })
         .then(data => {
             console.log("Logout Response:", data);
-            window.location.href = "/Guest/Account/Login"; // Redirect manually kung di auto-redirect
+            window.location.href = "/Guest/Account/Login"; 
         })
         .catch(error => console.error('Logout Error:', error));
 }

@@ -615,26 +615,26 @@
     <StaticWebAssetEndpoint Include="_content/CarRental/js/logout.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logout.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"694"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:28:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy\u002B7dyxcY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"564"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy\u002B7dyxcY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:48:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CarRental/js/logout.wpw4pd4x0d.js">
+    <StaticWebAssetEndpoint Include="_content/CarRental/js/logout.zj7alzl119.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logout.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wpw4pd4x0d"},{"Name":"integrity","Value":"sha256-pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk="},{"Name":"label","Value":"_content/CarRental/js/logout.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"694"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:28:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zj7alzl119"},{"Name":"integrity","Value":"sha256-QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy\u002B7dyxcY="},{"Name":"label","Value":"_content/CarRental/js/logout.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"564"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy\u002B7dyxcY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:48:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CarRental/js/rent.5srlxj96qm.js">
+    <StaticWebAssetEndpoint Include="_content/CarRental/js/rent.3eie3ztrw9.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\rent.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5srlxj96qm"},{"Name":"integrity","Value":"sha256-5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4="},{"Name":"label","Value":"_content/CarRental/js/rent.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10881"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:32:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3eie3ztrw9"},{"Name":"integrity","Value":"sha256-ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE="},{"Name":"label","Value":"_content/CarRental/js/rent.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10687"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:48:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRental/js/rent.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\rent.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10881"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:32:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10687"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 14:48:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CarRental/js/script.6mx1ezq5jg.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>

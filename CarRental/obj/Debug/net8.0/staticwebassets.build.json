@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+HvOYoYgZXQga5KQEqpUvfwsb1EkM6OrVDywBaT8Hvo=",
+  "Hash": "rpOPIHbKBSatmHsQwfYHeRpPwV3QoJcBBrZt41JAjBU=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wpw4pd4x0d",
-      "Integrity": "pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=",
+      "Fingerprint": "zj7alzl119",
+      "Integrity": "QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy+7dyxcY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\logout.js"
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5srlxj96qm",
-      "Integrity": "5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=",
+      "Fingerprint": "3eie3ztrw9",
+      "Integrity": "ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\rent.js"
@@ -6542,7 +6542,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "694"
+          "Value": "564"
         },
         {
           "Name": "Content-Type",
@@ -6550,11 +6550,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=\""
+          "Value": "\"QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy+7dyxcY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:28:25 GMT"
+          "Value": "Tue, 25 Mar 2025 14:48:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6564,12 +6564,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk="
+          "Value": "sha256-QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy+7dyxcY="
         }
       ]
     },
     {
-      "Route": "js/logout.wpw4pd4x0d.js",
+      "Route": "js/logout.zj7alzl119.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\logout.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6579,7 +6579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "694"
+          "Value": "564"
         },
         {
           "Name": "Content-Type",
@@ -6587,11 +6587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk=\""
+          "Value": "\"QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy+7dyxcY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:28:25 GMT"
+          "Value": "Tue, 25 Mar 2025 14:48:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6601,7 +6601,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wpw4pd4x0d"
+          "Value": "zj7alzl119"
         },
         {
           "Name": "label",
@@ -6609,12 +6609,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAuFkYo84v808XI3qzTeiQlYprG9H/VhZYQy65Q0cOk="
+          "Value": "sha256-QYqqk97MP0fghoN46DPZdNkZpQG1PNcmPzMy+7dyxcY="
         }
       ]
     },
     {
-      "Route": "js/rent.5srlxj96qm.js",
+      "Route": "js/rent.3eie3ztrw9.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6624,7 +6624,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10881"
+          "Value": "10687"
         },
         {
           "Name": "Content-Type",
@@ -6632,11 +6632,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=\""
+          "Value": "\"ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:32:45 GMT"
+          "Value": "Tue, 25 Mar 2025 14:48:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6646,7 +6646,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5srlxj96qm"
+          "Value": "3eie3ztrw9"
         },
         {
           "Name": "label",
@@ -6654,7 +6654,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4="
+          "Value": "sha256-ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE="
         }
       ]
     },
@@ -6669,7 +6669,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10881"
+          "Value": "10687"
         },
         {
           "Name": "Content-Type",
@@ -6677,11 +6677,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4=\""
+          "Value": "\"ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 14:32:45 GMT"
+          "Value": "Tue, 25 Mar 2025 14:48:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6691,7 +6691,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5XyW6Mtb29hrvjh685vVB2TP1/2QZpVrfdZFoWz5yL4="
+          "Value": "sha256-ZcwqGtXjxZO5kVElgRyva1Yy3QTuSjgxJ9Az8ru08eE="
         }
       ]
     },

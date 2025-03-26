@@ -1,11 +1,10 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -14,27 +13,6 @@ body {
     height: 100vh;
     background: url('../images/login_forgotpass.png') no-repeat center center/cover;
 }
-
-/* Header/Navbar */
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    background: #fff;
-    top: 0;
-    left: 0;
-    height: 80px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 
 header {
     position: fixed;
@@ -63,29 +41,6 @@ button {
 img {
     width: 100%;
 }
-
-.section-content {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 100%;
-}
-
-.section-title {
-    text-align: center;
-    padding: 60px 0 100px;
-    text-transform: uppercase;
-    font-size: 40px;
-}
-
-    .section-title::after {
-        content: "";
-        width: 80px;
-        height: 5px;
-        display: block;
-        margin: 10px auto 0;
-        border-radius: 20px;
-        background: #D2042D;
-    }
 
 /* Navbar Styling */
 header {
@@ -128,11 +83,10 @@ header .navbar {
 }
 
     .navbar .nav-logo img {
-        width: 150px; /* Adjust this value as needed */
+        width: 130px; /* Adjust this value as needed */
         height: auto; /* Maintain aspect ratio */
         margin-left: 10px; /* Adjust spacing */
-        margin-top: 15px;
-        margin-bottom: -5px;
+        margin-top: 5px;
     }
 
 .navbar .nav-menu {
@@ -169,8 +123,12 @@ header .navbar {
         color: #000;
     }
 
-.nav-menu .line img {
-    width: 90px;
+.line img {
+    width: 130px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .navbar :where(#menu-close-button, #menu-open-button) {

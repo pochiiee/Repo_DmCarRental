@@ -107,11 +107,10 @@ header .navbar {
 }
 
 .navbar .nav-logo img {
-        width: 150px; /* Adjust this value as needed */
+        width: 130px; /* Adjust this value as needed */
         height: auto; /* Maintain aspect ratio */
         margin-left: 10px; /* Adjust spacing */
-        margin-top: 15px;
-        margin-bottom: -5px;
+        margin-top: 5px;
     }
 
 .navbar .nav-menu {
@@ -143,8 +142,12 @@ header .navbar {
         background-color: #d3d3d3;
         color: #000;
     }
-.nav-menu .line img {
-    width: 90px;
+.line img {
+    width: 130px; 
+    height: auto;
+    margin-left: 0px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 .navbar :where(#menu-close-button, #menu-open-button) {
     display: none;
@@ -211,7 +214,7 @@ header .navbar {
     text-transform: uppercase;
     font-weight: bold;
     transition: 0.3s ease;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
     .button.rent {
@@ -680,21 +683,22 @@ body.show-mobile-menu .navbar .nav-menu {
 /* Car Info Box - Positioned at Upper Left */
 .car-info-box {
     position: absolute;
-    top: 22%; /* Distance from the top */
-    left: 10%; /* Distance from the left */
+    top: 22%;
+    left: 10%;
     background: white;
     padding: 20px 25px;
-    width: 320px;
-    min-height: 120px;
+    width: 340px;
+    min-height: 150px;
     font-family: 'Poppins', sans-serif;
     z-index: 10;
-    display: block; /* Always visible */
+    border-radius: 0 50px 50px 0; /* Curved shape on the right */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: block;
 }
-
 
 /* Car Title */
 .car-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     color: #333;
     margin-bottom: 5px;
@@ -720,8 +724,8 @@ body.show-mobile-menu .navbar .nav-menu {
     align-items: center;
     width: 100%;
     position: relative;
-    overflow: hidden;
-    min-height: 400px;
+    overflow: visible;
+    min-height: 480px;
 }
 
 /* Styling for the cars inside the slider */
@@ -746,10 +750,28 @@ body.show-mobile-menu .navbar .nav-menu {
 }
 
 /* Ensure car images are consistent in size */
-.swiper-slide img {
-    max-width: 500px;
+.car-image img {
+    max-width: 600px; /* Increased car size */
     height: auto;
-    object-fit: contain;
+    transform: translateY(-10px); /* Slight lift for center car */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Highlighted Center Car */
+.swiper-slide-active .car-image img {
+    transform: translateY(-20px) scale(1.15); /* Slightly bigger center car */
+}
+
+/* Rotate Previous Car Slightly to Left */
+.swiper-slide-prev .car-image img {
+    transform: translateY(-10px) rotateY(15deg) scale(0.9);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Rotate Next Car Slightly to Right */
+.swiper-slide-next .car-image img {
+    transform: translateY(-10px) rotateY(-15deg) scale(0.9);
+    transition: transform 0.5s ease-in-out;
 }
 
 /* Interested Button */
@@ -787,25 +809,33 @@ body.show-mobile-menu .navbar .nav-menu {
 /* Swiper Navigation Buttons */
 .swiper-button-next,
 .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    cursor: pointer;
-    color: black;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 10px 15px;
-    border-radius: 50%;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    width: auto;
+    height: auto;
 }
+
+    /* Optional: Add hover effect */
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: #85874c;
+    }
 
 /* Move arrows closer to the cars */
 .swiper-button-prev {
-    left: 10%;
+    left: 2%;
 }
 
 .swiper-button-next {
-    right: 10%;
+    right: 2%;
 }
+
+
+
+
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -894,54 +924,38 @@ footer {
     position: relative;
 }
 
-.footer-menu {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 15px;
+footer {
+    background-color: #242a2b !important;
+    color: #ffffff !important;
+    padding: 20px 50px;
+    position: relative;
 }
 
-    .footer-menu a {
-        color: #1e4db7 !important;
-        text-decoration: none !important;
-        font-size: 16px;
-    }
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    width: 100%;
+}
 
-        .footer-menu a:hover {
-            color: #1da1f2 !important;
-            text-decoration: underline;
-        }
 
 .footer-bottom-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    margin-top: 10px;
 }
 
 .footer-bottom {
-    font-size: 14px;
+    font-size: 18px;
     opacity: 0.8;
 }
 
-.social-icons {
-    position: absolute;
-    bottom: 0;
-    right: 50px;
-    display: flex;
-    gap: 20px;
-    padding: 15px;
+
+.footer-bottom-DM {
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: right;
 }
 
-.social-icon {
-    font-size: 20px !important;
-    color: white !important;
-    transition: color 0.3s ease-in-out;
-}
-
-    .social-icon:hover {
-        color: #1da1f2 !important;
-    }
 

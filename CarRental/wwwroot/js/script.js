@@ -1,4 +1,51 @@
-﻿
+﻿document.addEventListener("DOMContentLoaded", function () {
+
+    let timer = 60;
+    let countdown = document.getElementById("timer");
+    let resendText = document.getElementById("resend-text");
+    let countdownContainer = document.getElementById("countdown");
+    let resendLink = document.getElementById("resend-code");
+
+    function startTimer() {
+        countdown.textContent = timer;
+        let interval = setInterval(() => {
+            timer--;
+            countdown.textContent = timer;
+
+            if (timer <= 0) {
+                clearInterval(interval);
+                countdownContainer.style.display = "none";
+                resendText.style.display = "block";
+            }
+        }, 1000);
+    }
+
+    if (countdown) startTimer();
+
+    resendLink?.addEventListener("click", function (e) {
+        e.preventDefault();
+        resendText.style.display = "none";
+        countdownContainer.style.display = "block";
+        timer = 60;
+        startTimer();
+
+        fetch("/Guest/Account/ResendCode", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "RequestVerificationToken":
+                    document.querySelector('input[name="__RequestVerificationToken"]')
+                        .value,
+            },
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                alert(data.success ? "New verification code sent!" : data.message);
+            })
+            .catch((error) => console.error("Error:", error));
+    });
+
+
     const menuOpenButton = document.querySelector("#menu-open-button");
     const menuCloseButton = document.querySelector("#menu-close-button");
 
@@ -83,14 +130,14 @@
         }
     }
 
- 
+
     updateCarInfo();
 
     function toggleFAQ(element) {
         const faqItem = element.parentElement;
         const icon = element.querySelector(".faq-icon");
 
-     
+
         faqItem.classList.toggle("open");
 
         if (faqItem.classList.contains("open")) {

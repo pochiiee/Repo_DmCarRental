@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\images\\UserIcons\\homeIcon.png"
     },
     {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\line_final.png",
+      "PackagePath": "staticwebassets\\images\\UserIcons\\line_final.png"
+    },
+    {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\images\\UserIcons\\logoutIcon.png",
       "PackagePath": "staticwebassets\\images\\UserIcons\\logoutIcon.png"
     },

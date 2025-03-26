@@ -40,6 +40,8 @@ wwwroot\images\carlist\xv.jpg
 wwwroot\images\dmlogo.png
 wwwroot\images\landpage.png
 wwwroot\images\line.png
+wwwroot\images\login_forgotpass.png
+wwwroot\images\signup.png
 wwwroot\images\UserIcons\dmWhiteLogo.png
 wwwroot\images\UserIcons\homeIcon.png
 wwwroot\images\UserIcons\logoutIcon.png
@@ -47,6 +49,8 @@ wwwroot\images\UserIcons\profileIcon.png
 wwwroot\images\UserIcons\rentCarIcon.png
 wwwroot\images\UserIcons\rentHistoryIcon.png
 wwwroot\images\viewcars.png
+wwwroot\images\whiteline.png
+wwwroot\images\whitelogo.png
 wwwroot\js\carlist.js
 wwwroot\js\inquiries.js
 wwwroot\js\logout.js

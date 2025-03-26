@@ -166,7 +166,8 @@ namespace CarRental.Controllers.Guest
             // Check if a code was already sent and still valid
             if (user.CodeExpiry.HasValue && user.CodeExpiry > DateTime.Now)
             {
-                ViewBag.ErrorMessage = "A verification code has already been sent. Please wait before requesting again.";
+                int secondsLeft = (int)(user.CodeExpiry.Value - DateTime.Now).TotalSeconds;
+                ViewBag.ErrorMessage = $"A verification code has already been sent. Please wait {secondsLeft} seconds before requesting again.";
                 return View();
             }
 
@@ -181,10 +182,11 @@ namespace CarRental.Controllers.Guest
 
             // Send email
             _emailService.SendVerificationEmail(user.Email, verificationCode);
+            TempData["Email"] = user.Email;
+            TempData.Keep("Email");
 
-            return RedirectToAction("VerifyCode", "Account");
+            return PartialView("VerifyCode", model);
         }
-
 
 
         [Route("VerifyCode")]
@@ -203,6 +205,7 @@ namespace CarRental.Controllers.Guest
             return View();
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("VerifyCode")]
@@ -212,15 +215,13 @@ namespace CarRental.Controllers.Guest
 
             if (user == null)
             {
-                ViewBag.ErrorMessage = "User not found.";
-                return View();
+                return Json(new { success = false, message = "User not found." });
             }
 
             // Check if code matches and is not expired
             if (user.VerificationCode != code || user.CodeExpiry < DateTime.Now)
             {
-                ViewBag.ErrorMessage = "Invalid or expired verification code.";
-                return View();
+                return Json(new { success = false, message = "Invalid or expired verification code." });
             }
 
             // Reset verification fields after successful verification
@@ -228,7 +229,7 @@ namespace CarRental.Controllers.Guest
             user.CodeExpiry = null;
             _context.SaveChanges();
 
-            return RedirectToAction("ResetPassword", new { email = email });
+            return Json(new { success = true, redirectUrl = Url.Action("ResetPassword", "Account",new { email }) });
         }
 
 

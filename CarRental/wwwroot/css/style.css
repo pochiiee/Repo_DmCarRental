@@ -211,10 +211,10 @@ header .navbar {
     text-transform: uppercase;
     font-weight: bold;
     transition: 0.3s ease;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-.button.rent {
+    .button.rent {
         background-color: #85874c;
         color: black;
         border: 2px solid transparent;
@@ -228,6 +228,7 @@ header .navbar {
         background: transparent;
         border: 2px solid #fff;
         color: white;
+        font-weight: 400;
     }
 
 .button.see-more:hover {
@@ -305,7 +306,7 @@ header .navbar {
 
 /* SUPPORT SECTION */
 .contact-section {
-    padding: 60px 20px;
+    padding: 40px 20px;
     background-color: #fff;
     text-align: center;
 }
@@ -313,86 +314,68 @@ header .navbar {
 .support-container {
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 70px;
     background-color: #fff;
-    padding: 40px;
+    padding: 20px 30px; /* Reduced padding */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-    /* Heading */
-.support-container h2 {
-        font-size: 2.4rem;
+    .support-container h2 {
+        font-size: 1.8rem; 
         margin-bottom: 20px;
         color: #333;
-    }   
+    }
 
 /* FAQ Styles */
 .faq-section {
-    text-align: left;
+    text-align: left;   
 }
 
 .faq-item {
     border-bottom: 1px solid #ddd;
-    padding: 15px 0;
-}
-
-.faq-question {
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.faq-question span {
-        font-size: 1rem;
-        transition: transform 0.3s ease;
-    }
-
-/* FAQ Icon Styles */
-.faq-icon {
-    font-size: 1rem;
-    margin-left: 8px;
-    color: #85874c;
-    transition: transform 0.3s ease, color 0.3s ease; /* Smooth rotation and color transition */
-}
-
-/* Rotate the icon when FAQ is open */
-.faq-item.open .faq-icon {
-    transform: rotate(180deg); /* Rotates the icon correctly */
-    color: #ccc; /* Change icon color when opened */
-}
-
-.faq-question {
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 0;
 }
 
-.faq-answer {
-    display: none;
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #333;
+.faq-question {
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0; /* Reduced space between questions */
 }
 
-.faq-item.open .faq-answer {
-    display: block;
+/* FAQ Icon - Smaller and Adjusted */
+.faq-icon {
+    font-size: 0.9rem;
+    margin-left: 8px;
+    color: #85874c;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
+/* Rotate Icon when Open */
+.faq-item.open .faq-icon {
+    transform: rotate(180deg);
+    color: #ccc;
+}
+
+/* FAQ Answer - Hide by Default */
 .faq-answer {
-    margin-top: 10px;
-    line-height: 1.6;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    line-height: 1.4;
     color: #666;
-    display: none;
+    display: none; /* Hide answers initially */
 }
 
 .faq-item.open .faq-answer {
     display: block;
+}
+
+.faq-item + .faq-item {
+    margin-top: 8px;
 }
 
 .contact-section {
@@ -410,67 +393,101 @@ header .navbar {
     background-color: #fff;
 }
 
-/* Contact Info Section */
-.contact-info {
-    width: 45%;
-    text-align: left;
-    padding-right: 40px; /* Space between info and form */
+/* Support Section Styling */
+.support-section {
+    padding: 50px 5%;
+    background-color: #fff;
 }
 
-.contact-info h2 {
-        font-size: 2.8rem;
-        margin-bottom: 20px;
-        color: #85874c;
-    }
+/* Container for Info and Form */
+.support-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-.contact-info p {
+/* Support Info Section */
+.support-info {
+    width: 45%;
+    text-align: left;
+}
+
+/* Heading Styling */
+.support-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+    .support-info h3 {
         font-size: 1.2rem;
-        color: #333;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
+        font-weight: 500;
+        margin-bottom: 20px;
     }
 
-.contact-icon {
+/* Paragraph Styling */
+.support-info p {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Support Icons */
+.support-icon {
     font-size: 1.2rem;
     color: #85874c;
     margin-right: 10px;
 }
 
-.contact-form {
-    width: 55%;
+/* Support Form Section */
+.support-form {
+    width: 40%;
     background-color: #f0f0f0;
-    padding: 20px 30px;
+    padding: 30px 40px;
+    margin-right: 20px;
     border-radius: 8px;
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Form Group Styling */
 .form-group {
     margin-bottom: 15px;
 }
 
-.contact-form label {
+/* Form Labels */
+.support-form label {
     font-weight: bold;
     font-size: 1rem;
     color: #333;
 }
 
-.contact-form input,
-.contact-form textarea {
+/* Input and Textarea Styling */
+.support-form input,
+.support-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     margin-top: 5px;
     font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
-.contact-form textarea {
+/* Textarea Height */
+.support-form textarea {
     resize: none;
-    height: 120px;
+    height: 100px;
 }
 
-.submit-btn {
+/* Submit Button */
+.support-btn {
     width: 100%;
     padding: 12px;
     background-color: #85874c;
@@ -480,28 +497,27 @@ header .navbar {
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
+    transition: background-color 0.3s ease;
 }
 
-.submit-btn:hover {
+    /* Button Hover */
+    .support-btn:hover {
         background-color: #6b6d3e;
     }
 
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    .support-container {
-        padding: 20px;
+    .support-content {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .faq-question {
-        font-size: 1.1rem;
-    }
-
-    .faq-answer {
-        font-size: 0.95rem;
+    .support-info,
+    .support-form {
+        width: 100%;
     }
 }
+
 
 
 

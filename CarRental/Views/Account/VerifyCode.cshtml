@@ -1,91 +1,77 @@
-﻿@{
-    Layout = null;
-    ViewData["Title"] = "Verify Code";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Rental</title>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="~/css/verifycode.css" />
+    <title>Verify Code</title>
+    <link href="~/css/verifyCode.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
-    <
-    <header>
-        <nav class="navbar">
-            <a href="#" class="nav-logo">
-                <img src="~/images/dmlogo.png" alt="DM Car Rental Logo">
-            </a>
+    <div id="verifyModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 class="modal-title">Verify Code</h2>
+            <p>
+                Please enter the verification code sent to your email address.<br>
+                You may check the spam section of your email.
+            </p>
 
-            <button id="menu-close-button" class="fas fa-times"></button>
-            <ul class="nav-menu">
-                <li class="nav-item"><a asp-controller="/Home" asp-action="Index" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="/Home/Index#about" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="/Home/Index#viewCars" class="nav-link">View Cars</a></li>
-                <li class="nav-item"><a href="/Home/Index#contact" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a asp-controller="Account" asp-action="Login" class="nav-link">Login</a></li>
+            <p class="text-danger error-message" style="display: none;"></p>
 
-                <div class="line">
-                    <img src="~/images/line.png" alt="Line Image">
+            <form id="verifyCodeForm" method="post" asp-controller="Account" asp-action="VerifyCode">
+                <input type="hidden" name="Email" value="@TempData["Email"]" />
+                <div class="form-group">
+                    <input type="text" id="code" name="Code" class="form-control" placeholder="Enter Verification Code" required />
                 </div>
-            </ul>
-            <button id="menu-open-button" class="fas fa-bars"></button>
 
-        </nav>
-    </header>
+                <p>Didn't get the code? <a href="#" id="resendCode">Resend code</a> <span id="resendTimer" style="color: red;"></span></p>
 
-    <main class="main-content">
-        <div class="left-section">
-            <h2>DM Online Car Rental</h2>
-            <button>Learn More</button>
-            <img src="~/images/car.png" alt="Red Car">
+                <button type="submit" id="submit" class="btn-primary">Verify</button>
+            </form>
         </div>
+    </div>
 
-        <div class="right-section">
-            <div class="login-box">
-                <h2>Verify Code</h2>
-                <p class="verify-code-info">
-                    Please enter the verification code sent to your email.
-                </p>
-                <form asp-action="VerifyCode" method="post">
-                    <input type="hidden" name="email" value="@ViewBag.Email" />
-                    <div class="form-group">
-                        <label for="code">VERIFICATION CODE</label>
-                        <input type="text" name="code" placeholder="Enter verification code" required>
-                    </div>
-                    <button type="submit">VERIFY</button>
-                </form>
+    <script>
+        $(document).ready(function () {
+            console.log("Script Loaded - jQuery Ready!"); // ✅ Debugging
 
-                @if (ViewBag.ErrorMessage != null)
-                {
-                    <p class="text-danger">@ViewBag.ErrorMessage</p>
-                }
-                @if (ViewBag.SuccessMessage != null)
-                {
-                    <p class="text-success">@ViewBag.SuccessMessage</p>
-                }
+            // ✅ Close Modal when clicking the close button (X) and redirect to Forgot Password
+            $("#closeModal").on("click", function () {
+                window.location.href = "/Guest/Account/ForgotPassword";
+            });
 
-                <!-- ✅ RESEND CODE - HIDDEN INITIALLY -->
-                <p id="resend-text" style="display: none;">
-                    Didn't receive the code? <a href="#" id="resend-code" class="resend-link">Resend Code</a>
-                </p>
-                <p id="countdown">Resend available in <span id="timer">60</span> seconds.</p>
+            // ✅ AJAX Submission for Verify Code Form
+            $(document).on("submit", "#verifyCodeForm", function (e) {
+                e.preventDefault(); // Prevent default form submission
+                console.log("Form Submitted!"); // ✅ Debugging
 
-            </div>
-        </div>
-    </main>
+                $.ajax({
+                    url: this.action,
+                    method: this.method,
+                    data: $(this).serialize(),
+                    dataType: "json",
+                    success: function (response) {
+                        console.log("AJAX Response:", response); // ✅ Debugging
 
-    <script src="~/js/script.js"></script>
-
-    @section Scripts {
-        @await Html.PartialAsync("_ValidationScriptsPartial")
-    }
+                        if (response.success) {
+                            let redirectUrl = response.redirectUrl;
+                            console.log("Redirecting to:", redirectUrl); // ✅ Debugging
+                            window.location.href = redirectUrl; // ✅ Redirect to Reset Password page
+                        } else {
+                            console.error("Verification Failed:", response.message);
+                            $(".error-message").text(response.message).show();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("AJAX Error:", error);
+                        alert("Error processing request. Please try again.");
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 </html>

@@ -142,8 +142,7 @@
               "RelativeToolTip": "CarRental\\Views\\RentCar\\Index.cshtml",
               "ViewState": "AgIAAOoAAAAAAAAAAAAAAPYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T18:52:35.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T18:52:35.502Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "CarRental\\Controllers\\Guest\\AccountController.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAADwv9YAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:29:41.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:29:41.006Z"
             },
             {
               "$type": "Document",
@@ -168,8 +166,7 @@
               "RelativeToolTip": "CarRental\\wwwroot\\js\\guest\\logout.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-26T15:31:48.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:31:48.733Z"
             },
             {
               "$type": "Document",
@@ -181,8 +178,7 @@
               "RelativeToolTip": "CarRental\\Views\\Account\\VerifyCode.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T14:04:54.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T14:04:54.803Z"
             },
             {
               "$type": "Document",
@@ -207,8 +203,7 @@
               "RelativeToolTip": "CarRental\\Views\\Shared\\GuestLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T11:44:37.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T11:44:37.777Z"
             },
             {
               "$type": "Document",
@@ -220,8 +215,7 @@
               "RelativeToolTip": "CarRental\\wwwroot\\js\\customer\\rent.js",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-26T15:52:04.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:52:04.878Z"
             },
             {
               "$type": "Document",
@@ -233,8 +227,7 @@
               "RelativeToolTip": "CarRental\\wwwroot\\js\\inquiries.js",
               "ViewState": "AgIAACwAAAAAH4jwu4cwwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-26T15:31:39.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:31:39.758Z"
             },
             {
               "$type": "Document",
@@ -246,8 +239,7 @@
               "RelativeToolTip": "CarRental\\Views\\Shared\\AdminLayout.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T18:51:07.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T18:51:07.079Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "CarRental\\Views\\Shared\\CustomerLayout.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T14:04:18.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T14:04:18.16Z"
             },
             {
               "$type": "Document",
@@ -272,8 +263,7 @@
               "RelativeToolTip": "CarRental\\Controllers\\Admin\\InquiriesController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:32:24.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:32:24.825Z"
             },
             {
               "$type": "Document",
@@ -285,8 +275,7 @@
               "RelativeToolTip": "CarRental\\Views\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAADsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T14:04:33.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T14:04:33.665Z"
             },
             {
               "$type": "Document",
@@ -298,8 +287,7 @@
               "RelativeToolTip": "CarRental\\wwwroot\\js\\guest\\verifycode.js",
               "ViewState": "AgIAAEYAAAAAAAAAAAAuwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-26T18:41:36.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T18:41:36.283Z"
             },
             {
               "$type": "Document",
@@ -311,8 +299,7 @@
               "RelativeToolTip": "CarRental\\wwwroot\\js\\carlist.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-26T15:31:40.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:31:40.756Z"
             },
             {
               "$type": "Document",
@@ -324,8 +311,7 @@
               "RelativeToolTip": "CarRental\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T14:04:24.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T14:04:24.696Z"
             },
             {
               "$type": "Document",
@@ -337,8 +323,7 @@
               "RelativeToolTip": "CarRental\\Controllers\\Guest\\HomeController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:29:39.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:29:39.794Z"
             },
             {
               "$type": "Document",

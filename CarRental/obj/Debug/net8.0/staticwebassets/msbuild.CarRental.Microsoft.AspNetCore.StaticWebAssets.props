@@ -1020,8 +1020,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gr1dcox18k</Fingerprint>
-      <Integrity>LIYjgvBL46V5wKWsjOhfHLKM7F0yfLXygwrJRuGYLPE=</Integrity>
+      <Fingerprint>48gryzki9o</Fingerprint>
+      <Integrity>HOfZN/Wd01TOp7uvbX3P1TKtIjkcBA/Urm7kj5himuQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\guest\verifycode.js'))</OriginalItemSpec>

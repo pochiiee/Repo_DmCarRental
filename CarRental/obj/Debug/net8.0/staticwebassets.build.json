@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R7crkIOp1o9ej1w9DGrIWqI9BreKd4XLf6Bw362mJmA=",
+  "Hash": "/s425+6Z0sKJVVCgC+puQX+7pHYQSx/OIH4NnG+v9lg=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -1207,8 +1207,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gr1dcox18k",
-      "Integrity": "LIYjgvBL46V5wKWsjOhfHLKM7F0yfLXygwrJRuGYLPE=",
+      "Fingerprint": "48gryzki9o",
+      "Integrity": "HOfZN/Wd01TOp7uvbX3P1TKtIjkcBA/Urm7kj5himuQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\guest\\verifycode.js"
@@ -6905,7 +6905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 15:47:31 GMT"
+          "Value": "Wed, 26 Mar 2025 18:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6950,7 +6950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 15:47:31 GMT"
+          "Value": "Wed, 26 Mar 2025 18:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6987,7 +6987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 15:47:31 GMT"
+          "Value": "Wed, 26 Mar 2025 18:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7024,7 +7024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 15:47:31 GMT"
+          "Value": "Wed, 26 Mar 2025 18:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7047,7 +7047,7 @@
       ]
     },
     {
-      "Route": "js/guest/verifycode.gr1dcox18k.js",
+      "Route": "js/guest/verifycode.48gryzki9o.js",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\guest\\verifycode.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7057,7 +7057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4480"
+          "Value": "3366"
         },
         {
           "Name": "Content-Type",
@@ -7065,11 +7065,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LIYjgvBL46V5wKWsjOhfHLKM7F0yfLXygwrJRuGYLPE=\""
+          "Value": "\"HOfZN/Wd01TOp7uvbX3P1TKtIjkcBA/Urm7kj5himuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:43:52 GMT"
+          "Value": "Wed, 26 Mar 2025 19:03:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7079,7 +7079,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gr1dcox18k"
+          "Value": "48gryzki9o"
         },
         {
           "Name": "label",
@@ -7087,7 +7087,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LIYjgvBL46V5wKWsjOhfHLKM7F0yfLXygwrJRuGYLPE="
+          "Value": "sha256-HOfZN/Wd01TOp7uvbX3P1TKtIjkcBA/Urm7kj5himuQ="
         }
       ]
     },
@@ -7102,7 +7102,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4480"
+          "Value": "3366"
         },
         {
           "Name": "Content-Type",
@@ -7110,11 +7110,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LIYjgvBL46V5wKWsjOhfHLKM7F0yfLXygwrJRuGYLPE=\""
+          "Value": "\"HOfZN/Wd01TOp7uvbX3P1TKtIjkcBA/Urm7kj5himuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:43:52 GMT"
+          "Value": "Wed, 26 Mar 2025 19:03:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7124,7 +7124,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LIYjgvBL46V5wKWsjOhfHLKM7F0yfLXygwrJRuGYLPE="
+          "Value": "sha256-HOfZN/Wd01TOp7uvbX3P1TKtIjkcBA/Urm7kj5himuQ="
         }
       ]
     },
@@ -7233,7 +7233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:53:58 GMT"
+          "Value": "Wed, 26 Mar 2025 18:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7278,7 +7278,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:53:58 GMT"
+          "Value": "Wed, 26 Mar 2025 18:59:16 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -217,16 +217,20 @@
       "PackagePath": "staticwebassets\\js\\carlist.js"
     },
     {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\customer\\rent.js",
+      "PackagePath": "staticwebassets\\js\\customer\\rent.js"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\guest\\logout.js",
+      "PackagePath": "staticwebassets\\js\\guest\\logout.js"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\guest\\verifycode.js",
+      "PackagePath": "staticwebassets\\js\\guest\\verifycode.js"
+    },
+    {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\inquiries.js",
       "PackagePath": "staticwebassets\\js\\inquiries.js"
-    },
-    {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\logout.js",
-      "PackagePath": "staticwebassets\\js\\logout.js"
-    },
-    {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\rent.js",
-      "PackagePath": "staticwebassets\\js\\rent.js"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\Repo_DmCarRental\\CarRental\\wwwroot\\js\\script.js",

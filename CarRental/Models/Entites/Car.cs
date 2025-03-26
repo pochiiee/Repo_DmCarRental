@@ -7,7 +7,7 @@ namespace CarRental.Models.Entites;
 [Table("Cars")]  // Explicitly map the class to the Cars table
 public class Car
 {
-    [Key]
+  [Key]
     public int CarId { get; set; }
 
     [Required]
@@ -18,6 +18,33 @@ public class Car
 
     [Required]
     public int Seaters { get; set; }
+
+    [Required]
+    public int LuggageCapacity { get; set; }
+
+    [Required]
+    public string FuelType { get; set; }
+
+    [Required]
+    public int FuelTankCapacity { get; set; }
+
+    [Required]
+    public string FuelEfficiency { get; set; }
+
+    [Required]
+    public string Transmission { get; set; }
+
+    [Required]
+    public int GroundClearance { get; set; }
+
+    [Required]
+    public string Airbags { get; set; }
+
+    [Required]
+    public string BrakingSystem { get; set; }
+
+    [Required]
+    public string TireSize { get; set; }
 
     [Required]
     [Column(TypeName = "decimal(18,2)")]

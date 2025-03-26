@@ -30,13 +30,38 @@ namespace CarRental.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CarId"));
 
+                    b.Property<string>("Airbags")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BrakingSystem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Brand")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("FuelEfficiency")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FuelTankCapacity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FuelType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("GroundClearance")
+                        .HasColumnType("int");
+
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LuggageCapacity")
+                        .HasColumnType("int");
 
                     b.Property<string>("Model")
                         .IsRequired()
@@ -52,6 +77,14 @@ namespace CarRental.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("TireSize")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Transmission")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("CarId");
 
                     b.ToTable("Cars");
@@ -60,202 +93,363 @@ namespace CarRental.Migrations
                         new
                         {
                             CarId = 1,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD, Brake Assist",
                             Brand = "Toyota",
-                            ImageUrl = "vios.jpg",
+                            FuelEfficiency = "15 km/L (city), 20 km/L (highway)",
+                            FuelTankCapacity = 42,
+                            FuelType = "Gasoline",
+                            GroundClearance = 150,
+                            ImageUrl = "vios.png",
+                            LuggageCapacity = 3,
                             Model = "Vios",
                             RentalPrice = 2000m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "185/60 R15, All-Season",
+                            Transmission = "CVT (Automatic)"
                         },
                         new
                         {
                             CarId = 2,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Honda",
-                            ImageUrl = "city.jpg",
+                            FuelEfficiency = "17 km/L (combined)",
+                            FuelTankCapacity = 40,
+                            FuelType = "Gasoline",
+                            GroundClearance = 134,
+                            ImageUrl = "city.png",
+                            LuggageCapacity = 3,
                             Model = "City",
                             RentalPrice = 2200m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "185/55 R16, All-Season",
+                            Transmission = "CVT"
                         },
                         new
                         {
                             CarId = 3,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Mitsubishi",
-                            ImageUrl = "mirage.jpg",
+                            FuelEfficiency = "18 km/L (combined)",
+                            FuelTankCapacity = 42,
+                            FuelType = "Gasoline",
+                            GroundClearance = 160,
+                            ImageUrl = "mirage.png",
+                            LuggageCapacity = 3,
                             Model = "Mirage G4",
                             RentalPrice = 2000m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "175/55 R15, All-Season",
+                            Transmission = "CVT"
                         },
                         new
                         {
                             CarId = 4,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD, Brake Assist",
                             Brand = "Nissan",
-                            ImageUrl = "almera.jpg",
+                            FuelEfficiency = "14 km/L (city), 19 km/L (highway)",
+                            FuelTankCapacity = 41,
+                            FuelType = "Gasoline",
+                            GroundClearance = 135,
+                            ImageUrl = "almera.png",
+                            LuggageCapacity = 3,
                             Model = "Almera",
                             RentalPrice = 2300m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "185/65 R15, All-Season",
+                            Transmission = "Automatic"
                         },
                         new
                         {
                             CarId = 5,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Ford",
-                            ImageUrl = "ecosport.jpg",
+                            FuelEfficiency = "12 km/L (city), 16 km/L (highway)",
+                            FuelTankCapacity = 52,
+                            FuelType = "Gasoline",
+                            GroundClearance = 209,
+                            ImageUrl = "ecosport.png",
+                            LuggageCapacity = 4,
                             Model = "EcoSport",
                             RentalPrice = 2800m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "205/50 R17, All-Season",
+                            Transmission = "Automatic"
                         },
                         new
                         {
                             CarId = 6,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Suzuki",
-                            ImageUrl = "dzire.jpg",
+                            FuelEfficiency = "17 km/L (combined)",
+                            FuelTankCapacity = 37,
+                            FuelType = "Gasoline",
+                            GroundClearance = 145,
+                            ImageUrl = "dzire.png",
+                            LuggageCapacity = 3,
                             Model = "Dzire",
                             RentalPrice = 2000m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "185/65 R15, All-Season",
+                            Transmission = "Auto Gear Shift (AGS)"
                         },
                         new
                         {
                             CarId = 7,
-                            Brand = "Hyundai",
-                            ImageUrl = "accent.jpg",
-                            Model = "Accent",
-                            RentalPrice = 2500m,
-                            Seaters = 5,
-                            Status = "Available"
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
+                            Brand = "Toyota",
+                            FuelEfficiency = "10 km/L (combined)",
+                            FuelTankCapacity = 70,
+                            FuelType = "Diesel",
+                            GroundClearance = 185,
+                            ImageUrl = "hiace.png",
+                            LuggageCapacity = 10,
+                            Model = "Hiace",
+                            RentalPrice = 4500m,
+                            Seaters = 15,
+                            Status = "Available",
+                            TireSize = "215/75 R16, All-Season",
+                            Transmission = "Manual"
                         },
                         new
                         {
                             CarId = 8,
-                            Brand = "Kia",
-                            ImageUrl = "soluto.jpg",
-                            Model = "Soluto",
-                            RentalPrice = 2300m,
-                            Seaters = 5,
-                            Status = "Available"
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
+                            Brand = "Ford",
+                            FuelEfficiency = "8 km/L (city), 12 km/L (highway)",
+                            FuelTankCapacity = 80,
+                            FuelType = "Diesel",
+                            GroundClearance = 174,
+                            ImageUrl = "transit.png",
+                            LuggageCapacity = 12,
+                            Model = "Transit",
+                            RentalPrice = 4800m,
+                            Seaters = 15,
+                            Status = "Available",
+                            TireSize = "235/65 R16, All-Season",
+                            Transmission = "6-Speed Manual"
                         },
                         new
                         {
                             CarId = 9,
-                            Brand = "Chevrolet",
-                            ImageUrl = "spark.jpg",
-                            Model = "Spark",
-                            RentalPrice = 2200m,
-                            Seaters = 5,
-                            Status = "Available"
-                        },
-                        new
-                        {
-                            CarId = 10,
-                            Brand = "Mazda",
-                            ImageUrl = "sedan.jpg",
-                            Model = "2 Sedan",
-                            RentalPrice = 2400m,
-                            Seaters = 5,
-                            Status = "Available"
+                            Airbags = "Driver, Passenger, Side",
+                            BrakingSystem = "ABS, EBD, Brake Assist",
+                            Brand = "Mercedes-Benz",
+                            FuelEfficiency = "8 km/L (combined)",
+                            FuelTankCapacity = 75,
+                            FuelType = "Diesel",
+                            GroundClearance = 180,
+                            ImageUrl = "sprinter.png",
+                            LuggageCapacity = 12,
+                            Model = "Sprinter",
+                            RentalPrice = 5000m,
+                            Seaters = 12,
+                            Status = "Available",
+                            TireSize = "225/75 R16, All-Season",
+                            Transmission = "Automatic"
                         },
                         new
                         {
                             CarId = 11,
+                            Airbags = "Driver, Passenger, Side",
+                            BrakingSystem = "ABS, EBD, Brake Assist",
                             Brand = "Subaru",
-                            ImageUrl = "xv.jpg",
+                            FuelEfficiency = "10 km/L (city), 14 km/L (highway)",
+                            FuelTankCapacity = 63,
+                            FuelType = "Gasoline",
+                            GroundClearance = 220,
+                            ImageUrl = "xv.png",
+                            LuggageCapacity = 4,
                             Model = "XV",
                             RentalPrice = 3200m,
                             Seaters = 5,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "225/55 R18, All-Terrain",
+                            Transmission = "CVT (AWD)"
                         },
                         new
                         {
                             CarId = 12,
+                            Airbags = "Driver, Passenger, Side",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Toyota",
-                            ImageUrl = "avanza.jpg",
+                            FuelEfficiency = "14 km/L (combined)",
+                            FuelTankCapacity = 43,
+                            FuelType = "Gasoline",
+                            GroundClearance = 190,
+                            ImageUrl = "avanza.png",
+                            LuggageCapacity = 4,
                             Model = "Avanza",
                             RentalPrice = 3500m,
                             Seaters = 7,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "185/65 R15, All-Season",
+                            Transmission = "CVT"
                         },
                         new
                         {
                             CarId = 13,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Mitsubishi",
-                            ImageUrl = "xpander.jpg",
+                            FuelEfficiency = "12 km/L (combined)",
+                            FuelTankCapacity = 45,
+                            FuelType = "Gasoline",
+                            GroundClearance = 205,
+                            ImageUrl = "xpander.png",
+                            LuggageCapacity = 4,
                             Model = "Xpander",
                             RentalPrice = 3800m,
                             Seaters = 7,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "205/55 R16, All-Season",
+                            Transmission = "Automatic"
                         },
                         new
                         {
                             CarId = 14,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Suzuki",
-                            ImageUrl = "ertiga.jpg",
+                            FuelEfficiency = "13 km/L (city), 17 km/L (highway)",
+                            FuelTankCapacity = 45,
+                            FuelType = "Gasoline",
+                            GroundClearance = 180,
+                            ImageUrl = "ertiga.png",
+                            LuggageCapacity = 4,
                             Model = "Ertiga",
                             RentalPrice = 3200m,
                             Seaters = 7,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "185/65 R15, All-Season",
+                            Transmission = "4-Speed Automatic"
                         },
                         new
                         {
                             CarId = 15,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Nissan",
-                            ImageUrl = "livina.jpg",
+                            FuelEfficiency = "13 km/L (combined)",
+                            FuelTankCapacity = 45,
+                            FuelType = "Gasoline",
+                            GroundClearance = 200,
+                            ImageUrl = "livina.png",
+                            LuggageCapacity = 4,
                             Model = "Livina",
                             RentalPrice = 3500m,
                             Seaters = 7,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "205/55 R16, All-Season",
+                            Transmission = "CVT"
                         },
                         new
                         {
                             CarId = 16,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Toyota",
-                            ImageUrl = "hiace.jpg",
+                            FuelEfficiency = "10 km/L (combined)",
+                            FuelTankCapacity = 70,
+                            FuelType = "Diesel",
+                            GroundClearance = 185,
+                            ImageUrl = "hiace.png",
+                            LuggageCapacity = 10,
                             Model = "Hiace",
                             RentalPrice = 4500m,
-                            Seaters = 12,
-                            Status = "Available"
+                            Seaters = 15,
+                            Status = "Available",
+                            TireSize = "215/75 R16, All-Season",
+                            Transmission = "Manual"
                         },
                         new
                         {
                             CarId = 17,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Nissan",
-                            ImageUrl = "urvan.jpg",
+                            FuelEfficiency = "9 km/L (combined)",
+                            FuelTankCapacity = 65,
+                            FuelType = "Diesel",
+                            GroundClearance = 190,
+                            ImageUrl = "urvan.png",
+                            LuggageCapacity = 10,
                             Model = "Urvan",
                             RentalPrice = 4400m,
-                            Seaters = 12,
-                            Status = "Available"
+                            Seaters = 15,
+                            Status = "Available",
+                            TireSize = "195/80 R15, All-Season",
+                            Transmission = "Manual"
                         },
                         new
                         {
                             CarId = 18,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Hyundai",
-                            ImageUrl = "starex.jpg",
+                            FuelEfficiency = "9 km/L (city), 13 km/L (highway)",
+                            FuelTankCapacity = 75,
+                            FuelType = "Diesel",
+                            GroundClearance = 190,
+                            ImageUrl = "starex.png",
+                            LuggageCapacity = 10,
                             Model = "Starex",
                             RentalPrice = 4600m,
-                            Seaters = 10,
-                            Status = "Available"
+                            Seaters = 12,
+                            Status = "Available",
+                            TireSize = "215/70 R16, All-Season",
+                            Transmission = "5-Speed Automatic"
                         },
                         new
                         {
                             CarId = 19,
+                            Airbags = "Driver, Passenger",
+                            BrakingSystem = "ABS, EBD",
                             Brand = "Ford",
-                            ImageUrl = "transit.jpg",
+                            FuelEfficiency = "8 km/L (city), 12 km/L (highway)",
+                            FuelTankCapacity = 80,
+                            FuelType = "Diesel",
+                            GroundClearance = 174,
+                            ImageUrl = "transit.png",
+                            LuggageCapacity = 12,
                             Model = "Transit",
                             RentalPrice = 4800m,
                             Seaters = 15,
-                            Status = "Available"
+                            Status = "Available",
+                            TireSize = "235/65 R16, All-Season",
+                            Transmission = "6-Speed Manual"
                         },
                         new
                         {
                             CarId = 20,
+                            Airbags = "Driver, Passenger, Side",
+                            BrakingSystem = "ABS, EBD, Brake Assist",
                             Brand = "Mercedes-Benz",
-                            ImageUrl = "sprinter.jpg",
+                            FuelEfficiency = "8 km/L (combined)",
+                            FuelTankCapacity = 75,
+                            FuelType = "Diesel",
+                            GroundClearance = 180,
+                            ImageUrl = "sprinter.png",
+                            LuggageCapacity = 12,
                             Model = "Sprinter",
                             RentalPrice = 5000m,
-                            Seaters = 14,
-                            Status = "Available"
+                            Seaters = 12,
+                            Status = "Available",
+                            TireSize = "225/75 R16, All-Season",
+                            Transmission = "Automatic"
                         });
                 });
 

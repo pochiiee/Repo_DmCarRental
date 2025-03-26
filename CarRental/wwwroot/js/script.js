@@ -1,5 +1,4 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
-
+﻿
     const menuOpenButton = document.querySelector("#menu-open-button");
     const menuCloseButton = document.querySelector("#menu-close-button");
 

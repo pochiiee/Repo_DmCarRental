@@ -33,45 +33,12 @@
         </div>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            console.log("Script Loaded - jQuery Ready!"); // ✅ Debugging
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-            // ✅ Close Modal when clicking the close button (X) and redirect to Forgot Password
-            $("#closeModal").on("click", function () {
-                window.location.href = "/Guest/Account/ForgotPassword";
-            });
+    <!-- Include External JavaScript -->
+    <script src="~/js/guest/verifycode.js"></script>
 
-            // ✅ AJAX Submission for Verify Code Form
-            $(document).on("submit", "#verifyCodeForm", function (e) {
-                e.preventDefault(); // Prevent default form submission
-                console.log("Form Submitted!"); // ✅ Debugging
-
-                $.ajax({
-                    url: this.action,
-                    method: this.method,
-                    data: $(this).serialize(),
-                    dataType: "json",
-                    success: function (response) {
-                        console.log("AJAX Response:", response); // ✅ Debugging
-
-                        if (response.success) {
-                            let redirectUrl = response.redirectUrl;
-                            console.log("Redirecting to:", redirectUrl); // ✅ Debugging
-                            window.location.href = redirectUrl; // ✅ Redirect to Reset Password page
-                        } else {
-                            console.error("Verification Failed:", response.message);
-                            $(".error-message").text(response.message).show();
-                        }
-                    },
-                    error: function (xhr, status, error) {
-                        console.error("AJAX Error:", error);
-                        alert("Error processing request. Please try again.");
-                    }
-                });
-            });
-        });
-    </script>
 
 </body>
 </html>

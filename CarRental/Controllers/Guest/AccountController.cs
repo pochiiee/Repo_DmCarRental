@@ -146,6 +146,7 @@ namespace CarRental.Controllers.Guest
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("ForgotPassword")]
@@ -163,48 +164,37 @@ namespace CarRental.Controllers.Guest
                 return View();
             }
 
-            // Check if a code was already sent and still valid
+         
             if (user.CodeExpiry.HasValue && user.CodeExpiry > DateTime.Now)
             {
-                int secondsLeft = (int)(user.CodeExpiry.Value - DateTime.Now).TotalSeconds;
-                ViewBag.ErrorMessage = $"A verification code has already been sent. Please wait {secondsLeft} seconds before requesting again.";
-                return View();
+                StoreTempData(user);
+                return PartialView("VerifyCode", model);
             }
 
-            // Generate new verification code
-            Random random = new Random();
-            string verificationCode = random.Next(100000, 999999).ToString();
+            GenerateNewVerificationCode(user);
+            _context.SaveChanges();
 
-            // Store in database with expiry time
-            user.VerificationCode = verificationCode;
-            user.CodeExpiry = DateTime.Now.AddMinutes(1); // Code expires in 5 mins
-            _context.SaveChanges(); // Save changes
+  
+            _emailService.SendVerificationEmail(user.Email, user.VerificationCode);
 
-            // Send email
-            _emailService.SendVerificationEmail(user.Email, verificationCode);
-            TempData["Email"] = user.Email;
-            TempData.Keep("Email");
-
+            StoreTempData(user);
             return PartialView("VerifyCode", model);
         }
-
 
         [Route("VerifyCode")]
         public IActionResult VerifyCode()
         {
-
             if (TempData["Email"] == null)
             {
                 return RedirectToAction("ForgotPassword");
             }
 
-            TempData.Keep("Email"); // Keep email for resend
+            TempData.Keep("Email");
             TempData.Keep("VerificationCode");
             TempData.Keep("CodeExpiry");
 
             return View();
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -218,20 +208,17 @@ namespace CarRental.Controllers.Guest
                 return Json(new { success = false, message = "User not found." });
             }
 
-            // Check if code matches and is not expired
             if (user.VerificationCode != code || user.CodeExpiry < DateTime.Now)
             {
                 return Json(new { success = false, message = "Invalid or expired verification code." });
             }
 
-            // Reset verification fields after successful verification
             user.VerificationCode = null;
             user.CodeExpiry = null;
             _context.SaveChanges();
 
-            return Json(new { success = true, redirectUrl = Url.Action("ResetPassword", "Account",new { email }) });
+            return Json(new { success = true, redirectUrl = Url.Action("ResetPassword", "Account", new { email }) });
         }
-
 
         [HttpPost]
         [Route("ResendCode")]
@@ -243,33 +230,68 @@ namespace CarRental.Controllers.Guest
             }
 
             string email = TempData["Email"].ToString();
-            TempData.Keep("Email"); // Keep Email for next request
+            TempData.Keep("Email");
 
-            // Check cooldown
-            if (TempData["VerificationCode"] != null && TempData["CodeExpiry"] != null)
+            var user = _context.UserAccounts.FirstOrDefault(u => u.Email == email);
+            if (user == null)
             {
-                DateTime expiry = (DateTime)TempData["CodeExpiry"];
-                if (DateTime.Now < expiry)
-                {
-                    return Json(new { success = false, message = "Please wait before requesting a new code." });
-                }
+                return Json(new { success = false, message = "User not found." });
             }
 
-            // Generate new verification code
+            if (user.CodeExpiry != null && user.CodeExpiry > DateTime.Now)
+            {
+                TimeSpan remainingTime = user.CodeExpiry.Value - DateTime.Now;
+                return Json(new { success = false, message = $"Please wait {remainingTime.Minutes} minutes and {remainingTime.Seconds} seconds before requesting a new code." });
+            }
+
             Random random = new Random();
             string verificationCode = random.Next(100000, 999999).ToString();
 
+            user.VerificationCode = verificationCode;
+            user.CodeExpiry = DateTime.Now.AddMinutes(5);
+
+            _context.UserAccounts.Update(user);
+            _context.SaveChanges();
+
+        
+            var checkUser = _context.UserAccounts.FirstOrDefault(u => u.Email == email);
+          
+                try
+                {
+                    _emailService.SendVerificationEmail(user.Email, verificationCode);
+                }
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Failed to send email. Please try again." });
+                }
+
             TempData["VerificationCode"] = verificationCode;
-            TempData["CodeExpiry"] = DateTime.Now.AddSeconds(60);
+            TempData["CodeExpiry"] = user.CodeExpiry;
             TempData.Keep("VerificationCode");
             TempData.Keep("CodeExpiry");
 
-            // Send email
-            _emailService.SendVerificationEmail(email, verificationCode);
-
-            return Json(new { success = true });
+            return Json(new { success = true, message = "New verification code sent successfully." });
         }
 
+
+        private void StoreTempData(UserAccount user)
+        {
+            TempData["Email"] = user.Email;
+            TempData["VerificationCode"] = user.VerificationCode;
+            TempData["CodeExpiry"] = user.CodeExpiry;
+
+            TempData.Keep("Email");
+            TempData.Keep("VerificationCode");
+            TempData.Keep("CodeExpiry");
+        }
+
+
+        private void GenerateNewVerificationCode(UserAccount user)
+        {
+            Random random = new Random();
+            user.VerificationCode = random.Next(100000, 999999).ToString();
+            user.CodeExpiry = DateTime.Now.AddMinutes(1); // 1-minute expiry
+        }
 
 
         [Route("ResetPassword")]

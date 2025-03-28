@@ -44,9 +44,11 @@ wwwroot\images\login_forgotpass.png
 wwwroot\images\signup.png
 wwwroot\images\UserIcons\dmWhiteLogo.png
 wwwroot\images\UserIcons\homeIcon.png
+wwwroot\images\UserIcons\homepage.png
 wwwroot\images\UserIcons\line_final.png
 wwwroot\images\UserIcons\logoutIcon.png
 wwwroot\images\UserIcons\profileIcon.png
+wwwroot\images\UserIcons\rentacarbg.png
 wwwroot\images\UserIcons\rentCarIcon.png
 wwwroot\images\UserIcons\rentHistoryIcon.png
 wwwroot\images\viewcars.png

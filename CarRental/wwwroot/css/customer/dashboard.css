@@ -1,6 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +11,7 @@
     top: 0;
     height: 100vh;
     width: 80px;
-    background: #D2042D;
+    background: #242a2b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +54,6 @@
         padding: 0;
         margin: 0;
         width: 100%;
-
     }
 
         .sidebar ul li {
@@ -111,7 +108,7 @@
 
 
                 .sidebar ul li a i {
-                    color: red;
+                    color: #242a2b;
                     font-size: 18px;
                 }
 
@@ -131,7 +128,7 @@
     }
 
     .sidebar ul li:last-child {
-        height: 100%; /* Pushes logout to the bottom */
+        height: 50%; /* Pushes logout to the bottom */
     }
 
         .sidebar ul li:last-child a span:hover {
@@ -160,29 +157,19 @@
     .sidebar:hover ~ .main-content {
         filter: blur(5px); /* Apply blur only to the main content */
         pointer-events: none;
+        margin-left: 250px;
     }
 
 
-/* Main Content */
+/* Adjust the main content to start below the fixed header */
 .main-content {
-    margin-top: 30px;
-    margin-left: 60px; /* Default width of the collapsed sidebar */
+    margin-top: 80px; /* Adjust based on header height */
+    margin-left: 80px; /* Default width of collapsed sidebar */
     transition: margin-left 0.3s ease-in-out; /* Smooth transition */
+    padding: 20px;
 }
 
-/* When the sidebar expands */
-.sidebar:hover ~ .main-content {
-    margin-left: 200px; /* Adjust to expanded sidebar width */
-}
-
-
-/* Header */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 10px 20px;
-    color: #D2042D;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.sidebar:hover ~ .content-wrapper header {
+    left: 250px;
+    width: calc(100% - 250px);
 }
